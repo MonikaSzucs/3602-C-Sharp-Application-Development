@@ -1,0 +1,7 @@
+D:\Work\COMP2614_Fall2019\Week01\Examples\ConsoleIO\ConsoleIO\bin\Debug\ConsoleIO.exe.config
+D:\Work\COMP2614_Fall2019\Week01\Examples\ConsoleIO\ConsoleIO\bin\Debug\ConsoleIO.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\ConsoleIO\ConsoleIO\bin\Debug\ConsoleIO.pdb
+D:\Work\COMP2614_Fall2019\Week01\Examples\ConsoleIO\ConsoleIO\obj\Debug\ConsoleIO.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\ConsoleIO\ConsoleIO\obj\Debug\ConsoleIO.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\ConsoleIO\ConsoleIO\obj\Debug\ConsoleIO.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\ConsoleIO\ConsoleIO\obj\Debug\ConsoleIO.pdb

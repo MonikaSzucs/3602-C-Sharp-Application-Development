@@ -1,0 +1,7 @@
+D:\Work\COMP2614_Fall2019\Week01\Examples\UnsignedIntegralTypes\UnsignedIntegralTypes\bin\Debug\UnsignedIntegralTypes.exe.config
+D:\Work\COMP2614_Fall2019\Week01\Examples\UnsignedIntegralTypes\UnsignedIntegralTypes\bin\Debug\UnsignedIntegralTypes.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\UnsignedIntegralTypes\UnsignedIntegralTypes\bin\Debug\UnsignedIntegralTypes.pdb
+D:\Work\COMP2614_Fall2019\Week01\Examples\UnsignedIntegralTypes\UnsignedIntegralTypes\obj\Debug\UnsignedIntegralTypes.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\UnsignedIntegralTypes\UnsignedIntegralTypes\obj\Debug\UnsignedIntegralTypes.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\UnsignedIntegralTypes\UnsignedIntegralTypes\obj\Debug\UnsignedIntegralTypes.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\UnsignedIntegralTypes\UnsignedIntegralTypes\obj\Debug\UnsignedIntegralTypes.pdb

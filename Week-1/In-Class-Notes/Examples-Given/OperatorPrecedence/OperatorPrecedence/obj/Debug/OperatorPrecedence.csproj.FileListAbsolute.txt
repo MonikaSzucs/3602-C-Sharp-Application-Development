@@ -1,0 +1,7 @@
+D:\Work\COMP2614_Fall2019\Week01\Examples\OperatorPrecedence\OperatorPrecedence\bin\Debug\OperatorPrecedence.exe.config
+D:\Work\COMP2614_Fall2019\Week01\Examples\OperatorPrecedence\OperatorPrecedence\bin\Debug\OperatorPrecedence.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\OperatorPrecedence\OperatorPrecedence\bin\Debug\OperatorPrecedence.pdb
+D:\Work\COMP2614_Fall2019\Week01\Examples\OperatorPrecedence\OperatorPrecedence\obj\Debug\OperatorPrecedence.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\OperatorPrecedence\OperatorPrecedence\obj\Debug\OperatorPrecedence.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\OperatorPrecedence\OperatorPrecedence\obj\Debug\OperatorPrecedence.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\OperatorPrecedence\OperatorPrecedence\obj\Debug\OperatorPrecedence.pdb

@@ -1,0 +1,7 @@
+D:\Work\COMP2614_Fall2019\Week01\Examples\DecimalDataType\DecimalDataType\bin\Debug\DecimalDataType.exe.config
+D:\Work\COMP2614_Fall2019\Week01\Examples\DecimalDataType\DecimalDataType\bin\Debug\DecimalDataType.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\DecimalDataType\DecimalDataType\bin\Debug\DecimalDataType.pdb
+D:\Work\COMP2614_Fall2019\Week01\Examples\DecimalDataType\DecimalDataType\obj\Debug\DecimalDataType.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\DecimalDataType\DecimalDataType\obj\Debug\DecimalDataType.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\DecimalDataType\DecimalDataType\obj\Debug\DecimalDataType.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\DecimalDataType\DecimalDataType\obj\Debug\DecimalDataType.pdb

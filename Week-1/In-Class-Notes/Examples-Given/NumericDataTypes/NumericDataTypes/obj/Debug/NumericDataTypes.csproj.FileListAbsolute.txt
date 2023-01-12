@@ -1,0 +1,7 @@
+D:\Work\COMP2614_Fall2019\Week01\Examples\NumericDataTypes\NumericDataTypes\bin\Debug\NumericDataTypes.exe.config
+D:\Work\COMP2614_Fall2019\Week01\Examples\NumericDataTypes\NumericDataTypes\bin\Debug\NumericDataTypes.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\NumericDataTypes\NumericDataTypes\bin\Debug\NumericDataTypes.pdb
+D:\Work\COMP2614_Fall2019\Week01\Examples\NumericDataTypes\NumericDataTypes\obj\Debug\NumericDataTypes.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\NumericDataTypes\NumericDataTypes\obj\Debug\NumericDataTypes.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\NumericDataTypes\NumericDataTypes\obj\Debug\NumericDataTypes.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\NumericDataTypes\NumericDataTypes\obj\Debug\NumericDataTypes.pdb

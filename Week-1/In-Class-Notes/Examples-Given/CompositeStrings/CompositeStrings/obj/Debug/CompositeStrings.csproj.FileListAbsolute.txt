@@ -1,0 +1,7 @@
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStrings\CompositeStrings\bin\Debug\CompositeStrings.exe.config
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStrings\CompositeStrings\bin\Debug\CompositeStrings.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStrings\CompositeStrings\bin\Debug\CompositeStrings.pdb
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStrings\CompositeStrings\obj\Debug\CompositeStrings.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStrings\CompositeStrings\obj\Debug\CompositeStrings.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStrings\CompositeStrings\obj\Debug\CompositeStrings.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStrings\CompositeStrings\obj\Debug\CompositeStrings.pdb

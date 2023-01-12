@@ -1,0 +1,7 @@
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStringFormatting\CompositeStringFormatting\bin\Debug\CompositeStringFormatting.exe.config
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStringFormatting\CompositeStringFormatting\bin\Debug\CompositeStringFormatting.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStringFormatting\CompositeStringFormatting\bin\Debug\CompositeStringFormatting.pdb
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStringFormatting\CompositeStringFormatting\obj\Debug\CompositeStringFormatting.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStringFormatting\CompositeStringFormatting\obj\Debug\CompositeStringFormatting.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStringFormatting\CompositeStringFormatting\obj\Debug\CompositeStringFormatting.exe
+D:\Work\COMP2614_Fall2019\Week01\Examples\CompositeStringFormatting\CompositeStringFormatting\obj\Debug\CompositeStringFormatting.pdb
