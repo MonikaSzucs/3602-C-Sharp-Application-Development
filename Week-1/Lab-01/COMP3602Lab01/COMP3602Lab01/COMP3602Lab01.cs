@@ -4,6 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/**
+ * name             Monika Szucs
+ * studentNumber    A00878763
+ * date             January 11, 2023
+ */
 namespace COMP3602Lab01
 {
     internal class COMP3602Lab01
