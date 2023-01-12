@@ -13,3 +13,18 @@ C:\Users\mszuc\Desktop\Lab1 updated updated\COMP3602Lab01\COMP3602Lab01\obj\Debu
 C:\Users\mszuc\Desktop\Lab1 updated updated\COMP3602Lab01\COMP3602Lab01\obj\Debug\net6.0\COMP3602Lab01.pdb
 C:\Users\mszuc\Desktop\Lab1 updated updated\COMP3602Lab01\COMP3602Lab01\obj\Debug\net6.0\COMP3602Lab01.genruntimeconfig.cache
 C:\Users\mszuc\Desktop\Lab1 updated updated\COMP3602Lab01\COMP3602Lab01\obj\Debug\net6.0\ref\COMP3602Lab01.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\bin\Debug\net6.0\COMP3602Lab01.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\bin\Debug\net6.0\COMP3602Lab01.deps.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\bin\Debug\net6.0\COMP3602Lab01.runtimeconfig.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\bin\Debug\net6.0\COMP3602Lab01.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\bin\Debug\net6.0\COMP3602Lab01.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net6.0\COMP3602Lab01.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net6.0\COMP3602Lab01.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net6.0\COMP3602Lab01.AssemblyInfoInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net6.0\COMP3602Lab01.AssemblyInfo.cs
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net6.0\COMP3602Lab01.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net6.0\COMP3602Lab01.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net6.0\refint\COMP3602Lab01.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net6.0\COMP3602Lab01.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net6.0\COMP3602Lab01.genruntimeconfig.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\Lab-01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net6.0\ref\COMP3602Lab01.dll

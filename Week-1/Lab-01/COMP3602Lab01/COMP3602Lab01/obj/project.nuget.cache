@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "MENU9YnYq14Fa0w5b9LbB5rs/gn8NzjwUnA4VFMqXdQ2vmMrM0XTsUNfHRitWmoa0rJcUlkBEXxcUnpL54vaOg==",
+  "dgSpecHash": "bUSEu/QkYDBzDNCTln0G7R4xW0aPS6AO3UXNgrJMEzD0aB0zfxQwimjvSIj9/1NX/TaobabbA81XZCvv2YhKvw==",
   "success": true,
   "projectFilePath": "C:\\Users\\mszuc\\Desktop\\3602-C-Sharp-Application-Development\\Week-1\\Lab-01\\COMP3602Lab01\\COMP3602Lab01\\COMP3602Lab01.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\mszuc\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\mszuc\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\mszuc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\mszuc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
   "logs": []
 }

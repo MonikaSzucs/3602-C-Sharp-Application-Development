@@ -1,0 +1,16 @@
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net5.0\COMP3602Lab01.csproj.AssemblyReference.cache
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net5.0\COMP3602Lab01.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net5.0\COMP3602Lab01.AssemblyInfoInputs.cache
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net5.0\COMP3602Lab01.AssemblyInfo.cs
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net5.0\COMP3602Lab01.csproj.CoreCompileInputs.cache
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\bin\Debug\net5.0\COMP3602Lab01.exe
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\bin\Debug\net5.0\COMP3602Lab01.deps.json
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\bin\Debug\net5.0\COMP3602Lab01.runtimeconfig.json
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\bin\Debug\net5.0\COMP3602Lab01.runtimeconfig.dev.json
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\bin\Debug\net5.0\COMP3602Lab01.dll
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\bin\Debug\net5.0\ref\COMP3602Lab01.dll
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\bin\Debug\net5.0\COMP3602Lab01.pdb
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net5.0\COMP3602Lab01.dll
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net5.0\ref\COMP3602Lab01.dll
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net5.0\COMP3602Lab01.pdb
+D:\OneDrive\repos\COMP3602Lab01\COMP3602Lab01\COMP3602Lab01\obj\Debug\net5.0\COMP3602Lab01.genruntimeconfig.cache

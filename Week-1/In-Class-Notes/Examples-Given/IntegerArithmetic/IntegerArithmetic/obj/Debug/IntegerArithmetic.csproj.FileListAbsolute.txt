@@ -5,3 +5,11 @@ D:\Work\COMP2614_Fall2019\Week01\Examples\IntegerArithmetic\IntegerArithmetic\ob
 D:\Work\COMP2614_Fall2019\Week01\Examples\IntegerArithmetic\IntegerArithmetic\obj\Debug\IntegerArithmetic.csproj.CoreCompileInputs.cache
 D:\Work\COMP2614_Fall2019\Week01\Examples\IntegerArithmetic\IntegerArithmetic\obj\Debug\IntegerArithmetic.exe
 D:\Work\COMP2614_Fall2019\Week01\Examples\IntegerArithmetic\IntegerArithmetic\obj\Debug\IntegerArithmetic.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\In-Class-Notes\Examples-Given\IntegerArithmetic\IntegerArithmetic\bin\Debug\IntegerArithmetic.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\In-Class-Notes\Examples-Given\IntegerArithmetic\IntegerArithmetic\bin\Debug\IntegerArithmetic.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\In-Class-Notes\Examples-Given\IntegerArithmetic\IntegerArithmetic\bin\Debug\IntegerArithmetic.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\In-Class-Notes\Examples-Given\IntegerArithmetic\IntegerArithmetic\obj\Debug\IntegerArithmetic.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\In-Class-Notes\Examples-Given\IntegerArithmetic\IntegerArithmetic\obj\Debug\IntegerArithmetic.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\In-Class-Notes\Examples-Given\IntegerArithmetic\IntegerArithmetic\obj\Debug\IntegerArithmetic.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\In-Class-Notes\Examples-Given\IntegerArithmetic\IntegerArithmetic\obj\Debug\IntegerArithmetic.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-1\In-Class-Notes\Examples-Given\IntegerArithmetic\IntegerArithmetic\obj\Debug\IntegerArithmetic.pdb
