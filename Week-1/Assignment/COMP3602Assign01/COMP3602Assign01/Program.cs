@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Monika Szucs
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -12,8 +14,8 @@ namespace COMP3602Assign01
         {
             Console.Title = "COMP3602 - Assign01 - A00878763";
 
-            string formatStringHeading = "{0, 9} {1, 9} {2, 9}";
-            string formatStringIntegral = "{0, 9:N0} {1, 9:N0} {2, 9:N0}";
+            string formatStringHeading = "{0, 10} {1, 9} {2, 10}";
+            string formatStringIntegral = "{0, 10:N0} {1, 9:N0} {2, 10:N0}";
             int[] arr = new int[11] { 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
             int numberTotal = 0;
             int squareTotal = 0;
@@ -24,7 +26,7 @@ namespace COMP3602Assign01
                 "square",
                 "cube");
 
-            Console.WriteLine(new string('-', 29));
+            Console.WriteLine(new string('-', 32));
 
             for(int i = 0; i < arr.Length; i++)
             {
@@ -42,7 +44,7 @@ namespace COMP3602Assign01
                    cube);
             }
 
-            Console.WriteLine(new string('-', 29));
+            Console.WriteLine(new string('-', 32));
 
             Console.WriteLine(formatStringIntegral,
                    numberTotal,
