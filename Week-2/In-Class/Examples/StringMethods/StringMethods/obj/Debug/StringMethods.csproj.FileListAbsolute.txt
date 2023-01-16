@@ -1,0 +1,15 @@
+D:\Work\COMP2614_Fall2019\Week02\Examples\StringMethods\StringMethods\bin\Debug\StringMethods.exe.config
+D:\Work\COMP2614_Fall2019\Week02\Examples\StringMethods\StringMethods\bin\Debug\StringMethods.exe
+D:\Work\COMP2614_Fall2019\Week02\Examples\StringMethods\StringMethods\bin\Debug\StringMethods.pdb
+D:\Work\COMP2614_Fall2019\Week02\Examples\StringMethods\StringMethods\obj\Debug\StringMethods.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week02\Examples\StringMethods\StringMethods\obj\Debug\StringMethods.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Fall2019\Week02\Examples\StringMethods\StringMethods\obj\Debug\StringMethods.exe
+D:\Work\COMP2614_Fall2019\Week02\Examples\StringMethods\StringMethods\obj\Debug\StringMethods.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\StringMethods\StringMethods\bin\Debug\StringMethods.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\StringMethods\StringMethods\bin\Debug\StringMethods.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\StringMethods\StringMethods\bin\Debug\StringMethods.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\StringMethods\StringMethods\obj\Debug\StringMethods.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\StringMethods\StringMethods\obj\Debug\StringMethods.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\StringMethods\StringMethods\obj\Debug\StringMethods.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\StringMethods\StringMethods\obj\Debug\StringMethods.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\StringMethods\StringMethods\obj\Debug\StringMethods.pdb

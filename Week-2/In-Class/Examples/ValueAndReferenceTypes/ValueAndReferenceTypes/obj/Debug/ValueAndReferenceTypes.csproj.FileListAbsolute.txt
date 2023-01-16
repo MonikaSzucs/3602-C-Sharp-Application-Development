@@ -1,0 +1,15 @@
+D:\Work\COMP2614_Fall2019\Week02\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\bin\Debug\ValueAndReferenceTypes.exe.config
+D:\Work\COMP2614_Fall2019\Week02\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\bin\Debug\ValueAndReferenceTypes.exe
+D:\Work\COMP2614_Fall2019\Week02\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\bin\Debug\ValueAndReferenceTypes.pdb
+D:\Work\COMP2614_Fall2019\Week02\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\obj\Debug\ValueAndReferenceTypes.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week02\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\obj\Debug\ValueAndReferenceTypes.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Fall2019\Week02\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\obj\Debug\ValueAndReferenceTypes.exe
+D:\Work\COMP2614_Fall2019\Week02\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\obj\Debug\ValueAndReferenceTypes.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\bin\Debug\ValueAndReferenceTypes.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\bin\Debug\ValueAndReferenceTypes.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\bin\Debug\ValueAndReferenceTypes.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\obj\Debug\ValueAndReferenceTypes.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\obj\Debug\ValueAndReferenceTypes.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\obj\Debug\ValueAndReferenceTypes.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\obj\Debug\ValueAndReferenceTypes.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ValueAndReferenceTypes\ValueAndReferenceTypes\obj\Debug\ValueAndReferenceTypes.pdb

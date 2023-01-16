@@ -1,0 +1,15 @@
+D:\Work\COMP2614_Fall2019\Week02\Examples\PropertyMethods\PropertyMethods\bin\Debug\PropertyMethods.exe.config
+D:\Work\COMP2614_Fall2019\Week02\Examples\PropertyMethods\PropertyMethods\bin\Debug\PropertyMethods.exe
+D:\Work\COMP2614_Fall2019\Week02\Examples\PropertyMethods\PropertyMethods\bin\Debug\PropertyMethods.pdb
+D:\Work\COMP2614_Fall2019\Week02\Examples\PropertyMethods\PropertyMethods\obj\Debug\PropertyMethods.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week02\Examples\PropertyMethods\PropertyMethods\obj\Debug\PropertyMethods.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Fall2019\Week02\Examples\PropertyMethods\PropertyMethods\obj\Debug\PropertyMethods.exe
+D:\Work\COMP2614_Fall2019\Week02\Examples\PropertyMethods\PropertyMethods\obj\Debug\PropertyMethods.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\PropertyMethods\PropertyMethods\bin\Debug\PropertyMethods.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\PropertyMethods\PropertyMethods\bin\Debug\PropertyMethods.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\PropertyMethods\PropertyMethods\bin\Debug\PropertyMethods.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\PropertyMethods\PropertyMethods\obj\Debug\PropertyMethods.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\PropertyMethods\PropertyMethods\obj\Debug\PropertyMethods.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\PropertyMethods\PropertyMethods\obj\Debug\PropertyMethods.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\PropertyMethods\PropertyMethods\obj\Debug\PropertyMethods.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\PropertyMethods\PropertyMethods\obj\Debug\PropertyMethods.pdb

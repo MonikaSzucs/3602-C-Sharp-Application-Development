@@ -1,0 +1,15 @@
+D:\Work\COMP2614_Fall2019\Week02\Examples\ObjectInitializers\ObjectInitializers\bin\Debug\ObjectInitializers.exe.config
+D:\Work\COMP2614_Fall2019\Week02\Examples\ObjectInitializers\ObjectInitializers\bin\Debug\ObjectInitializers.exe
+D:\Work\COMP2614_Fall2019\Week02\Examples\ObjectInitializers\ObjectInitializers\bin\Debug\ObjectInitializers.pdb
+D:\Work\COMP2614_Fall2019\Week02\Examples\ObjectInitializers\ObjectInitializers\obj\Debug\ObjectInitializers.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week02\Examples\ObjectInitializers\ObjectInitializers\obj\Debug\ObjectInitializers.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Fall2019\Week02\Examples\ObjectInitializers\ObjectInitializers\obj\Debug\ObjectInitializers.exe
+D:\Work\COMP2614_Fall2019\Week02\Examples\ObjectInitializers\ObjectInitializers\obj\Debug\ObjectInitializers.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ObjectInitializers\ObjectInitializers\bin\Debug\ObjectInitializers.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ObjectInitializers\ObjectInitializers\bin\Debug\ObjectInitializers.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ObjectInitializers\ObjectInitializers\bin\Debug\ObjectInitializers.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ObjectInitializers\ObjectInitializers\obj\Debug\ObjectInitializers.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ObjectInitializers\ObjectInitializers\obj\Debug\ObjectInitializers.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ObjectInitializers\ObjectInitializers\obj\Debug\ObjectInitializers.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ObjectInitializers\ObjectInitializers\obj\Debug\ObjectInitializers.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\ObjectInitializers\ObjectInitializers\obj\Debug\ObjectInitializers.pdb

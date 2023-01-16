@@ -1,0 +1,15 @@
+D:\Work\COMP2614_Fall2019\Week02\Examples\CalculatedProperties\CalculatedProperties\bin\Debug\CalculatedProperties.exe.config
+D:\Work\COMP2614_Fall2019\Week02\Examples\CalculatedProperties\CalculatedProperties\bin\Debug\CalculatedProperties.exe
+D:\Work\COMP2614_Fall2019\Week02\Examples\CalculatedProperties\CalculatedProperties\bin\Debug\CalculatedProperties.pdb
+D:\Work\COMP2614_Fall2019\Week02\Examples\CalculatedProperties\CalculatedProperties\obj\Debug\CalculatedProperties.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week02\Examples\CalculatedProperties\CalculatedProperties\obj\Debug\CalculatedProperties.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Fall2019\Week02\Examples\CalculatedProperties\CalculatedProperties\obj\Debug\CalculatedProperties.exe
+D:\Work\COMP2614_Fall2019\Week02\Examples\CalculatedProperties\CalculatedProperties\obj\Debug\CalculatedProperties.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\CalculatedProperties\CalculatedProperties\bin\Debug\CalculatedProperties.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\CalculatedProperties\CalculatedProperties\bin\Debug\CalculatedProperties.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\CalculatedProperties\CalculatedProperties\bin\Debug\CalculatedProperties.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\CalculatedProperties\CalculatedProperties\obj\Debug\CalculatedProperties.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\CalculatedProperties\CalculatedProperties\obj\Debug\CalculatedProperties.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\CalculatedProperties\CalculatedProperties\obj\Debug\CalculatedProperties.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\CalculatedProperties\CalculatedProperties\obj\Debug\CalculatedProperties.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-2\In-Class\Examples\CalculatedProperties\CalculatedProperties\obj\Debug\CalculatedProperties.pdb
