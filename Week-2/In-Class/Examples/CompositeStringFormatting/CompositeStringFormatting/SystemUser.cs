@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace CompositeStringFormatting
 {
+    // use types and status's
+    // behind this is 0,1,2 etc 0 = Administrator, 1 = PowerUser etc
     enum UserType
     {
         Administrator,

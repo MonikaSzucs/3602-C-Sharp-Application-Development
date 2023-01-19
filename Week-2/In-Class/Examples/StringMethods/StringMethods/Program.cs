@@ -12,6 +12,8 @@ namespace StringMethods
         {
             Console.Title = "String Methods Demo";
 
+            // only if there is a  reason you will change it - how will you name it? is it naming part of business or programming practice? 
+
             // ToUpper and ToLower
             string phrase = "How do you do?";
             Console.WriteLine(phrase);           // How do you do?
@@ -19,7 +21,8 @@ namespace StringMethods
             Console.WriteLine(phrase.ToUpper()); // HOW DO YOU DO?
             Console.WriteLine(phrase);           // How do you do?
 
-
+            // magic numbers = hard coded values - she wants numbers right in where it is -
+            // if we do a forloop we dont need to hard code it because its a programming number 
             // SubString
             Console.WriteLine(phrase.Substring(0, 3));        // How
             Console.WriteLine(phrase.Substring(4, 2));        // do

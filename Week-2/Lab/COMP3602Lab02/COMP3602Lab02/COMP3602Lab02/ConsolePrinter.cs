@@ -22,8 +22,6 @@ namespace COMP3602Lab02
                                     person.AgeInDecades);
             }
             Console.WriteLine("\n");
-
-            
         }
     }
 }

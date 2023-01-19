@@ -28,6 +28,8 @@ namespace StringBuilderDemo
             Console.WriteLine("\nPress Enter to Start StringBuilder Test");
             Console.ReadLine();
 
+            // prevents abusing of heap. This preallocates space for your string and allows you to concatenate.
+            // The append allows you to add at the end without creating another string on the heap.
             StringBuilder sb = new StringBuilder(1000000);
 
             for (int count = 0; count < repetitions; count++)
