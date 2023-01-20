@@ -18,45 +18,36 @@ namespace COMP3602Assign01
             // Writing the calculation of the squares and cubes of even numbers from 0 to 20 in a table format
             string formatStringHeading = "{0, 10} {1, 9} {2, 10}";
             string formatStringIntegral = "{0, 10:N0} {1, 9:N0} {2, 10:N0}";
-
-            int max = 20;
-
+            int[] arr = new int[11] { 0, 2, 4, 6, 8, 10, 12, 14, 16, 18, 20 };
             int numberTotal = 0;
             int squareTotal = 0;
             int cubeTotal = 0;
-
-            string line = new string('-', 32);
 
             Console.WriteLine(formatStringHeading,
                 "number",
                 "square",
                 "cube");
 
-            Console.WriteLine(line);
+            Console.WriteLine(new string('-', 32));
 
-            // Calculate the sum of each column and displaying numbers in each row as the for loop iterates
-            for(int i = 0; i <= max; i++)
+            // Calculate the sum of each column
+            for(int i = 0; i < arr.Length; i++)
             {
-                int number = i;
-                int square = i;
-                int cube = i;
+                int number = arr[i];
+                int square = Convert.ToInt32(Math.Pow(arr[i], 2));
+                int cube = Convert.ToInt32(Math.Pow(arr[i], 3));
 
-                // Check to see if the number is divisible by two
-                if(i % 2 == 0)
-                {
-                    numberTotal += number;
-                    squareTotal += square * square;
-                    cubeTotal += cube * cube * cube;
+                numberTotal += number;
+                squareTotal += square;
+                cubeTotal += cube;
 
-                    // Displaying the numbers in each row
-                    Console.WriteLine(formatStringIntegral,
-                       number,
-                       square * square,
-                       cube * cube * cube);
-                }
+                Console.WriteLine(formatStringIntegral,
+                   number,
+                   square,
+                   cube);
             }
 
-            Console.WriteLine(line);
+            Console.WriteLine(new string('-', 32));
 
             // Display the sum of each column
             Console.WriteLine(formatStringIntegral,

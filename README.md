@@ -17,6 +17,7 @@ namespace COMP3602Assign01
 - the comments can be based on the requirements document your read
 - add the comments above the area not beside so there is less scrolling left and right
 - Add `starUML` or `Visual Paradigme Community Edition` file to root of the folder
+- UML diagram in PDF format
 
 # Resubmission
 - you can resubmit the assignments and labs in order to achieve a better mark
