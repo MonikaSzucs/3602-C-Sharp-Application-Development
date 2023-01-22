@@ -19,7 +19,7 @@ namespace COMP3602Assign02
         private string province;
         private string postalCode;
 
-        // ctor
+        // constructor
         public Contact(string firstName, string lastName, string age, string address, string city, string province, string postalCode)
         {
             this.firstName = firstName;
@@ -30,41 +30,59 @@ namespace COMP3602Assign02
             this.province = province;
             this.postalCode = postalCode;
         }
-        // readonly Property Method
+
+        // The first name of the person
         public string FirstName
         {
             get { return firstName; }
             set { firstName = value; }
         }
+
+        // The last name of the person
         public string LastName
         {
             get { return lastName; }
             set { lastName = value; }
         }
+
+        // The age of the person
         public string Age
         {
             get { return age; }
             set { age = value; }
         }
+
+        // The address where the person lives
         public string Address
         {
             get { return address; }
             set { address = value; }
         }
+
+        // The city where the person lives
         public string City
         {
             get { return city; }
             set { city = value; }
         }
+
+        // The province where the person lives
         public string Province
         {
             get { return province; }
             set { province = value; }
         }
+
+        // The postal code of the home
         public string PostalCode
         {
             get { return postalCode; }
             set { postalCode = value; }
+        }
+
+        public override string ToString()
+        {
+            return string.Format($"{lastName}, {firstName}");
         }
     }
 }

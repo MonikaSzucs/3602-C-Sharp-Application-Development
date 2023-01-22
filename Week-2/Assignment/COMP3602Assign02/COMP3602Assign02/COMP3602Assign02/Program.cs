@@ -1,9 +1,5 @@
 ﻿// Monika Szucs
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace COMP3602Assign02
 {
@@ -12,14 +8,16 @@ namespace COMP3602Assign02
         static void Main(string[] args)
         {
             Console.Title = "COMP3602 - Assignment 2 - A00878763";
-
             Console.Write("Enter Contact Information: \n");
 
             Contact[] people = new Contact[3];
 
-            for (int i = 0; i < 3; i++)
+            string line = new string('-', 30);
+            int max = 3;
+
+            for (int i = 0; i < max; i++)
             {
-                Console.WriteLine(new string('-', 30));
+                Console.WriteLine(line);
                 Console.Write("First Name:\t");
                 string firstName = Console.ReadLine();
                 Console.Write("Last Name:\t");
@@ -37,10 +35,11 @@ namespace COMP3602Assign02
 
                 people[i] = new Contact(firstName, lastName, age, address, city, province, postalCode);
             }
-            Console.WriteLine(new string('-', 30));
+            
+            Console.WriteLine(line);
 
             Console.Write("\nContacts Entered: \n");
-            Console.WriteLine(new string('-', 30));
+            Console.WriteLine(line);
 
             foreach (Contact person in people)
             {
