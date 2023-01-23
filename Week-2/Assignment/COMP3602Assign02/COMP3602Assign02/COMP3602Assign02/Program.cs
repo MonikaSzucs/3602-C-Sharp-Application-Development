@@ -7,8 +7,9 @@ namespace COMP3602Assign02
     {
         static void Main(string[] args)
         {
-            Console.Title = "COMP3602 - Assignment 2 - A00878763";
-            Console.Write("Enter Contact Information: \n");
+            ConsolePrinter.ProgramTitle("COMP3602 - Assignment 2 - A00878763");
+
+            ConsolePrinter.TableTitle("Enter Contact Information: \n");
 
             Contact[] people = new Contact[3];
 
@@ -17,36 +18,65 @@ namespace COMP3602Assign02
 
             for (int i = 0; i < max; i++)
             {
-                Console.WriteLine(line);
-                Console.Write("First Name:\t");
+                ConsolePrinter.LineCreation(line);
+
+                ConsolePrinter.AskUserInformation("First Name:\t");
                 string firstName = Console.ReadLine();
-                Console.Write("Last Name:\t");
+
+                ConsolePrinter.AskUserInformation("Last Name:\t");
                 string lastName = Console.ReadLine();
-                Console.Write("Age:\t\t");
+
+                ConsolePrinter.AskUserInformation("Age:\t\t");
                 string age = Console.ReadLine();
-                Console.Write("Address:\t");
+
+                ConsolePrinter.AskUserInformation("Address:\t");
                 string address = Console.ReadLine();
-                Console.Write("City:\t\t");
+
+                ConsolePrinter.AskUserInformation("City:\t\t");
                 string city = Console.ReadLine();
-                Console.Write("Province:\t");
+
+                ConsolePrinter.AskUserInformation("Province:\t");
                 string province = Console.ReadLine();
-                Console.Write("Postal Code:\t");
+
+                ConsolePrinter.AskUserInformation("Postal Code:\t");
                 string postalCode = Console.ReadLine();
 
-                people[i] = new Contact(firstName, lastName, age, address, city, province, postalCode);
+                // Adding Contact objects to the array
+                if (i == 0)
+                {
+                    // Creating an empty object then populating the data via properties
+                    people[i] = new Contact();
+                    people[i].FirstName = firstName;
+                    people[i].LastName = lastName;
+                    people[i].Age = age;
+                    people[i].Address = address;
+                    people[i].City = city;
+                    people[i].Province = province;
+                    people[i].PostalCode = postalCode;
+                }
+                else if(i == 1)
+                {
+                    // parameterized constructor
+                    people[i] =
+                       new Contact(firstName, lastName, age, address, city, province, postalCode);
+                }
+                else if(i == 2)
+                {
+                    // Object Initializer Syntax
+                    // This requires an empty constructor in the Contact Class
+                    people[i] =
+                       new Contact { FirstName = firstName, LastName = lastName, Age = age, Address = address, City = city, Province = province, PostalCode = postalCode};
+                }
             }
-            
-            Console.WriteLine(line);
 
-            Console.Write("\nContacts Entered: \n");
-            Console.WriteLine(line);
+            ConsolePrinter.LineCreation(line);
 
-            foreach (Contact person in people)
-            {
-                Console.WriteLine($"{person.FirstName} {person.LastName} ({person.Age})\n" +
-                                    $"{person.Address}\n" +
-                                    $"{person.City} {person.Province}  {person.PostalCode}\n\n");
-            }
+            ConsolePrinter.TableTitle("\nContacts Entered: \n");
+
+            ConsolePrinter.LineCreation(line);
+
+            // Outputting the contents of the Contact objects by iterating through the array
+            ConsolePrinter.DisplayArray(people);
         }
     }
 }

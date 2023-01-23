@@ -19,6 +19,8 @@ namespace COMP3602Assign02
         private string province;
         private string postalCode;
 
+        public Contact() { }
+
         // constructor
         public Contact(string firstName, string lastName, string age, string address, string city, string province, string postalCode)
         {
