@@ -35,25 +35,22 @@ namespace COMP3602Assign01
             Console.WriteLine(line);
 
             // Calculate the sum of each column and displaying numbers in each row as the for loop iterates
-            for(int i = 0; i <= max; i++)
+            for(int i = 0; i <= max; i+=2)
             {
                 int number = i;
                 int square = i;
                 int cube = i;
 
                 // Check to see if the number is divisible by two
-                if(i % 2 == 0)
-                {
-                    numberTotal += number;
-                    squareTotal += square * square;
-                    cubeTotal += cube * cube * cube;
+                numberTotal += number;
+                squareTotal += square * square;
+                cubeTotal += cube * cube * cube;
 
-                    // Displaying the numbers in each row
-                    Console.WriteLine(formatStringIntegral,
-                       number,
-                       square * square,
-                       cube * cube * cube);
-                }
+                // Displaying the numbers in each row
+                Console.WriteLine(formatStringIntegral,
+                    number,
+                    square * square,
+                    cube * cube * cube);
             }
 
             Console.WriteLine(line);

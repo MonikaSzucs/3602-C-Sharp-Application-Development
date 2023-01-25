@@ -4,7 +4,7 @@ using System;
 
 namespace COMP3602Assign02
 {
-    internal class ConsolePrinter
+    class ConsolePrinter
     {
         // Creating the terminal title
         public static void ProgramTitle(string title)

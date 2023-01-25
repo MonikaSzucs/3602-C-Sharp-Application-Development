@@ -13,7 +13,7 @@ namespace COMP3602Assign02
         // fields
         private string firstName;
         private string lastName;
-        private string age;
+        private int age;
         private string address;
         private string city;
         private string province;
@@ -22,7 +22,7 @@ namespace COMP3602Assign02
         public Contact() { }
 
         // constructor
-        public Contact(string firstName, string lastName, string age, string address, string city, string province, string postalCode)
+        public Contact(string firstName, string lastName, int age, string address, string city, string province, string postalCode)
         {
             this.firstName = firstName;
             this.lastName = lastName;
@@ -48,7 +48,7 @@ namespace COMP3602Assign02
         }
 
         // The age of the person
-        public string Age
+        public int Age
         {
             get { return age; }
             set { age = value; }
@@ -82,6 +82,7 @@ namespace COMP3602Assign02
             set { postalCode = value; }
         }
 
+        // Overriding the toString method with a different format
         public override string ToString()
         {
             return string.Format($"{lastName}, {firstName}");

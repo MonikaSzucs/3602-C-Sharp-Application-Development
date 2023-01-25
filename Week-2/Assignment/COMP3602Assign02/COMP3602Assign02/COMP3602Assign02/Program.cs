@@ -3,7 +3,7 @@ using System;
 
 namespace COMP3602Assign02
 {
-    internal class Program
+    class Program
     {
         static void Main(string[] args)
         {
@@ -11,11 +11,13 @@ namespace COMP3602Assign02
 
             ConsolePrinter.TableTitle("Enter Contact Information: \n");
 
+            // Contact object
             Contact[] people = new Contact[3];
 
             string line = new string('-', 30);
             int max = 3;
 
+            // Prompting to collect data for three contacts
             for (int i = 0; i < max; i++)
             {
                 ConsolePrinter.LineCreation(line);
@@ -27,7 +29,7 @@ namespace COMP3602Assign02
                 string lastName = Console.ReadLine();
 
                 ConsolePrinter.AskUserInformation("Age:\t\t");
-                string age = Console.ReadLine();
+                int age = Convert.ToInt32(Console.ReadLine());
 
                 ConsolePrinter.AskUserInformation("Address:\t");
                 string address = Console.ReadLine();
