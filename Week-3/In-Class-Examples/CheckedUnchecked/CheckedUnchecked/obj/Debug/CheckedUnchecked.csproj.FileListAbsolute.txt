@@ -4,3 +4,11 @@ D:\Work\COMP2614_Fall2019\Week03\Example\CheckedUnchecked\CheckedUnchecked\bin\D
 D:\Work\COMP2614_Fall2019\Week03\Example\CheckedUnchecked\CheckedUnchecked\obj\Debug\CheckedUnchecked.csprojAssemblyReference.cache
 D:\Work\COMP2614_Fall2019\Week03\Example\CheckedUnchecked\CheckedUnchecked\obj\Debug\CheckedUnchecked.exe
 D:\Work\COMP2614_Fall2019\Week03\Example\CheckedUnchecked\CheckedUnchecked\obj\Debug\CheckedUnchecked.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\CheckedUnchecked\CheckedUnchecked\bin\Debug\CheckedUnchecked.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\CheckedUnchecked\CheckedUnchecked\bin\Debug\CheckedUnchecked.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\CheckedUnchecked\CheckedUnchecked\bin\Debug\CheckedUnchecked.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\CheckedUnchecked\CheckedUnchecked\obj\Debug\CheckedUnchecked.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\CheckedUnchecked\CheckedUnchecked\obj\Debug\CheckedUnchecked.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\CheckedUnchecked\CheckedUnchecked\obj\Debug\CheckedUnchecked.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\CheckedUnchecked\CheckedUnchecked\obj\Debug\CheckedUnchecked.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\CheckedUnchecked\CheckedUnchecked\obj\Debug\CheckedUnchecked.pdb

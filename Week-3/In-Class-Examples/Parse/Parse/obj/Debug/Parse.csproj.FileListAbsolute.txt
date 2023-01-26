@@ -4,3 +4,11 @@ D:\Work\COMP2614_Fall2019\Week03\Example\Parse\Parse\bin\Debug\Parse.pdb
 D:\Work\COMP2614_Fall2019\Week03\Example\Parse\Parse\obj\Debug\Parse.csprojAssemblyReference.cache
 D:\Work\COMP2614_Fall2019\Week03\Example\Parse\Parse\obj\Debug\Parse.exe
 D:\Work\COMP2614_Fall2019\Week03\Example\Parse\Parse\obj\Debug\Parse.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\Parse\Parse\bin\Debug\Parse.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\Parse\Parse\bin\Debug\Parse.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\Parse\Parse\bin\Debug\Parse.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\Parse\Parse\obj\Debug\Parse.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\Parse\Parse\obj\Debug\Parse.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\Parse\Parse\obj\Debug\Parse.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\Parse\Parse\obj\Debug\Parse.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\Parse\Parse\obj\Debug\Parse.pdb

@@ -4,3 +4,11 @@ D:\Work\COMP2614_Fall2019\Week03\Example\ValueTypePassByValue\ValueTypePassByVal
 D:\Work\COMP2614_Fall2019\Week03\Example\ValueTypePassByValue\ValueTypePassByValue\obj\Debug\ValueTypePassByValue.csprojAssemblyReference.cache
 D:\Work\COMP2614_Fall2019\Week03\Example\ValueTypePassByValue\ValueTypePassByValue\obj\Debug\ValueTypePassByValue.exe
 D:\Work\COMP2614_Fall2019\Week03\Example\ValueTypePassByValue\ValueTypePassByValue\obj\Debug\ValueTypePassByValue.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ValueTypePassByValue\ValueTypePassByValue\bin\Debug\ValueTypePassByValue.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ValueTypePassByValue\ValueTypePassByValue\bin\Debug\ValueTypePassByValue.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ValueTypePassByValue\ValueTypePassByValue\bin\Debug\ValueTypePassByValue.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ValueTypePassByValue\ValueTypePassByValue\obj\Debug\ValueTypePassByValue.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ValueTypePassByValue\ValueTypePassByValue\obj\Debug\ValueTypePassByValue.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ValueTypePassByValue\ValueTypePassByValue\obj\Debug\ValueTypePassByValue.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ValueTypePassByValue\ValueTypePassByValue\obj\Debug\ValueTypePassByValue.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ValueTypePassByValue\ValueTypePassByValue\obj\Debug\ValueTypePassByValue.pdb

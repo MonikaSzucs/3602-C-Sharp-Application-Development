@@ -13,7 +13,7 @@ namespace CheckedUnchecked
             Console.Title = "Checked / Unchecked Demo";
 
             short adder = 5000;
-            // adder += 10000;   // uncomment this line and rerun - observe behavior
+            //adder += 10000;   // uncomment this line and rerun - observe behavior
 
             short shortVal = 20000;
             Console.WriteLine($"Value is: {shortVal:N0}");

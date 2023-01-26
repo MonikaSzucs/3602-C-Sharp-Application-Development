@@ -11,3 +11,11 @@ D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 02\Week03\Examples\ParamsOut\Pa
 D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 02\Week03\Examples\ParamsOut\ParamsOut\obj\Debug\ParamsOut.csproj.CoreCompileInputs.cache
 D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 02\Week03\Examples\ParamsOut\ParamsOut\obj\Debug\ParamsOut.exe
 D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 02\Week03\Examples\ParamsOut\ParamsOut\obj\Debug\ParamsOut.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ParamsOut\ParamsOut\bin\Debug\ParamsOut.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ParamsOut\ParamsOut\bin\Debug\ParamsOut.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ParamsOut\ParamsOut\bin\Debug\ParamsOut.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ParamsOut\ParamsOut\obj\Debug\ParamsOut.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ParamsOut\ParamsOut\obj\Debug\ParamsOut.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ParamsOut\ParamsOut\obj\Debug\ParamsOut.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ParamsOut\ParamsOut\obj\Debug\ParamsOut.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ParamsOut\ParamsOut\obj\Debug\ParamsOut.pdb

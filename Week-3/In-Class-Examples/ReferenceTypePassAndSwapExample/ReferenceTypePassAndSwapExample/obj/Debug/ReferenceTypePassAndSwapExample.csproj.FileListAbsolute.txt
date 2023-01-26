@@ -5,3 +5,11 @@ D:\OneDrive\repos\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
 D:\OneDrive\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
 D:\OneDrive\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
 D:\OneDrive\repos\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ReferenceTypePassAndSwapExample\ReferenceTypePassAndSwapExample\bin\Debug\ConsoleApp1.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ReferenceTypePassAndSwapExample\ReferenceTypePassAndSwapExample\bin\Debug\ConsoleApp1.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ReferenceTypePassAndSwapExample\ReferenceTypePassAndSwapExample\bin\Debug\ConsoleApp1.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ReferenceTypePassAndSwapExample\ReferenceTypePassAndSwapExample\obj\Debug\ReferenceTypePassAndSwapExample.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ReferenceTypePassAndSwapExample\ReferenceTypePassAndSwapExample\obj\Debug\ReferenceTypePassAndSwapExample.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ReferenceTypePassAndSwapExample\ReferenceTypePassAndSwapExample\obj\Debug\ReferenceTypePassAndSwapExample.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ReferenceTypePassAndSwapExample\ReferenceTypePassAndSwapExample\obj\Debug\ConsoleApp1.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-3\In-Class-Examples\ReferenceTypePassAndSwapExample\ReferenceTypePassAndSwapExample\obj\Debug\ConsoleApp1.pdb
