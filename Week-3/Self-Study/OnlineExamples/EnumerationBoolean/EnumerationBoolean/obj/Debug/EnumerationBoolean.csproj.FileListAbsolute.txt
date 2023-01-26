@@ -1,0 +1,13 @@
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\EnumerationBoolean\EnumerationBoolean\bin\Debug\EnumerationBoolean.exe.config
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\EnumerationBoolean\EnumerationBoolean\bin\Debug\EnumerationBoolean.exe
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\EnumerationBoolean\EnumerationBoolean\bin\Debug\EnumerationBoolean.pdb
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\EnumerationBoolean\EnumerationBoolean\obj\Debug\EnumerationBoolean.csprojResolveAssemblyReference.cache
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\EnumerationBoolean\EnumerationBoolean\obj\Debug\EnumerationBoolean.exe
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\EnumerationBoolean\EnumerationBoolean\obj\Debug\EnumerationBoolean.pdb
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationBoolean\EnumerationBoolean\bin\Debug\EnumerationBoolean.exe.config
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationBoolean\EnumerationBoolean\bin\Debug\EnumerationBoolean.exe
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationBoolean\EnumerationBoolean\bin\Debug\EnumerationBoolean.pdb
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationBoolean\EnumerationBoolean\obj\Debug\EnumerationBoolean.csprojAssemblyReference.cache
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationBoolean\EnumerationBoolean\obj\Debug\EnumerationBoolean.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationBoolean\EnumerationBoolean\obj\Debug\EnumerationBoolean.exe
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationBoolean\EnumerationBoolean\obj\Debug\EnumerationBoolean.pdb

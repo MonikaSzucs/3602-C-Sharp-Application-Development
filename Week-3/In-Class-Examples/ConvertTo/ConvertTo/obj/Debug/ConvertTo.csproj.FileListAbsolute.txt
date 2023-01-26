@@ -1,0 +1,6 @@
+D:\Work\COMP2614_Fall2019\Week03\Example\ConvertTo\ConvertTo\bin\Debug\ConvertTo.exe.config
+D:\Work\COMP2614_Fall2019\Week03\Example\ConvertTo\ConvertTo\bin\Debug\ConvertTo.exe
+D:\Work\COMP2614_Fall2019\Week03\Example\ConvertTo\ConvertTo\bin\Debug\ConvertTo.pdb
+D:\Work\COMP2614_Fall2019\Week03\Example\ConvertTo\ConvertTo\obj\Debug\ConvertTo.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week03\Example\ConvertTo\ConvertTo\obj\Debug\ConvertTo.exe
+D:\Work\COMP2614_Fall2019\Week03\Example\ConvertTo\ConvertTo\obj\Debug\ConvertTo.pdb

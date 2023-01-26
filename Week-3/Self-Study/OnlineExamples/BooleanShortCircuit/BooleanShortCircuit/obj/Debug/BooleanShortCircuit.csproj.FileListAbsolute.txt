@@ -1,0 +1,13 @@
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\BooleanShortCircuit\BooleanShortCircuit\bin\Debug\BooleanShortCircuit.exe.config
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\BooleanShortCircuit\BooleanShortCircuit\bin\Debug\BooleanShortCircuit.exe
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\BooleanShortCircuit\BooleanShortCircuit\bin\Debug\BooleanShortCircuit.pdb
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\BooleanShortCircuit\BooleanShortCircuit\obj\Debug\BooleanShortCircuit.csprojResolveAssemblyReference.cache
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\BooleanShortCircuit\BooleanShortCircuit\obj\Debug\BooleanShortCircuit.exe
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\BooleanShortCircuit\BooleanShortCircuit\obj\Debug\BooleanShortCircuit.pdb
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\BooleanShortCircuit\BooleanShortCircuit\bin\Debug\BooleanShortCircuit.exe.config
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\BooleanShortCircuit\BooleanShortCircuit\bin\Debug\BooleanShortCircuit.exe
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\BooleanShortCircuit\BooleanShortCircuit\bin\Debug\BooleanShortCircuit.pdb
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\BooleanShortCircuit\BooleanShortCircuit\obj\Debug\BooleanShortCircuit.csprojAssemblyReference.cache
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\BooleanShortCircuit\BooleanShortCircuit\obj\Debug\BooleanShortCircuit.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\BooleanShortCircuit\BooleanShortCircuit\obj\Debug\BooleanShortCircuit.exe
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\BooleanShortCircuit\BooleanShortCircuit\obj\Debug\BooleanShortCircuit.pdb

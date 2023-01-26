@@ -1,0 +1,6 @@
+D:\Work\COMP2614_Fall2019\Week03\Example\ReferenceTypePassByValue\ReferenceTypePassByValue\bin\Debug\ReferenceTypePassByValue.exe.config
+D:\Work\COMP2614_Fall2019\Week03\Example\ReferenceTypePassByValue\ReferenceTypePassByValue\bin\Debug\ReferenceTypePassByValue.exe
+D:\Work\COMP2614_Fall2019\Week03\Example\ReferenceTypePassByValue\ReferenceTypePassByValue\bin\Debug\ReferenceTypePassByValue.pdb
+D:\Work\COMP2614_Fall2019\Week03\Example\ReferenceTypePassByValue\ReferenceTypePassByValue\obj\Debug\ReferenceTypePassByValue.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week03\Example\ReferenceTypePassByValue\ReferenceTypePassByValue\obj\Debug\ReferenceTypePassByValue.exe
+D:\Work\COMP2614_Fall2019\Week03\Example\ReferenceTypePassByValue\ReferenceTypePassByValue\obj\Debug\ReferenceTypePassByValue.pdb

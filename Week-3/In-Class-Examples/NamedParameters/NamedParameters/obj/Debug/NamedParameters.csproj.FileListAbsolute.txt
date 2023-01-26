@@ -1,0 +1,6 @@
+D:\Work\COMP2614_Fall2019\Week03\Example\NamedParameters\NamedParameters\bin\Debug\NamedParameters.exe.config
+D:\Work\COMP2614_Fall2019\Week03\Example\NamedParameters\NamedParameters\bin\Debug\NamedParameters.exe
+D:\Work\COMP2614_Fall2019\Week03\Example\NamedParameters\NamedParameters\bin\Debug\NamedParameters.pdb
+D:\Work\COMP2614_Fall2019\Week03\Example\NamedParameters\NamedParameters\obj\Debug\NamedParameters.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week03\Example\NamedParameters\NamedParameters\obj\Debug\NamedParameters.exe
+D:\Work\COMP2614_Fall2019\Week03\Example\NamedParameters\NamedParameters\obj\Debug\NamedParameters.pdb

@@ -1,0 +1,20 @@
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\EnumerationDayOfWeek\EnumerationDayOfWeek\bin\Debug\EnumerationDayOfWeek.exe.config
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\EnumerationDayOfWeek\EnumerationDayOfWeek\bin\Debug\EnumerationDayOfWeek.exe
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\EnumerationDayOfWeek\EnumerationDayOfWeek\bin\Debug\EnumerationDayOfWeek.pdb
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\EnumerationDayOfWeek\EnumerationDayOfWeek\obj\Debug\EnumerationDayOfWeek.csprojResolveAssemblyReference.cache
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\EnumerationDayOfWeek\EnumerationDayOfWeek\obj\Debug\EnumerationDayOfWeek.exe
+D:\Work\COMP2614_Fall2016\Week04\Online\Examples\EnumerationDayOfWeek\EnumerationDayOfWeek\obj\Debug\EnumerationDayOfWeek.pdb
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationDayOfWeek\EnumerationDayOfWeek\bin\Debug\EnumerationDayOfWeek.exe.config
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationDayOfWeek\EnumerationDayOfWeek\bin\Debug\EnumerationDayOfWeek.exe
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationDayOfWeek\EnumerationDayOfWeek\bin\Debug\EnumerationDayOfWeek.pdb
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationDayOfWeek\EnumerationDayOfWeek\obj\Debug\EnumerationDayOfWeek.csprojAssemblyReference.cache
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationDayOfWeek\EnumerationDayOfWeek\obj\Debug\EnumerationDayOfWeek.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationDayOfWeek\EnumerationDayOfWeek\obj\Debug\EnumerationDayOfWeek.exe
+D:\Work\COMP2614_Spring2019\Week04\Online\Examples\EnumerationDayOfWeek\EnumerationDayOfWeek\obj\Debug\EnumerationDayOfWeek.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week03\OnlineExamples\EnumerationDayOfWeek\EnumerationDayOfWeek\bin\Debug\EnumerationDayOfWeek.exe.config
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week03\OnlineExamples\EnumerationDayOfWeek\EnumerationDayOfWeek\bin\Debug\EnumerationDayOfWeek.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week03\OnlineExamples\EnumerationDayOfWeek\EnumerationDayOfWeek\bin\Debug\EnumerationDayOfWeek.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week03\OnlineExamples\EnumerationDayOfWeek\EnumerationDayOfWeek\obj\Debug\EnumerationDayOfWeek.csproj.AssemblyReference.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week03\OnlineExamples\EnumerationDayOfWeek\EnumerationDayOfWeek\obj\Debug\EnumerationDayOfWeek.csproj.CoreCompileInputs.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week03\OnlineExamples\EnumerationDayOfWeek\EnumerationDayOfWeek\obj\Debug\EnumerationDayOfWeek.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week03\OnlineExamples\EnumerationDayOfWeek\EnumerationDayOfWeek\obj\Debug\EnumerationDayOfWeek.pdb

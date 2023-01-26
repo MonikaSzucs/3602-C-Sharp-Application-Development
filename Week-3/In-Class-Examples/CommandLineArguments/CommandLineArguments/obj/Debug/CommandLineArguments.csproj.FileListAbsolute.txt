@@ -1,0 +1,6 @@
+D:\Work\COMP2614_Fall2019\Week03\Example\CommandLineArguments\CommandLineArguments\bin\Debug\CommandLineArguments.exe.config
+D:\Work\COMP2614_Fall2019\Week03\Example\CommandLineArguments\CommandLineArguments\bin\Debug\CommandLineArguments.exe
+D:\Work\COMP2614_Fall2019\Week03\Example\CommandLineArguments\CommandLineArguments\bin\Debug\CommandLineArguments.pdb
+D:\Work\COMP2614_Fall2019\Week03\Example\CommandLineArguments\CommandLineArguments\obj\Debug\CommandLineArguments.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week03\Example\CommandLineArguments\CommandLineArguments\obj\Debug\CommandLineArguments.exe
+D:\Work\COMP2614_Fall2019\Week03\Example\CommandLineArguments\CommandLineArguments\obj\Debug\CommandLineArguments.pdb

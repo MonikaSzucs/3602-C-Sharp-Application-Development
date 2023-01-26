@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartArguments>"D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 02\Week03\Examples\ReadingTextFileWithUsing\ReadingTextFileWithUsing\bin\debug\sample.txt"</StartArguments>
+  </PropertyGroup>
+</Project>

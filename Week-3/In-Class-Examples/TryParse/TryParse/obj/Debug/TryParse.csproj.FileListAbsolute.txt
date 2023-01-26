@@ -1,0 +1,6 @@
+D:\Work\COMP2614_Fall2019\Week03\Example\TryParse\TryParse\bin\Debug\TryParse.exe.config
+D:\Work\COMP2614_Fall2019\Week03\Example\TryParse\TryParse\bin\Debug\TryParse.exe
+D:\Work\COMP2614_Fall2019\Week03\Example\TryParse\TryParse\bin\Debug\TryParse.pdb
+D:\Work\COMP2614_Fall2019\Week03\Example\TryParse\TryParse\obj\Debug\TryParse.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week03\Example\TryParse\TryParse\obj\Debug\TryParse.exe
+D:\Work\COMP2614_Fall2019\Week03\Example\TryParse\TryParse\obj\Debug\TryParse.pdb
