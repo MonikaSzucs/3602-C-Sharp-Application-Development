@@ -1,0 +1,16 @@
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\bin\Debug\net5.0\COMP3602Lab02.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\bin\Debug\net5.0\COMP3602Lab02.deps.json
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\bin\Debug\net5.0\COMP3602Lab02.runtimeconfig.json
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\bin\Debug\net5.0\COMP3602Lab02.runtimeconfig.dev.json
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\bin\Debug\net5.0\COMP3602Lab02.dll
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\bin\Debug\net5.0\ref\COMP3602Lab02.dll
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\bin\Debug\net5.0\COMP3602Lab02.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\obj\Debug\net5.0\COMP3602Lab02.csproj.AssemblyReference.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\obj\Debug\net5.0\COMP3602Lab02.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\obj\Debug\net5.0\COMP3602Lab02.AssemblyInfoInputs.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\obj\Debug\net5.0\COMP3602Lab02.AssemblyInfo.cs
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\obj\Debug\net5.0\COMP3602Lab02.csproj.CoreCompileInputs.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\obj\Debug\net5.0\COMP3602Lab02.dll
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\obj\Debug\net5.0\ref\COMP3602Lab02.dll
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\obj\Debug\net5.0\COMP3602Lab02.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week02\Lab02Solution\COMP3602Lab02\COMP3602Lab02\obj\Debug\net5.0\COMP3602Lab02.genruntimeconfig.cache
