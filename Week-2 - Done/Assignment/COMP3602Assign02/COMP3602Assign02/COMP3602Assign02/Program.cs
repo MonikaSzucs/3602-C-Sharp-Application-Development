@@ -1,5 +1,6 @@
 ﻿// Monika Szucs
 using System;
+using System.Runtime.InteropServices;
 
 namespace COMP3602Assign02
 {
@@ -9,7 +10,7 @@ namespace COMP3602Assign02
         {
             ConsolePrinter.ProgramTitle("COMP3602 - Assignment 2 - A00878763");
 
-            ConsolePrinter.TableTitle("Enter Contact Information: \n");
+            ConsolePrinter.ShowingEnterTableTitle("Enter Contact Information:");
 
             // Contact object
             Contact[] people = new Contact[3];
@@ -22,29 +23,26 @@ namespace COMP3602Assign02
             {
                 ConsolePrinter.LineCreation(line);
 
-                ConsolePrinter.AskUserInformation("First Name:\t");
+                ConsolePrinter.AskUserInformation("First Name:");
                 string firstName = Console.ReadLine();
 
-                ConsolePrinter.AskUserInformation("Last Name:\t");
+                ConsolePrinter.AskUserInformation("Last Name:");
                 string lastName = Console.ReadLine();
 
-                ConsolePrinter.AskUserInformation("Age:\t\t");
+                ConsolePrinter.AskUserInformation("Age:");
                 int age = Convert.ToInt32(Console.ReadLine());
 
-                ConsolePrinter.AskUserInformation("Address:\t");
+                ConsolePrinter.AskUserInformation("Address:");
                 string address = Console.ReadLine();
 
-                ConsolePrinter.AskUserInformation("City:\t\t");
+                ConsolePrinter.AskUserInformation("City:");
                 string city = Console.ReadLine();
 
-                ConsolePrinter.AskUserInformation("Province:\t");
+                ConsolePrinter.AskUserInformation("Province:");
                 string province = Console.ReadLine();
 
-                ConsolePrinter.AskUserInformation("Postal Code:\t");
+                ConsolePrinter.AskUserInformation("Postal Code:");
                 string postalCode = Console.ReadLine();
-
-                //Contact[] contacts = new Contact[3]
-                // for(int i = 0; i < 3; i++){Contacts[i]}
 
                 // Adding Contact objects to the array
                 if (i == 0)
@@ -78,7 +76,7 @@ namespace COMP3602Assign02
             #endregion
             ConsolePrinter.LineCreation(line);
 
-            ConsolePrinter.TableTitle("\nContacts Entered: \n");
+            ConsolePrinter.ShowingEnteredTableTitle("Contacts Entered:");
 
             ConsolePrinter.LineCreation(line);
 

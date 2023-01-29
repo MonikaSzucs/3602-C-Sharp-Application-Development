@@ -1,6 +1,7 @@
 ﻿// Monika Szucs
 
 using System;
+using System.Runtime.InteropServices;
 
 namespace COMP3602Assign02
 {
@@ -13,9 +14,15 @@ namespace COMP3602Assign02
         }
 
         // creating the table title
-        public static void TableTitle(string title)
+        public static void ShowingEnterTableTitle(string title)
         {
-            Console.Write(title);
+            Console.WriteLine(title);
+        }
+
+        public static void ShowingEnteredTableTitle(string title)
+        {
+            Console.WriteLine('\n');
+            Console.WriteLine(title);
         }
 
         // creating the line
@@ -26,7 +33,10 @@ namespace COMP3602Assign02
         // The text that shows when asking the user for information
         public static void AskUserInformation(string text)
         {
-            Console.Write(text);
+            string formatStringHeading = "{0, -13}";
+
+            Console.Write(formatStringHeading,
+                            text);
         }
 
         // Outputting the contents of the Contact objects by iterating through the array
