@@ -35,13 +35,13 @@ namespace COMP3602Assign03
             Console.WriteLine(text);
         }
 
-        public static void PrintTopOfInvoice(string text)
+        public static void PrintTopOfInvoice(string title, string information)
         {
-            string formatStringHeading = "{0, -13} {1, -9}";
+            string formatStringHeading = "{0, -18} {1, -9}";
 
             Console.WriteLine(formatStringHeading,
-                            "Invoice Number:",
-                            text);
+                            title,
+                            information);
         }
 
         public static void InvoiceTitle(string quantity,
