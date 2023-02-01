@@ -37,7 +37,7 @@ namespace COMP3602Assign03
 
         public static void PrintTopOfInvoice(string title, string information)
         {
-            string formatStringHeading = "{0, -18} {1, -9}";
+            string formatStringHeading = "{0, -15} {1, -9}";
 
             Console.WriteLine(formatStringHeading,
                             title,
@@ -52,7 +52,8 @@ namespace COMP3602Assign03
                                         string ext
                                         )
         {
-            string formatStringHeading = "{0, -13} {1, -9} {2, -18} {3, -9} {4, -9} {5, -9}";
+            //{0, 10:N0} {1, 9:N0} {2, 10:N0}
+            string formatStringHeading = "{0, -2} {1, 9} {2, -18} {3, 9} {4, 9} {5, 9:N0}";
 
             Console.WriteLine(formatStringHeading,
                             quantity,
@@ -76,7 +77,7 @@ namespace COMP3602Assign03
                                         string pst,
                                         string ext)
         {
-            string formatStringHeading = "{0, -13} {1, -9} {2, -18} {3, -9} {4, -9} {5, -9}";
+            string formatStringHeading = "{0, -2} {1, 9} {2, -18} {3, 9} {4, 9} {5, 9:N0}";
 
             Console.WriteLine(formatStringHeading,
                             quantity,
@@ -87,19 +88,42 @@ namespace COMP3602Assign03
                             ext);
         }
 
-        public static void Totals(
-                                        string tabSpacingOne,
+        public static void SubTotals(
                                         string title,
-                                        string tabSpacingTwo,
-                                        string total)
+                                        double subTotal)
         {
-            string formatStringHeading = "{0, -22} {1, -18} {2, -18} {3, -9}";
+            string formatStringHeading = "{0, 22} {1, 18} {2, 18} {3, 9:N0}";
 
             Console.WriteLine(formatStringHeading,
-                                tabSpacingOne,
+                                "",
                                 title,
-                                tabSpacingTwo,
+                                "",
+                                subTotal);
+        }
+        public static void Totals(
+                                    string title,
+                                    double total)
+        {
+            string formatStringHeading = "{0, 22} {1, 18} {2, 18} {3, 9:N0}";
+
+            Console.WriteLine(formatStringHeading,
+                                "",
+                                title,
+                                "",
                                 total);
+        }
+
+        public static void Discount(
+                                    string title,
+                                    double totalDiscount)
+        {
+            string formatStringHeading = "{0, 22} {1, 18} {2, 18} {3, 9:N0}";
+
+            Console.WriteLine(formatStringHeading,
+                                "",
+                                title,
+                                "",
+                                totalDiscount);
         }
     }
 }
