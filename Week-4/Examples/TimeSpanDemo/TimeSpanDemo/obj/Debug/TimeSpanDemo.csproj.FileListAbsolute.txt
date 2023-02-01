@@ -1,0 +1,6 @@
+D:\Work\COMP2614_Fall2019\Week04\Examples\TimeSpanDemo\TimeSpanDemo\bin\Debug\TimeSpanDemo.exe.config
+D:\Work\COMP2614_Fall2019\Week04\Examples\TimeSpanDemo\TimeSpanDemo\bin\Debug\TimeSpanDemo.exe
+D:\Work\COMP2614_Fall2019\Week04\Examples\TimeSpanDemo\TimeSpanDemo\bin\Debug\TimeSpanDemo.pdb
+D:\Work\COMP2614_Fall2019\Week04\Examples\TimeSpanDemo\TimeSpanDemo\obj\Debug\TimeSpanDemo.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week04\Examples\TimeSpanDemo\TimeSpanDemo\obj\Debug\TimeSpanDemo.exe
+D:\Work\COMP2614_Fall2019\Week04\Examples\TimeSpanDemo\TimeSpanDemo\obj\Debug\TimeSpanDemo.pdb

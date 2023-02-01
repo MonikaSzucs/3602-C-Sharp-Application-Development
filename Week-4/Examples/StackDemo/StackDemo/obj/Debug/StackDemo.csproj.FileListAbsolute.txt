@@ -1,0 +1,6 @@
+D:\Work\COMP2614_Fall2019\Week04\Examples\StackDemo\StackDemo\bin\Debug\StackDemo.exe.config
+D:\Work\COMP2614_Fall2019\Week04\Examples\StackDemo\StackDemo\bin\Debug\StackDemo.exe
+D:\Work\COMP2614_Fall2019\Week04\Examples\StackDemo\StackDemo\bin\Debug\StackDemo.pdb
+D:\Work\COMP2614_Fall2019\Week04\Examples\StackDemo\StackDemo\obj\Debug\StackDemo.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week04\Examples\StackDemo\StackDemo\obj\Debug\StackDemo.exe
+D:\Work\COMP2614_Fall2019\Week04\Examples\StackDemo\StackDemo\obj\Debug\StackDemo.pdb

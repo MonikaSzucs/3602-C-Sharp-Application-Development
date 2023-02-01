@@ -1,0 +1,6 @@
+D:\Work\COMP2614_Fall2019\Week04\Examples\SortingProductDemoBetter\SortingProductDemoBetter\bin\Debug\SortingProductDemoBetter.exe.config
+D:\Work\COMP2614_Fall2019\Week04\Examples\SortingProductDemoBetter\SortingProductDemoBetter\bin\Debug\SortingProductDemoBetter.exe
+D:\Work\COMP2614_Fall2019\Week04\Examples\SortingProductDemoBetter\SortingProductDemoBetter\bin\Debug\SortingProductDemoBetter.pdb
+D:\Work\COMP2614_Fall2019\Week04\Examples\SortingProductDemoBetter\SortingProductDemoBetter\obj\Debug\SortingProductDemoBetter.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week04\Examples\SortingProductDemoBetter\SortingProductDemoBetter\obj\Debug\SortingProductDemoBetter.exe
+D:\Work\COMP2614_Fall2019\Week04\Examples\SortingProductDemoBetter\SortingProductDemoBetter\obj\Debug\SortingProductDemoBetter.pdb

@@ -1,0 +1,6 @@
+D:\Work\COMP2614_Fall2019\Week04\Examples\SortingStringDemo\SortingStringDemo\bin\Debug\SortingStringDemo.exe.config
+D:\Work\COMP2614_Fall2019\Week04\Examples\SortingStringDemo\SortingStringDemo\bin\Debug\SortingStringDemo.exe
+D:\Work\COMP2614_Fall2019\Week04\Examples\SortingStringDemo\SortingStringDemo\bin\Debug\SortingStringDemo.pdb
+D:\Work\COMP2614_Fall2019\Week04\Examples\SortingStringDemo\SortingStringDemo\obj\Debug\SortingStringDemo.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week04\Examples\SortingStringDemo\SortingStringDemo\obj\Debug\SortingStringDemo.exe
+D:\Work\COMP2614_Fall2019\Week04\Examples\SortingStringDemo\SortingStringDemo\obj\Debug\SortingStringDemo.pdb

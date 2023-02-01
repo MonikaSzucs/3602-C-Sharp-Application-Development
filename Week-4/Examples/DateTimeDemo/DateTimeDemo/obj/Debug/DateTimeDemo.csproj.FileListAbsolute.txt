@@ -1,0 +1,6 @@
+D:\Work\COMP2614_Fall2019\Week04\Examples\DateTimeDemo\DateTimeDemo\bin\Debug\DateTimeDemo.exe.config
+D:\Work\COMP2614_Fall2019\Week04\Examples\DateTimeDemo\DateTimeDemo\bin\Debug\DateTimeDemo.exe
+D:\Work\COMP2614_Fall2019\Week04\Examples\DateTimeDemo\DateTimeDemo\bin\Debug\DateTimeDemo.pdb
+D:\Work\COMP2614_Fall2019\Week04\Examples\DateTimeDemo\DateTimeDemo\obj\Debug\DateTimeDemo.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week04\Examples\DateTimeDemo\DateTimeDemo\obj\Debug\DateTimeDemo.exe
+D:\Work\COMP2614_Fall2019\Week04\Examples\DateTimeDemo\DateTimeDemo\obj\Debug\DateTimeDemo.pdb
