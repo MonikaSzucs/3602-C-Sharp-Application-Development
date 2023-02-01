@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Monika Szucs
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -15,55 +17,66 @@ namespace COMP3602Assign03
     {
         static void Main(string[] args)
         {
-            ConsolePrinter.PrintInvoiceTitle("Invoice Listing");
-            ConsolePrinter.PrintDottedLines(new string('-', 60));
-
             StreamReader streamReader = null;
+
             string path;
             string lineData;
+            string numberOfLines = new string('-', 60);
 
+            ConsolePrinter.PrintInvoiceTitle();
+            ConsolePrinter.PrintDottedLines(numberOfLines);
+
+            // Checking to see if a file pathway is present
             if (args.Length > 0)
             {
                 path = args[0];
             }
             else
             {
-                ConsolePrinter.Usage("Usage: COMP3602Lab03 data.txt");
+                ConsolePrinter.Usage();
                 return;
             }
 
+            // Checks to see if not file exists
             if (!File.Exists(path))
             {
-                ConsolePrinter.FileNotFound("\nFile not found.\n");
+                ConsolePrinter.FileNotFound();
                 return;
             }
 
+            // Try to run the code
             try
             {
+                // This will read through the .txt file
                 using (streamReader = new StreamReader(path))
                 {
 
+                    // This will read each line in the .txt file as long as the line is not null
                     while ((lineData = streamReader.ReadLine()) != null)
                     {
                         char[] delimiterChars = { '|', ':' };
                         string[] invoiceDetails = Regex.Split(lineData, "\r\n|\r|\n");
 
+                        // This will grab each line in the .txt file
                         foreach (var detail in invoiceDetails)
                         {
                             
-                            ConsolePrinter.LineSpace("");
-                            //Console.WriteLine(detail);
+                            ConsolePrinter.LineSpace();
+
+                            // This will split the string based on whatever character delimination is set
                             string[] content = detail.Split(delimiterChars);
 
-                            ConsolePrinter.PrintTopOfInvoice("Invoice Number:", content[0]);
+                            ConsolePrinter.PrintInvoiceNumber(content[0]);
                             
-
+                            // This will split the date which is in the format of YEAR/DAY/MONTH
                             string[] dateGrabbed = content[1].Split('/');
+
                             string year = "";
                             string month = "";
                             string day = "";
                             int incrementing = 0;
 
+                            // This will loop through the array containing the date and assign it to the right varaible
                             foreach (var date in dateGrabbed)
                             {
                                 if(incrementing == 0)
@@ -78,83 +91,50 @@ namespace COMP3602Assign03
                                 {
                                     day = date;
                                 }
+
                                 incrementing++;
 
+                                // This just resets the increment back to 0
                                 if(incrementing == 3)
                                 {
                                     incrementing = 0;
                                 }
                             }
 
+                            // Converting the string to a int
                             int intMonth = Int32.Parse(month);
-                            string monthTitle = "";
 
-                            if(intMonth == 1)
-                            {
-                                monthTitle = "Jan";
-                            } 
-                            else if(intMonth == 2)
-                            {
-                                monthTitle = "Feb";
-                            } 
-                            else if (intMonth == 3)
-                            {
-                                monthTitle = "Mar";
-                            }
-                            else if (intMonth == 4)
-                            {
-                                monthTitle = "Apr";
-                            }
-                            else if (intMonth == 5)
-                            {
-                                monthTitle = "May";
-                            }
-                            else if (intMonth == 6)
-                            {
-                                monthTitle = "Jun";
-                            }
-                            else if (intMonth == 7)
-                            {
-                                monthTitle = "Jul";
-                            }
-                            else if (intMonth == 8)
-                            {
-                                monthTitle = "Aug";
-                            }
-                            else if (intMonth == 9)
-                            {
-                                monthTitle = "Sep";
-                            }
-                            else if (intMonth == 10)
-                            {
-                                monthTitle = "Oct";
-                            }
-                            else if (intMonth == 11)
-                            {
-                                monthTitle = "Nov";
-                            }
-                            else if (intMonth == 12)
-                            {
-                                monthTitle = "Dec";
-                            }
+                            // This will call the MonthTitle method to grab the right month text
+                            string monthTitle = MonthTitle(intMonth);
 
-                            ConsolePrinter.PrintTopOfInvoice("Invoice Date:", $"{monthTitle} {day}, {year}");
+                            ConsolePrinter.PrintInvoiceDate(monthTitle, day, year);
 
-
+                            // Converts the string to a int
                             int termsNumberConversion = Int32.Parse(content[2]);
+
+                            // Grabbing the percentage value in the terms
                             double termsNumberConversionCalculation = Convert.ToDouble(termsNumberConversion / 100.0);
 
+                            // Removes the numbers after the decminal place
                             termsNumberConversionCalculation = Math.Truncate(termsNumberConversionCalculation);
+
+                            //Converts the percentage back to a double
                             termsNumberConversionCalculation = Convert.ToDouble(termsNumberConversionCalculation);
+
+                            // Converts the percentage to two decminal places
                             string convertedPercentage = String.Format("{0:0.00}", termsNumberConversionCalculation);
 
-
+                            // Rounds the number to two decimal places
                             double percentage = Math.Round(termsNumberConversionCalculation, 2);
+
+                            // Calculates the remainder
                             int remainder = termsNumberConversion % 100;
 
+                            // Converts string to int
                             int intDay = Int32.Parse(day);
                             int intYear = Int32.Parse(year);
 
+                            // calculating the number of days in a month including leap years
                             int[] listThirtyOne = new int[] { 1, 3, 5, 7, 8, 10, 12 };
                             int[] listThirty = new int[] { 4,6,9,11 };
 
@@ -173,6 +153,7 @@ namespace COMP3602Assign03
                                 daysInMonth = 28;
                             }
 
+                            // Calculating the discount recieved and when it will expire
                             int discountedEndDay = intDay + remainder;
 
                             if(discountedEndDay > daysInMonth)
@@ -185,74 +166,19 @@ namespace COMP3602Assign03
                                 discountedEndDay = discountedEndDay - daysInMonth;
                             }
 
-                            if (intMonth == 1)
-                            {
-                                monthTitle = "Jan";
-                            }
-                            else if (intMonth == 2)
-                            {
-                                monthTitle = "Feb";
-                            }
-                            else if (intMonth == 3)
-                            {
-                                monthTitle = "Mar";
-                            }
-                            else if (intMonth == 4)
-                            {
-                                monthTitle = "Apr";
-                            }
-                            else if (intMonth == 5)
-                            {
-                                monthTitle = "May";
-                            }
-                            else if (intMonth == 6)
-                            {
-                                monthTitle = "Jun";
-                            }
-                            else if (intMonth == 7)
-                            {
-                                monthTitle = "Jul";
-                            }
-                            else if (intMonth == 8)
-                            {
-                                monthTitle = "Aug";
-                            }
-                            else if (intMonth == 9)
-                            {
-                                monthTitle = "Sep";
-                            }
-                            else if (intMonth == 10)
-                            {
-                                monthTitle = "Oct";
-                            }
-                            else if (intMonth == 11)
-                            {
-                                monthTitle = "Nov";
-                            }
-                            else if (intMonth == 12)
-                            {
-                                monthTitle = "Dec";
-                            }
+                            monthTitle = MonthTitle(intMonth);
 
 
-                            ConsolePrinter.PrintTopOfInvoice("Discount Date:", $"{monthTitle} {discountedEndDay}, {intYear}");
+                            ConsolePrinter.PrintDiscountDate(monthTitle, discountedEndDay, intYear);
+                            ConsolePrinter.PrintTerms(convertedPercentage, remainder);
 
+                            ConsolePrinter.PrintDottedLines(numberOfLines);
 
-                            ConsolePrinter.PrintTopOfInvoice("Terms:", $"{convertedPercentage}% {remainder} days ADI");
+                            ConsolePrinter.InvoiceTitle();
 
-                            ConsolePrinter.PrintDottedLines(new string('-', 60));
+                            ConsolePrinter.PrintDottedLines(numberOfLines);
 
-                            ConsolePrinter.InvoiceTitle("Qty", "SKU", "Description", "Price", "PST", "Ext");
-
-                            ConsolePrinter.PrintDottedLines(new string('-', 60));
-
-                            //Console.WriteLine(content[3].GetType());
-                            //Console.WriteLine(double.Parse(content[3]));
-                            //double quantity = double.Parse(content[3]);
-                            //double price = double.Parse(content[6]);
-
-                            //double cost = quantity * price;
-
+                            // Storing the number of items that will be sold
                             string[] selling = detail.Split('|');
                             selling = selling.Skip(1).ToArray();
 
@@ -267,9 +193,9 @@ namespace COMP3602Assign03
 
                             double subTotal = 0.0;
 
+                            // Grabbing information for one product line at a time
                             foreach (var sale in selling)
                             {
-                                //Console.WriteLine(sale);
                                 double quantity = double.Parse(content[firstPosition]);
                                 double price = double.Parse(content[fourthPosition]);
                                 double cost = quantity * price;
@@ -288,31 +214,34 @@ namespace COMP3602Assign03
                                 subTotal += cost;
                             }
 
-                            ConsolePrinter.PrintDottedLines(new string('-', 60));
+                            ConsolePrinter.PrintDottedLines(numberOfLines);
 
-                            ConsolePrinter.SubTotals("Subtotal:", subTotal);
+                            ConsolePrinter.SubTotal(subTotal);
 
                             double gst = 0.05;
                             double gstPay = subTotal * gst;
-                            ConsolePrinter.SubTotals("GST:", gstPay);
 
+                            ConsolePrinter.Gst(gstPay);
+
+                            // Checking to see if any PST is needed
                             if(pstTotal > 0.0)
                             {
-                                ConsolePrinter.SubTotals("PST:", pstTotal);
+                                ConsolePrinter.Pst(pstTotal);
                             }
 
-                            ConsolePrinter.PrintDottedLines(new string('-', 60));
+                            ConsolePrinter.PrintDottedLines(numberOfLines);
 
                             double total = subTotal + gstPay + pstTotal;
-                            ConsolePrinter.Totals("Total:", total);
-                            ConsolePrinter.LineSpace("");
+
+                            ConsolePrinter.Total(total);
+                            ConsolePrinter.LineSpace();
 
                             double percentageDecimal = percentage / 100.0;
 
                             double discountTotal = Convert.ToDouble(total) * percentageDecimal;
-                            ConsolePrinter.Discount("Discount:", discountTotal);
 
-                            ConsolePrinter.LineSpace("");
+                            ConsolePrinter.Discount(discountTotal);
+                            ConsolePrinter.LineSpace();
                         }
                     }
                 }
@@ -320,10 +249,68 @@ namespace COMP3602Assign03
             // this block will execute if an exception is thrown in the try block
             catch (Exception ex)
             {
-                ConsolePrinter.TryError($"\n{ex.Message}\n");
+                ConsolePrinter.TryError(ex.Message);
             }
 
-            ConsolePrinter.LineSpace("");
+            ConsolePrinter.LineSpace();
+        }
+
+        // Converting the number month to a String month
+        static string MonthTitle(int intMonth)
+        {
+
+            string monthTitle = "";
+
+            if (intMonth == 1)
+            {
+                monthTitle = "Jan";
+            }
+            else if (intMonth == 2)
+            {
+                monthTitle = "Feb";
+            }
+            else if (intMonth == 3)
+            {
+                monthTitle = "Mar";
+            }
+            else if (intMonth == 4)
+            {
+                monthTitle = "Apr";
+            }
+            else if (intMonth == 5)
+            {
+                monthTitle = "May";
+            }
+            else if (intMonth == 6)
+            {
+                monthTitle = "Jun";
+            }
+            else if (intMonth == 7)
+            {
+                monthTitle = "Jul";
+            }
+            else if (intMonth == 8)
+            {
+                monthTitle = "Aug";
+            }
+            else if (intMonth == 9)
+            {
+                monthTitle = "Sep";
+            }
+            else if (intMonth == 10)
+            {
+                monthTitle = "Oct";
+            }
+            else if (intMonth == 11)
+            {
+                monthTitle = "Nov";
+            }
+            else if (intMonth == 12)
+            {
+                monthTitle = "Dec";
+            }
+
+            return monthTitle;
         }
     }
 }
