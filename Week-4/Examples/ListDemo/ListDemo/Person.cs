@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace ListDemo
 {
+    // this is a data class as well
     class Person
     {
         public string FirstName { get; set; }

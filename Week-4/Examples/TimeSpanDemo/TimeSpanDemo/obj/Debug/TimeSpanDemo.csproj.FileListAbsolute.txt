@@ -4,3 +4,11 @@ D:\Work\COMP2614_Fall2019\Week04\Examples\TimeSpanDemo\TimeSpanDemo\bin\Debug\Ti
 D:\Work\COMP2614_Fall2019\Week04\Examples\TimeSpanDemo\TimeSpanDemo\obj\Debug\TimeSpanDemo.csprojAssemblyReference.cache
 D:\Work\COMP2614_Fall2019\Week04\Examples\TimeSpanDemo\TimeSpanDemo\obj\Debug\TimeSpanDemo.exe
 D:\Work\COMP2614_Fall2019\Week04\Examples\TimeSpanDemo\TimeSpanDemo\obj\Debug\TimeSpanDemo.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-4\Examples\TimeSpanDemo\TimeSpanDemo\bin\Debug\TimeSpanDemo.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-4\Examples\TimeSpanDemo\TimeSpanDemo\bin\Debug\TimeSpanDemo.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-4\Examples\TimeSpanDemo\TimeSpanDemo\bin\Debug\TimeSpanDemo.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-4\Examples\TimeSpanDemo\TimeSpanDemo\obj\Debug\TimeSpanDemo.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-4\Examples\TimeSpanDemo\TimeSpanDemo\obj\Debug\TimeSpanDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-4\Examples\TimeSpanDemo\TimeSpanDemo\obj\Debug\TimeSpanDemo.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-4\Examples\TimeSpanDemo\TimeSpanDemo\obj\Debug\TimeSpanDemo.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-4\Examples\TimeSpanDemo\TimeSpanDemo\obj\Debug\TimeSpanDemo.pdb

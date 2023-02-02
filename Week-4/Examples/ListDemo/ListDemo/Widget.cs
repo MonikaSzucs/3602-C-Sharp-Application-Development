@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 
 namespace ListDemo
 {
+    // This is a data class
+    // When you need to store items you do this
     class Widget
     {
         public int Id { get; set; }
