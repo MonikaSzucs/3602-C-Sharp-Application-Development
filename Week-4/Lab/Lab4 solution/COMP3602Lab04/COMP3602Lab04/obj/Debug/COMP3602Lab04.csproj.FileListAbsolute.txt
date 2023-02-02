@@ -1,0 +1,7 @@
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week04\Lab04Solution\COMP3602Lab04\COMP3602Lab04\bin\Debug\COMP3602Lab04.exe.config
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week04\Lab04Solution\COMP3602Lab04\COMP3602Lab04\bin\Debug\COMP3602Lab04.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week04\Lab04Solution\COMP3602Lab04\COMP3602Lab04\bin\Debug\COMP3602Lab04.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week04\Lab04Solution\COMP3602Lab04\COMP3602Lab04\obj\Debug\COMP3602Lab04.csproj.AssemblyReference.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week04\Lab04Solution\COMP3602Lab04\COMP3602Lab04\obj\Debug\COMP3602Lab04.csproj.CoreCompileInputs.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week04\Lab04Solution\COMP3602Lab04\COMP3602Lab04\obj\Debug\COMP3602Lab04.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week04\Lab04Solution\COMP3602Lab04\COMP3602Lab04\obj\Debug\COMP3602Lab04.pdb
