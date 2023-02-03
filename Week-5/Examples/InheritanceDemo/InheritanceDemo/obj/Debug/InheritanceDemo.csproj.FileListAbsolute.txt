@@ -1,0 +1,14 @@
+D:\Work\COMP2614_Fall2019\Week05\Example\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.exe.config
+D:\Work\COMP2614_Fall2019\Week05\Example\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.exe
+D:\Work\COMP2614_Fall2019\Week05\Example\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.pdb
+D:\Work\COMP2614_Fall2019\Week05\Example\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week05\Example\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.exe
+D:\Work\COMP2614_Fall2019\Week05\Example\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\InheritanceDemo\InheritanceDemo\bin\Debug\InheritanceDemo.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\InheritanceDemo\InheritanceDemo\obj\Debug\InheritanceDemo.pdb

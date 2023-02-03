@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32126.317
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SQLCrudExample", "SQLCrudExample\SQLCrudExample.csproj", "{2C61F317-B060-40DC-A2A2-72D3462B942A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2C61F317-B060-40DC-A2A2-72D3462B942A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C61F317-B060-40DC-A2A2-72D3462B942A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C61F317-B060-40DC-A2A2-72D3462B942A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C61F317-B060-40DC-A2A2-72D3462B942A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {35415467-5079-4EA5-A5DA-983EB803E255}
+	EndGlobalSection
+EndGlobal

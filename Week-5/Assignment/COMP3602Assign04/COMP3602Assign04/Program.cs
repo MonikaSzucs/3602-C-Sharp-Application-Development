@@ -1,0 +1,38 @@
+﻿using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace COMP3602Assign04
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            StreamReader streamReader = null;
+
+            string path;
+            string lineData;
+            string numberOfLines = new string('-', 60);
+
+            ConsolePrinter.PrintNaturalOrderTitle();
+            ConsolePrinter.PrintChartTitle();
+            ConsolePrinter.PrintDottedLines(numberOfLines);
+            ConsolePrinter.PrintChartDetails("4L Milk", 3.87, "Mon Oct 14, 2019");
+            ConsolePrinter.PrintDottedLines(numberOfLines);
+            ConsolePrinter.PrintTotal(123);
+
+            ConsolePrinter.PrintLineBreaks();
+            ConsolePrinter.PrintLineBreaks();
+
+            ConsolePrinter.PrintSortedOrderTitle();
+            ConsolePrinter.PrintChartTitle();
+            ConsolePrinter.PrintDottedLines(numberOfLines);
+            ConsolePrinter.PrintChartDetails("4L Milk", 3.87, "Mon Oct 14, 2019");
+            ConsolePrinter.PrintDottedLines(numberOfLines);
+            ConsolePrinter.PrintTotal(123);
+        }
+    }
+}

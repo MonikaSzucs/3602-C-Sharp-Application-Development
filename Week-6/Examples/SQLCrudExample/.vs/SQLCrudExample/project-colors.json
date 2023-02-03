@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "2c61f317-b060-40dc-a2a2-72d3462b942a": {
+      "ProjectGuid": "2c61f317-b060-40dc-a2a2-72d3462b942a",
+      "DisplayName": "SQLCrudExample",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

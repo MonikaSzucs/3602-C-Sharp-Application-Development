@@ -1,0 +1,32 @@
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\bin\Debug\net5.0\EventsDemo.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\bin\Debug\net5.0\EventsDemo.deps.json
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\bin\Debug\net5.0\EventsDemo.runtimeconfig.json
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\bin\Debug\net5.0\EventsDemo.runtimeconfig.dev.json
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\bin\Debug\net5.0\EventsDemo.dll
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\bin\Debug\net5.0\ref\EventsDemo.dll
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\bin\Debug\net5.0\EventsDemo.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.csproj.AssemblyReference.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.GeneratedMSBuildEditorConfig.editorconfig
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.AssemblyInfoInputs.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.AssemblyInfo.cs
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.csproj.CoreCompileInputs.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.dll
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\ref\EventsDemo.dll
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week05\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.genruntimeconfig.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\bin\Debug\net5.0\EventsDemo.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\bin\Debug\net5.0\EventsDemo.deps.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\bin\Debug\net5.0\EventsDemo.runtimeconfig.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\bin\Debug\net5.0\EventsDemo.runtimeconfig.dev.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\bin\Debug\net5.0\EventsDemo.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\bin\Debug\net5.0\EventsDemo.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.AssemblyInfoInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.AssemblyInfo.cs
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\refint\EventsDemo.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\EventsDemo.genruntimeconfig.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Examples\EventsDemo\EventsDemo\obj\Debug\net5.0\ref\EventsDemo.dll

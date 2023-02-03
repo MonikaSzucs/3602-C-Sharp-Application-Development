@@ -1,0 +1,6 @@
+D:\Work\COMP2614_Fall2016\Week06\Online\Examples\FileInfoExample\FileInfoExample\bin\Debug\FileInfoExample.exe.config
+D:\Work\COMP2614_Fall2016\Week06\Online\Examples\FileInfoExample\FileInfoExample\bin\Debug\FileInfoExample.exe
+D:\Work\COMP2614_Fall2016\Week06\Online\Examples\FileInfoExample\FileInfoExample\bin\Debug\FileInfoExample.pdb
+D:\Work\COMP2614_Fall2016\Week06\Online\Examples\FileInfoExample\FileInfoExample\obj\Debug\FileInfoExample.csprojResolveAssemblyReference.cache
+D:\Work\COMP2614_Fall2016\Week06\Online\Examples\FileInfoExample\FileInfoExample\obj\Debug\FileInfoExample.exe
+D:\Work\COMP2614_Fall2016\Week06\Online\Examples\FileInfoExample\FileInfoExample\obj\Debug\FileInfoExample.pdb

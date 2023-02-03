@@ -1,0 +1,8 @@
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Lab\COMP3602Lab05\COMP3602Lab05\obj\Debug\COMP3602Lab05.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Lab\COMP3602Lab05\COMP3602Lab05\obj\Debug\COMP3602Lab05.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Lab\COMP3602Lab05\COMP3602Lab05\obj\Debug\COMP3602Lab05.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Lab\COMP3602Lab05\COMP3602Lab05\bin\Debug\COMP3602Lab05.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Lab\COMP3602Lab05\COMP3602Lab05\bin\Debug\COMP3602Lab05.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Lab\COMP3602Lab05\COMP3602Lab05\bin\Debug\COMP3602Lab05.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Lab\COMP3602Lab05\COMP3602Lab05\obj\Debug\COMP3602Lab05.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-5\Lab\COMP3602Lab05\COMP3602Lab05\obj\Debug\COMP3602Lab05.pdb

@@ -1,0 +1,6 @@
+D:\Work\COMP2614_Fall2016\Week06\Online\Examples\DirectoryInfoExample\DirectoryInfoExample\bin\Debug\DirectoryInfoExample.exe.config
+D:\Work\COMP2614_Fall2016\Week06\Online\Examples\DirectoryInfoExample\DirectoryInfoExample\bin\Debug\DirectoryInfoExample.exe
+D:\Work\COMP2614_Fall2016\Week06\Online\Examples\DirectoryInfoExample\DirectoryInfoExample\bin\Debug\DirectoryInfoExample.pdb
+D:\Work\COMP2614_Fall2016\Week06\Online\Examples\DirectoryInfoExample\DirectoryInfoExample\obj\Debug\DirectoryInfoExample.csprojResolveAssemblyReference.cache
+D:\Work\COMP2614_Fall2016\Week06\Online\Examples\DirectoryInfoExample\DirectoryInfoExample\obj\Debug\DirectoryInfoExample.exe
+D:\Work\COMP2614_Fall2016\Week06\Online\Examples\DirectoryInfoExample\DirectoryInfoExample\obj\Debug\DirectoryInfoExample.pdb

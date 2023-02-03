@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "Pbk6oiI/dqfPpMMip5+nPzkEFw9Pw0Jc1ArWY5yQ/2Mke0P07KMs4hjkA3bWxpGgTHWwStZ0F34b2un8LhpNqw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\mszuc\\Desktop\\3602-C-Sharp-Application-Development\\Week-5\\Examples\\EventsDemo\\EventsDemo\\EventsDemo.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\mszuc\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\mszuc\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\mszuc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\mszuc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.17\\microsoft.netcore.app.host.win-x64.5.0.17.nupkg.sha512"
+  ],
+  "logs": []
+}
