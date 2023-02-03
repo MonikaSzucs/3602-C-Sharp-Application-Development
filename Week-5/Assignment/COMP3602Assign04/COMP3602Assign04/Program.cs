@@ -33,6 +33,18 @@ namespace COMP3602Assign04
             ConsolePrinter.PrintChartDetails("4L Milk", 3.87, "Mon Oct 14, 2019");
             ConsolePrinter.PrintDottedLines(numberOfLines);
             ConsolePrinter.PrintTotal(123);
+
+            if(args.Length < 1)
+            {
+                Console.WriteLine("ERROR: Missing Argument");
+                return;
+            }
+
+            string filePath = args[0];
+
+            if(!File.Exists(filePath)) {
+                Console.WriteLine("ERROR: File not found");
+            }
         }
     }
 }

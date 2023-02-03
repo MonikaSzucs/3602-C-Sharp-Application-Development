@@ -16,26 +16,24 @@ namespace COMP3602Assign04
         Range,
         Refrigerator
     }
-    internal class ApplianceItem
+    internal class ApplianceItem : Item
     {
-        public static void Description()
+        public enum ApplianceTypeEnum
         {
-
+            Washer,
+            Dryer,
+            Dishwasher,
+            Oven,
+            Range,
+            Refrigerator
         }
 
-        public static void Price()
+        public ApplianceTypeEnum ApplianceType { get; }
+
+        public ApplianceItem(string description, double price, string sku, ApplianceTypeEnum applianceType)
+            : base(description, price, sku)
         {
-
-        }
-
-        public static void Sku()
-        {
-
-        }
-
-        public static void ApplianceType()
-        {
-
+            ApplianceType = applianceType;
         }
     }
 }

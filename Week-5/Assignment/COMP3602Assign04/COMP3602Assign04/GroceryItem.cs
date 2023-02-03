@@ -6,26 +6,14 @@ using System.Threading.Tasks;
 
 namespace COMP3602Assign04
 {
-    class GroceryItem
+    class GroceryItem : Item
     {
-        public static void Description()
+        public DateTime ExpirationDate { get; }
+
+        public GroceryItem(string description, double price, string sku, DateTime expirationDate)
+            : base(description, price, sku)
         {
-
-        }
-
-        public static void Price()
-        {
-
-        }
-
-        public static void Sku()
-        {
-
-        }
-
-        public DateTime ExpirationDate()
-        {
-            return DateTime.Now;
+            ExpirationDate= expirationDate;
         }
     }
 }

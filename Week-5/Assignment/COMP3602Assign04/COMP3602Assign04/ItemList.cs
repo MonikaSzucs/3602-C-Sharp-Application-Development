@@ -6,10 +6,14 @@ using System.Threading.Tasks;
 
 namespace COMP3602Assign04
 {
-    class ItemList
+    class ItemList : List<Item>
     {
-        public double TotalPrice() {
-            return 0.0;
+        public double TotalPrice 
+        {
+            get
+            {
+                return this.Sum(i => i.Price);
+            }
         }
     }
 }

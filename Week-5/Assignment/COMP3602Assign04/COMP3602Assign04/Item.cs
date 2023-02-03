@@ -9,19 +9,20 @@ namespace COMP3602Assign04
 {
     abstract class Item
     {
-        public static void Description()
-        {
+        public string Description { get; set; }
+        public double Price { get; set; }
+        public string Sku { get; }
 
+        public Item(string description, double price, string sku)
+        {
+            Description = description;
+            Price = price;
+            Sku = sku;
         }
-
-        public static void Price()
+        
+        public int CompareTo(Item other)
         {
-
-        }
-
-        public static void Sku()
-        {
-
+            return -Price.CompareTo(other.Price);
         }
     }
 }

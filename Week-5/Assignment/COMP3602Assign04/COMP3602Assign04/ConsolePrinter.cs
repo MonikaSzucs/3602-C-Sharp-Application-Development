@@ -40,7 +40,7 @@ namespace COMP3602Assign04
 
         public static void PrintChartDetails(string item, double price, string expires)
         {
-            string formatStringHeading = "{0, -15} {1,12} {2,2} {3,-9}";
+            string formatStringHeading = "{0, -15} {1,12:C} {2,2} {3,-9}";
 
             Console.WriteLine(formatStringHeading,
                             item,
@@ -51,7 +51,7 @@ namespace COMP3602Assign04
 
         public static void PrintTotal(double total)
         {
-            string formatStringHeading = "{0, -15} {1,12}";
+            string formatStringHeading = "{0, -15} {1,12:C}";
 
             Console.WriteLine(formatStringHeading,
                             "Total",
