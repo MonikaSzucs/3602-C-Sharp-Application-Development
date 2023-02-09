@@ -214,7 +214,7 @@ namespace COMP3602Assign03
                             double subTotal = 0.0;
                             int arrayNumberCount = 0;
 
-                            List<int> myList = new List<int>();
+                            List<Invoices> myList = new List<Invoices>();
 
                             // Grabbing information for one product line at a time
                             foreach (var sale in selling)
@@ -233,7 +233,8 @@ namespace COMP3602Assign03
                                 int counter = 0;
 
 
-                                myList.Add(new Invoices(int.Parse(content[firstPosition]), content[secondPosition], content[thirdPosition], decimal.Parse(content[fourthPosition]), content[fifthPosition], cost )));
+                                Invoices inv = new Invoices(int.Parse(content[firstPosition]), content[secondPosition], content[thirdPosition], decimal.Parse(content[fourthPosition]), content[fifthPosition], cost );
+                                myList.Add(inv);
                                 firstPosition += 5;
                                 secondPosition += 5;
                                 thirdPosition += 5;
@@ -257,7 +258,7 @@ namespace COMP3602Assign03
                                 Description = "abc",
                                 Price = 12.20m,
                                 Pst = "N",
-                                Ext = 10.20m
+                                Ext = 10.20
                             }); ;
 
                         }
