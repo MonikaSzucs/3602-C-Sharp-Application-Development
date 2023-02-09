@@ -17,8 +17,24 @@
 
 ## Inheritance two rules:
 -	Is a rule
-        Derived class must be the same as the derived class
 -	100% rule
 
 
+## Method Virtual means
+- 
+
+## polymorphic behaviour
+- is the namespace
+- prints the name space and class
+
+## For This Lab
+- Look at Polymorphism Demo V5 Lab
+
+
+## Lab and Assignment 
+- both due next week
+- use a UI
+- - use Visual paradigm. UML diagrams always do this.
+
+# Practice Git
 

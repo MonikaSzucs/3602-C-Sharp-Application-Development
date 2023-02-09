@@ -15,6 +15,8 @@ namespace PolymorphismDemoV3
             Id = id;
         }
 
+        // The calculation is different in each class so you want both classes hourly and salary
+        // are different thats why you use virtual
         public virtual decimal CalculatePay()
         {
             return 0m;

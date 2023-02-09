@@ -8,6 +8,8 @@ namespace PolymorphicBehaviour
 {
     class BaseClass
     {
+        // The equal to is a optional parameter  which can or cannot be passed.
+        // If nothing passed then it will make the data equal to base
         public virtual void OuterPrint(string data = "base")
         {
             innerPrint($"Base Class Outer Print from {data}");

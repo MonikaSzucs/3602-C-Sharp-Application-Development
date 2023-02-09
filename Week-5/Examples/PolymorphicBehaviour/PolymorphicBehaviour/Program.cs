@@ -14,8 +14,10 @@ namespace PolymorphicBehaviour
 
             DerivedClass derivedClass = new DerivedClass();
             BaseClass baseClass = derivedClass;
+            // Object is same as the derived class
             object objectClass = baseClass;
 
+            // 1 object on the heap the stack points at the same heap
             Console.WriteLine(derivedClass);
             Console.WriteLine(baseClass);
             Console.WriteLine(objectClass);

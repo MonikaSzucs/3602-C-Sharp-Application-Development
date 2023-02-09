@@ -10,6 +10,7 @@ namespace PolymorphicBehaviour
     {
         public override void OuterPrint(string data = "derived")
         {
+            // must put the word base to refer to the base function
             base.OuterPrint(data);
             innerPrintProtected(data);            
         }
