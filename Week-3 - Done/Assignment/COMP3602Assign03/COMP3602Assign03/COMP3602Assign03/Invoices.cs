@@ -33,6 +33,8 @@ namespace COMP3602Assign03
         public int Terms { get; set; }
         public string ConvertedPercentage { get; set; }
         public int TermsNumberOfDays { get; set; }
+
+        public List<Invoices> InventoryInformation { get; set; }
         public int Quantity { get; set; }
         public string Sku { get; set; }
         public string Description { get; set; }

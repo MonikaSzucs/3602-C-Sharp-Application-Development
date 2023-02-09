@@ -36,5 +36,12 @@ namespace COMP3602Assign03
                 return totalOneProduct;
             }
         }
+
+        public List<Invoices> AllInvoices { 
+            get
+            {
+                return this;
+            } 
+        }
     }
 }

@@ -233,8 +233,8 @@ namespace COMP3602Assign03
                                 int counter = 0;
 
 
-                                Invoices inv = new Invoices(int.Parse(content[firstPosition]), content[secondPosition], content[thirdPosition], decimal.Parse(content[fourthPosition]), content[fifthPosition], cost );
-                                myList.Add(inv);
+                                myList.Add(new Invoices(int.Parse(content[firstPosition]), content[secondPosition], content[thirdPosition], decimal.Parse(content[fourthPosition]), content[fifthPosition], cost ));
+                                //myList.Add(inv);
                                 firstPosition += 5;
                                 secondPosition += 5;
                                 thirdPosition += 5;
@@ -254,12 +254,8 @@ namespace COMP3602Assign03
                                 Terms = termsNumberConversion,
                                 ConvertedPercentage = convertedPercentage,
                                 TermsNumberOfDays = remainder,
-                                Sku = "123456",
-                                Description = "abc",
-                                Price = 12.20m,
-                                Pst = "N",
-                                Ext = 10.20
-                            }); ;
+                                InventoryInformation = myList
+                            }); 
 
                         }
                     }
