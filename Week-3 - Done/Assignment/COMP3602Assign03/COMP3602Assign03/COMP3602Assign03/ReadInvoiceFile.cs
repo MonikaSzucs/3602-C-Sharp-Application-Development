@@ -10,8 +10,11 @@ namespace COMP3602Assign03
 {
     class ReadInvoiceFile
     {
-        public static InvoiceDetails GetInvoices(path)
+        public static InvoiceDetails GetInvoices(String[] args)
         {
+
+            InvoiceDetails invoiceItem = new InvoiceDetails();
+
             StreamReader streamReader = null;
 
             string lineData;
@@ -20,6 +23,27 @@ namespace COMP3602Assign03
             ConsolePrinter.PrintInvoiceTitle();
             ConsolePrinter.PrintDottedLines(numberOfLines);
 
+
+
+            string path = "";
+
+            // Checking to see if a file pathway is present
+            if (args.Length > 0)
+            {
+                path = args[0];
+            }
+            else
+            {
+                ConsolePrinter.Usage();
+                //return ;
+            }
+
+            // Checks to see if not file exists
+            if (!File.Exists(path))
+            {
+                ConsolePrinter.FileNotFound();
+                //return;
+            }
 
             // Try to run the code
             try
@@ -34,6 +58,13 @@ namespace COMP3602Assign03
                         char[] delimiterChars = { '|', ':' };
                         string[] invoiceDetails = Regex.Split(lineData, "\r\n|\r|\n");
 
+                        
+                        
+                        
+                        
+                        
+                        
+                        
                         // This will grab each line in the .txt file
                         foreach (var detail in invoiceDetails)
                         {
@@ -43,7 +74,7 @@ namespace COMP3602Assign03
                             // This will split the string based on whatever character delimination is set
                             string[] content = detail.Split(delimiterChars);
 
-                            ConsolePrinter.PrintInvoiceNumber(content[0]);
+                            string invoiceNumber = content[0];
 
                             // This will split the date which is in the format of YEAR/DAY/MONTH
                             string[] dateGrabbed = content[1].Split('/');
@@ -53,7 +84,6 @@ namespace COMP3602Assign03
                             string day = "";
                             int incrementing = 0;
 
-                            // This will loop through the array containing the date and assign it to the right varaible
                             foreach (var date in dateGrabbed)
                             {
                                 if (incrementing == 0)
@@ -78,16 +108,23 @@ namespace COMP3602Assign03
                                 }
                             }
 
+                            Console.WriteLine(year);
+                            Console.WriteLine(month);
+                            Console.WriteLine(day);
+                            Console.WriteLine(day);
+
                             // Converting the string to a int
-                            int intMonth = Int32.Parse(month);
-
+                            int invoiceIntMonth = Int32.Parse(month);
+                            int invoiceIntDay = Int32.Parse(day);
+                            int invoiceIntYear = Int32.Parse(year);
                             // This will call the MonthTitle method to grab the right month text
-                            string monthTitle = MonthTitle(intMonth);
+                            string monthTitle = MonthTitle(invoiceIntMonth);
 
-                            ConsolePrinter.PrintInvoiceDate(monthTitle, day, year);
 
-                            // Converts the string to a int
+
                             int termsNumberConversion = Int32.Parse(content[2]);
+
+                            Console.WriteLine(termsNumberConversion);
 
                             // Grabbing the percentage value in the terms
                             double termsNumberConversionCalculation = Convert.ToDouble(termsNumberConversion / 100.0);
@@ -101,15 +138,22 @@ namespace COMP3602Assign03
                             // Converts the percentage to two decminal places
                             string convertedPercentage = String.Format("{0:0.00}", termsNumberConversionCalculation);
 
+                            //Console.WriteLine(convertedPercentage);
+
+
+
+
                             // Rounds the number to two decimal places
                             double percentage = Math.Round(termsNumberConversionCalculation, 2);
 
                             // Calculates the remainder
                             int remainder = termsNumberConversion % 100;
 
+
                             // Converts string to int
-                            int intDay = Int32.Parse(day);
-                            int intYear = Int32.Parse(year);
+                            string discountedMonth = "";
+                            int discountIntDay = Int32.Parse(day);
+                            int discountIntYear = Int32.Parse(year);
 
                             // calculating the number of days in a month including leap years
                             int[] listThirtyOne = new int[] { 1, 3, 5, 7, 8, 10, 12 };
@@ -117,15 +161,15 @@ namespace COMP3602Assign03
 
                             int daysInMonth = 0;
 
-                            if (listThirtyOne.Contains(intMonth))
+                            if (listThirtyOne.Contains(invoiceIntMonth))
                             {
                                 daysInMonth = 31;
                             }
-                            else if (listThirty.Contains(intMonth))
+                            else if (listThirty.Contains(invoiceIntMonth))
                             {
                                 daysInMonth = 30;
                             }
-                            else if (((intYear % 4 == 0) && (intYear % 100 != 0) || (intYear % 400 == 0)) && intMonth == 2)
+                            else if (((discountIntYear % 4 == 0) && (discountIntYear % 100 != 0) || (discountIntYear % 400 == 0)) && invoiceIntMonth == 2)
                             {
                                 daysInMonth = 29;
                             }
@@ -135,29 +179,24 @@ namespace COMP3602Assign03
                             }
 
                             // Calculating the discount recieved and when it will expire
-                            int discountedEndDay = intDay + remainder;
+                            int discountedEndDay = discountIntDay + remainder;
 
                             if (discountedEndDay > daysInMonth)
                             {
-                                if (intMonth == 12)
+                                if (invoiceIntMonth == 12)
                                 {
-                                    intMonth = 1;
-                                    intYear += 1;
+                                    invoiceIntMonth = 1;
+                                    discountIntYear += 1;
                                 }
                                 discountedEndDay = discountedEndDay - daysInMonth;
                             }
 
-                            monthTitle = MonthTitle(intMonth);
+                            discountedMonth = MonthTitle(invoiceIntMonth);
 
 
-                            ConsolePrinter.PrintDiscountDate(monthTitle, discountedEndDay, intYear);
-                            ConsolePrinter.PrintTerms(convertedPercentage, remainder);
 
-                            ConsolePrinter.PrintDottedLines(numberOfLines);
 
-                            ConsolePrinter.InvoiceTitle();
 
-                            ConsolePrinter.PrintDottedLines(numberOfLines);
 
                             // Storing the number of items that will be sold
                             string[] selling = detail.Split('|');
@@ -173,10 +212,15 @@ namespace COMP3602Assign03
                             double pstTotal = 0.0;
 
                             double subTotal = 0.0;
+                            int arrayNumberCount = 0;
+
+                            List<int> myList = new List<int>();
 
                             // Grabbing information for one product line at a time
                             foreach (var sale in selling)
                             {
+                                arrayNumberCount += 6;
+
                                 double quantity = double.Parse(content[firstPosition]);
                                 double price = double.Parse(content[fourthPosition]);
                                 double cost = quantity * price;
@@ -186,7 +230,10 @@ namespace COMP3602Assign03
                                     pstTotal += (quantity * price) * pst;
                                 }
 
-                                ConsolePrinter.ProductLine(content[firstPosition], content[secondPosition], content[thirdPosition], content[fourthPosition], content[fifthPosition], cost.ToString());
+                                int counter = 0;
+
+
+                                myList.Add(new Invoices(int.Parse(content[firstPosition]), content[secondPosition], content[thirdPosition], decimal.Parse(content[fourthPosition]), content[fifthPosition], cost )));
                                 firstPosition += 5;
                                 secondPosition += 5;
                                 thirdPosition += 5;
@@ -195,45 +242,35 @@ namespace COMP3602Assign03
                                 subTotal += cost;
                             }
 
-                            ConsolePrinter.PrintDottedLines(numberOfLines);
+                            invoiceItem.Add(new Invoices {
+                                InvoiceNumber = invoiceNumber,
+                                Month = monthTitle,
+                                Day = invoiceIntDay,
+                                Year = invoiceIntYear,
+                                DiscountMonth = discountedMonth,
+                                DiscountDay = discountedEndDay,
+                                DiscountYear = discountIntYear,
+                                Terms = termsNumberConversion,
+                                ConvertedPercentage = convertedPercentage,
+                                TermsNumberOfDays = remainder,
+                                Sku = "123456",
+                                Description = "abc",
+                                Price = 12.20m,
+                                Pst = "N",
+                                Ext = 10.20m
+                            }); ;
 
-                            ConsolePrinter.SubTotal(subTotal);
-
-                            double gst = 0.05;
-                            double gstPay = subTotal * gst;
-
-                            ConsolePrinter.Gst(gstPay);
-
-                            // Checking to see if any PST is needed
-                            if (pstTotal > 0.0)
-                            {
-                                ConsolePrinter.Pst(pstTotal);
-                            }
-
-                            ConsolePrinter.PrintDottedLines(numberOfLines);
-
-                            double total = subTotal + gstPay + pstTotal;
-
-                            ConsolePrinter.Total(total);
-                            ConsolePrinter.LineSpace();
-
-                            double percentageDecimal = percentage / 100.0;
-
-                            double discountTotal = Convert.ToDouble(total) * percentageDecimal;
-
-                            ConsolePrinter.Discount(discountTotal);
-                            ConsolePrinter.LineSpace();
                         }
                     }
                 }
+                return invoiceItem;
             }
             // this block will execute if an exception is thrown in the try block
             catch (Exception ex)
             {
                 ConsolePrinter.TryError(ex.Message);
+                return invoiceItem;
             }
-
-            ConsolePrinter.LineSpace();
         }
 
         // Converting the number month to a String month

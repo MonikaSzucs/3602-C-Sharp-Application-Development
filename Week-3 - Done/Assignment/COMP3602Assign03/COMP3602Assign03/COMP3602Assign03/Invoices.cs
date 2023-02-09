@@ -8,11 +8,36 @@ namespace COMP3602Assign03
 {
     class Invoices
     {
-        public string Quantity { get; set; }
+        public Invoices() { }
+
+        public Invoices(int quantity, string sku, string description, decimal price, string pst, double ext) { 
+            Quantity = quantity;
+            Sku = sku;
+            Description = description;
+            Price = price;
+            Pst = pst;
+            Ext = ext;
+        }
+
+        public string InvoiceNumber { get; set; }
+        public string InvoiceDate { get; set; }
+        public string DiscountDate { get; set; }
+
+        public string DiscountMonth { get; set; }
+
+        public int DiscountDay { get; set; }
+        public int DiscountYear { get; set; }
+        public string Month { get; set; }
+        public int Day { get; set; }
+        public int Year { get; set; }
+        public int Terms { get; set; }
+        public string ConvertedPercentage { get; set; }
+        public int TermsNumberOfDays { get; set; }
+        public int Quantity { get; set; }
         public string Sku { get; set; }
         public string Description { get; set; }
         public decimal Price { get; set; }
-        public decimal Pst { get; set; }
-        public decimal Ext { get; set; }
+        public string Pst { get; set; }
+        public double Ext { get; set; }
     }
 }

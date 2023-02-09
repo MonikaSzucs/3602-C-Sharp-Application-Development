@@ -44,9 +44,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsolePrinter.cs" />
+    <Compile Include="CreateInvoiceFile.cs" />
     <Compile Include="InvoiceDetails.cs" />
-    <Compile Include="Invoices.cs" />
     <Compile Include="Program.cs" />
+    <Compile Include="ReadInvoiceFile.cs" />
+    <Compile Include="Invoices.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -8,11 +8,11 @@ namespace COMP3602Assign03
 {
     class InvoiceDetails : List<Invoices>
     {
-        public decimal TotalCost
+        public double TotalCost
         {
             get
             {
-                decimal total = 0;
+                double total = 0;
 
                 foreach (Invoices invoice in this)
                 {
