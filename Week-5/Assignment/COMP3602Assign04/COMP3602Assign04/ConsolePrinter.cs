@@ -62,5 +62,26 @@ namespace COMP3602Assign04
         {
             Console.WriteLine();
         }
+
+
+        public static void PrintInvoiceTitle()
+        {
+            Console.WriteLine();
+        }
+
+        public static void Usage()
+        {
+            Console.WriteLine();
+        }
+
+        public static void TryError(string ex)
+        {
+            Console.WriteLine(ex);
+        }
+
+        public static void FileNotFound()
+        {
+            Console.WriteLine();
+        }
     }
 }

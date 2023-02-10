@@ -4,7 +4,6 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using GroceryItem;
 
 namespace COMP3602Assign04
 {
@@ -12,10 +11,12 @@ namespace COMP3602Assign04
     {
         static void Main(string[] args)
         {
-            StreamReader streamReader = null;
+            ItemList items = (ItemList)ReadCSVFile.GetCSV(args);
+            Console.WriteLine(items);
 
-            GroceryItem items = ReadCSVFile.GetCSV(args);
 
+            
+            
             /*string path;
             string lineData;
             string numberOfLines = new string('-', 60);
