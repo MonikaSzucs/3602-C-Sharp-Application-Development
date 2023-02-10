@@ -24,7 +24,6 @@ namespace COMP3602Assign03
             ConsolePrinter.PrintDottedLines(numberOfLines);
 
 
-
             string path = "";
 
             // Checking to see if a file pathway is present
@@ -109,15 +108,17 @@ namespace COMP3602Assign03
 
 
                             int termsNumberConversion = Int32.Parse(content[2]);
+                           
 
                             // Grabbing the percentage value in the terms
-                            double termsNumberConversionCalculation = Convert.ToDouble(termsNumberConversion / 100.0);
+                            float termsNumberConversionCalculation = (float)Convert.ToDouble(termsNumberConversion / 100.0);
+                        
 
                             // Removes the numbers after the decminal place
-                            termsNumberConversionCalculation = Math.Truncate(termsNumberConversionCalculation);
+                            termsNumberConversionCalculation = (float)Math.Truncate(termsNumberConversionCalculation);
 
                             //Converts the percentage back to a double
-                            termsNumberConversionCalculation = Convert.ToDouble(termsNumberConversionCalculation);
+                            termsNumberConversionCalculation = (float)Convert.ToDouble(termsNumberConversionCalculation);
 
                             // Converts the percentage to two decminal places
                             string convertedPercentage = String.Format("{0:0.00}", termsNumberConversionCalculation);
@@ -128,7 +129,7 @@ namespace COMP3602Assign03
 
 
                             // Rounds the number to two decimal places
-                            double percentage = Math.Round(termsNumberConversionCalculation, 2);
+                            float percentage = (float)Math.Round(termsNumberConversionCalculation, 2);
 
                             // Calculates the remainder
                             int remainder = termsNumberConversion % 100;
@@ -177,11 +178,6 @@ namespace COMP3602Assign03
 
                             discountedMonth = MonthTitle(invoiceIntMonth);
 
-
-
-
-
-
                             // Storing the number of items that will be sold
                             string[] selling = detail.Split('|');
                             selling = selling.Skip(1).ToArray();
@@ -192,10 +188,10 @@ namespace COMP3602Assign03
                             int fourthPosition = 6;
                             int fifthPosition = 7;
 
-                            double pst = 0.07;
-                            double pstTotal = 0.0;
+                            float pst = 0.07f;
+                            float pstTotal = 0.0f;
 
-                            double subTotal = 0.0;
+                            float subTotal = 0.0f;
                             int arrayNumberCount = 0;
 
                             List<Invoices> myList = new List<Invoices>();
@@ -205,9 +201,9 @@ namespace COMP3602Assign03
                             {
                                 arrayNumberCount += 6;
 
-                                double quantity = double.Parse(content[firstPosition]);
-                                double price = double.Parse(content[fourthPosition]);
-                                double cost = quantity * price;
+                                float quantity = float.Parse(content[firstPosition]);
+                                float price = float.Parse(content[fourthPosition]);
+                                float cost = quantity * price;
 
                                 if (content[fifthPosition] == "Y")
                                 {
@@ -227,14 +223,14 @@ namespace COMP3602Assign03
                                 subTotal += cost;
                             }
 
-                            double gst = 0.05;
-                            double gstPay = subTotal * gst;
+                            float gst = 0.05f;
+                            float gstPay = subTotal * gst;
 
-                            double total = subTotal + gstPay + pstTotal;
+                            float total = subTotal + gstPay + pstTotal;
 
-                            double percentageDecimal = percentage / 100.0;
+                            float percentageDecimal = percentage / 100.0f;
 
-                            double discountTotal = Convert.ToDouble(total) * percentageDecimal;
+                            float discountTotal = total * percentageDecimal;
 
                             invoiceItem.Add(new Invoices {
                                 InvoiceNumber = invoiceNumber,
