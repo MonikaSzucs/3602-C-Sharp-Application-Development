@@ -44,7 +44,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsolePrinter.cs" />
-    <Compile Include="CreateInvoiceFile.cs" />
     <Compile Include="InvoiceDetails.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="ReadInvoiceFile.cs" />
