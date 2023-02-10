@@ -41,5 +41,14 @@ namespace COMP3602Assign03
         public decimal Price { get; set; }
         public string Pst { get; set; }
         public double Ext { get; set; }
+
+        public double SubTotal { get; set; }
+        public double GstPay { get; set; }
+
+        public double PstPay { get; set; }
+
+        public double GrandTotal { get; set; }
+
+        public double DiscountTotal { get; set; }
     }
 }

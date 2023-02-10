@@ -57,19 +57,10 @@ namespace COMP3602Assign03
                     {
                         char[] delimiterChars = { '|', ':' };
                         string[] invoiceDetails = Regex.Split(lineData, "\r\n|\r|\n");
-
-                        
-                        
-                        
-                        
-                        
-                        
                         
                         // This will grab each line in the .txt file
                         foreach (var detail in invoiceDetails)
                         {
-
-                            ConsolePrinter.LineSpace();
 
                             // This will split the string based on whatever character delimination is set
                             string[] content = detail.Split(delimiterChars);
@@ -108,11 +99,6 @@ namespace COMP3602Assign03
                                 }
                             }
 
-                            Console.WriteLine(year);
-                            Console.WriteLine(month);
-                            Console.WriteLine(day);
-                            Console.WriteLine(day);
-
                             // Converting the string to a int
                             int invoiceIntMonth = Int32.Parse(month);
                             int invoiceIntDay = Int32.Parse(day);
@@ -123,8 +109,6 @@ namespace COMP3602Assign03
 
 
                             int termsNumberConversion = Int32.Parse(content[2]);
-
-                            Console.WriteLine(termsNumberConversion);
 
                             // Grabbing the percentage value in the terms
                             double termsNumberConversionCalculation = Convert.ToDouble(termsNumberConversion / 100.0);
@@ -243,6 +227,15 @@ namespace COMP3602Assign03
                                 subTotal += cost;
                             }
 
+                            double gst = 0.05;
+                            double gstPay = subTotal * gst;
+
+                            double total = subTotal + gstPay + pstTotal;
+
+                            double percentageDecimal = percentage / 100.0;
+
+                            double discountTotal = Convert.ToDouble(total) * percentageDecimal;
+
                             invoiceItem.Add(new Invoices {
                                 InvoiceNumber = invoiceNumber,
                                 Month = monthTitle,
@@ -254,7 +247,12 @@ namespace COMP3602Assign03
                                 Terms = termsNumberConversion,
                                 ConvertedPercentage = convertedPercentage,
                                 TermsNumberOfDays = remainder,
-                                InventoryInformation = myList
+                                InventoryInformation = myList,
+                                SubTotal = subTotal,
+                                GstPay = gstPay,
+                                PstPay = pstTotal,
+                                GrandTotal = total,
+                                DiscountTotal = discountTotal
                             }); 
 
                         }
