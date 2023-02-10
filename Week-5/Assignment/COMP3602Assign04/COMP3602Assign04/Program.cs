@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using GroceryItem;
 
 namespace COMP3602Assign04
 {
@@ -13,7 +14,9 @@ namespace COMP3602Assign04
         {
             StreamReader streamReader = null;
 
-            string path;
+            GroceryItem items = ReadCSVFile.GetCSV(args);
+
+            /*string path;
             string lineData;
             string numberOfLines = new string('-', 60);
 
@@ -44,7 +47,7 @@ namespace COMP3602Assign04
 
             if(!File.Exists(filePath)) {
                 Console.WriteLine("ERROR: File not found");
-            }
+            }*/
         }
     }
 }

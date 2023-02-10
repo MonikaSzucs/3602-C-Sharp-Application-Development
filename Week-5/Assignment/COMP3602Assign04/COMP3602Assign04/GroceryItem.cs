@@ -10,7 +10,7 @@ namespace COMP3602Assign04
     {
         public DateTime ExpirationDate { get; }
 
-        public GroceryItem(string description, double price, string sku, DateTime expirationDate)
+        public GroceryItem(string description, float price, string sku, DateTime expirationDate)
             : base(description, price, sku)
         {
             ExpirationDate= expirationDate;

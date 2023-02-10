@@ -10,10 +10,10 @@ namespace COMP3602Assign04
     abstract class Item
     {
         public string Description { get; set; }
-        public double Price { get; set; }
+        public float Price { get; set; }
         public string Sku { get; }
 
-        public Item(string description, double price, string sku)
+        public Item(string description, float price, string sku)
         {
             Description = description;
             Price = price;
