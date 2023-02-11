@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Policy;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
@@ -24,6 +25,8 @@ namespace COMP3602Assign04
 
             ConsolePrinter.PrintInvoiceTitle();
             ConsolePrinter.PrintDottedLines(numberOfLines);
+
+            List<Item> itemList = new List<Item>();
 
 
             string path = "";
@@ -50,17 +53,60 @@ namespace COMP3602Assign04
             try
             {
                 // This will read through the .txt file
-                using (streamReader = new StreamReader(args[0]))
+                using (streamReader = new StreamReader(path))
                 {
 
                     // This will read each line in the .txt file as long as the line is not null
                     while ((lineData = streamReader.ReadLine()) != null)
                     {
-                        char[] delimiterChars = { '|', ':' };
-                        string[] invoiceDetails = Regex.Split(lineData, "\r\n|\r|\n");
 
-                        Console.WriteLine(invoiceDetails);
+                        string[] invoiceDetails = Regex.Split(lineData, ",");
 
+                        //Console.WriteLine(invoiceDetails);
+                        Console.WriteLine(invoiceDetails.Length);
+
+                        int number = 1;
+
+                        foreach (var detail in invoiceDetails)
+                        {
+                            Console.WriteLine(detail);
+                            //Console.WriteLine(detail.Length);
+                            //if(detail)
+
+                            if(number == 4)
+                            {
+                                if(detail.Length == 0 || detail.Contains('-'))
+                                {
+                                    Console.WriteLine("Has empty column or -");
+
+                                    GroceryItem gItem = new GroceryItem(
+                                        "bogus desc",
+                                        999.99f,
+                                        "123456",
+                                        DateTime.Now
+                                    );
+
+                                    itemList.Add(gItem);
+                                    
+                                } else
+                                {
+                                    ApplianceItem aItem = new ApplianceItem(
+                                        "bogus desc",
+                                        9123.99f,
+                                        "99585",
+                                        ApplianceItem.ApplianceTypeEnum.Oven  // example oven appliance item
+                                    );
+
+                                    itemList.Add(aItem);
+                                }
+                            }
+
+
+
+                            number++;
+                        }
+
+                        Console.WriteLine();
                     }
                 }
             }
@@ -70,8 +116,6 @@ namespace COMP3602Assign04
                 //return "";
             }
 
-
-            List<Item> itemList = new List<Item>();
 
 
             /*
