@@ -12,7 +12,7 @@ namespace COMP3602Assign04
     class ReadCSVFile
     {
         // returns a list of items that could be either groceries and appliences
-        public static List<Item> GetCSV(String[] args) {
+        public static ItemList GetCSV(String[] args) {
 
             ReadCSVFile invoiceItem = new ReadCSVFile();
 
@@ -188,7 +188,7 @@ namespace COMP3602Assign04
                         itemList.Add(aItem);
 
                         return itemList;*/
-            return itemList;
+            return (ItemList)itemList;
         }    
     }
 }

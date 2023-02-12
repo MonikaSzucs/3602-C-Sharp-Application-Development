@@ -28,5 +28,13 @@ namespace COMP3602Assign04
                 // return sum;
             }
         }
+
+        public List<Item> AllItems
+        {
+            get
+            {
+                return this;
+            }
+        }
     }
 }

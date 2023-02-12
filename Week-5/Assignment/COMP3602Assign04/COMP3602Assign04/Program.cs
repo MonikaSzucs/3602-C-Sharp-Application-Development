@@ -11,10 +11,15 @@ namespace COMP3602Assign04
     {
         static void Main(string[] args)
         {
-            ItemList items = (ItemList)ReadCSVFile.GetCSV(args);
+            ItemList items = ReadCSVFile.GetCSV(args);
             //Console.WriteLine(items);
 
-   
+            Console.WriteLine(items.GetType());
+
+            /*foreach (ItemList item in items)
+            {
+                Console.WriteLine(item);
+            }*/
         }
     }
 }
