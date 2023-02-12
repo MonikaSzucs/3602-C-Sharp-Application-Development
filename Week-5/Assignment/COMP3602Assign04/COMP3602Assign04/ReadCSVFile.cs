@@ -66,6 +66,10 @@ namespace COMP3602Assign04
                         Console.WriteLine(invoiceDetails.Length);
 
                         int number = 1;
+                        string firstItem = "";
+                        float secondItem = 0;
+                        string thirdItem = "";
+                        string fourthItem = "";
 
                         foreach (var detail in invoiceDetails)
                         {
@@ -73,16 +77,30 @@ namespace COMP3602Assign04
                             //Console.WriteLine(detail.Length);
                             //if(detail)
 
-                            if(number == 4)
+                            if(number == 1)
                             {
+                                firstItem = detail;
+                            } 
+                            else if(number == 2)
+                            {
+                                secondItem = float.Parse(detail);
+                            } 
+                            else if(number == 3)
+                            {
+                                thirdItem = detail;
+                            } 
+                            else if(number == 4)
+                            {
+                                fourthItem = detail;
+
                                 if(detail.Length == 0 || detail.Contains('-'))
                                 {
                                     Console.WriteLine("Has empty column or -");
 
                                     GroceryItem gItem = new GroceryItem(
-                                        "bogus desc",
-                                        999.99f,
-                                        "123456",
+                                        firstItem,
+                                        secondItem,
+                                        thirdItem,
                                         DateTime.Now
                                     );
 
@@ -91,9 +109,9 @@ namespace COMP3602Assign04
                                 } else
                                 {
                                     ApplianceItem aItem = new ApplianceItem(
-                                        "bogus desc",
-                                        9123.99f,
-                                        "99585",
+                                        firstItem,
+                                        secondItem,
+                                        thirdItem,
                                         ApplianceItem.ApplianceTypeEnum.Oven  // example oven appliance item
                                     );
 
@@ -113,7 +131,7 @@ namespace COMP3602Assign04
             catch (Exception ex)
             {
                 ConsolePrinter.TryError(ex.Message);
-                //return "";
+                // return ""
             }
 
 
