@@ -11,10 +11,28 @@ namespace COMP3602Assign04
     {
         static void Main(string[] args)
         {
-            ItemList items = ReadCSVFile.GetCSV(args);
+            // get natural data
+            // print that
+            // sort that data
+            // print that
+
+            Console.WriteLine(args[0]);
+            List<Item> items = ReadCSVFile.GetCSV(args); // you're getting unsorted data = natrual order
+
+            ConsolePrinter.PrintInvoiceData(items);
+
+            //print the dotted line
+            // sort the array
+            items.Sort();
+            
+            // call printinvoicedata on the sorted arr
+            ConsolePrinter.PrintInvoiceData(items);
+
             //Console.WriteLine(items);
 
-            Console.WriteLine(items.GetType());
+            //Console.WriteLine("TEST");
+
+            //Console.WriteLine(items.GetType());
 
             /*foreach (ItemList item in items)
             {

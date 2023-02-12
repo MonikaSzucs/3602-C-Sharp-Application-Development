@@ -26,5 +26,43 @@ namespace COMP3602Assign04
         {
             ApplianceType = applianceType;
         }
+
+        public override string[] toString()
+        {
+            // output -> desc, price, expiry date
+            string[] data = new string[3];
+
+            data[0] = this.Description;
+            data[1] = this.Price.ToString();
+            data[2] = "<N/A>";
+
+            return data;
+        }
     }
 }
+
+/*class Student {
+    public enum Gender {
+        Male,
+        Female
+    }
+    public studentName;
+    public studentID;
+
+
+}*/
+
+// Gender.Female
+
+/**
+
+        C#
+        |
+      Student
+     /  |  \
+Gender Name ID
+ | |
+ M F
+*/
+
+//

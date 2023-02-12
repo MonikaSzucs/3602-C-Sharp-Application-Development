@@ -83,5 +83,38 @@ namespace COMP3602Assign04
         {
             Console.WriteLine();
         }
-    }
+
+        public static void PrintInvoiceData(List<Item> items)
+        {
+            //Console.WriteLine(items);
+
+            Console.WriteLine("TEST");
+
+            foreach (Item item in items)
+            {
+
+                string formatInvoiceItemTitles = "{0, -4} {1, -10} {2, -18}";
+
+                // check if the item is a grocery or an appliance
+                // if (item.ExpirationDate OR item.Enum)
+                Console.WriteLine(
+                    formatInvoiceItemTitles,
+                    item.toString()
+                );
+
+                /*Console.WriteLine(formatInvoiceItemTitles,
+                            item.Description,
+                            item.Price,
+                            item.
+                            ) ;*/
+            }
+
+            // how do we call the TotalPrice function from ItemList Class?
+            ItemList itemList = new ItemList(items);            
+            double totalPrice = itemList.TotalPrice;
+
+            Console.WriteLine(totalPrice);
+
+        }
+   }
 }
