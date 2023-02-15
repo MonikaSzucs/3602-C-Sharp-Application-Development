@@ -16,7 +16,7 @@ namespace COMP3602Assign04
             // sort that data
             // print that
 
-            Console.WriteLine(args[0]);
+            //Console.WriteLine(args[0]);
             List<Item> items = ReadCSVFile.GetCSV(args); // you're getting unsorted data = natrual order
 
             ConsolePrinter.PrintInvoiceData(items);
@@ -27,17 +27,6 @@ namespace COMP3602Assign04
             
             // call printinvoicedata on the sorted arr
             ConsolePrinter.PrintInvoiceData(items);
-
-            //Console.WriteLine(items);
-
-            //Console.WriteLine("TEST");
-
-            //Console.WriteLine(items.GetType());
-
-            /*foreach (ItemList item in items)
-            {
-                Console.WriteLine(item);
-            }*/
         }
     }
 }

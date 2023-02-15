@@ -19,13 +19,13 @@ namespace COMP3602Assign04
         //@Override
         public override string[] toString() {
             // output -> desc, price, expiry date
-            string[] data = new string[3];
+            string[] data = new string[4];
 
             data[0] = this.Description;
             data[1] = this.Price.ToString();
-
+            data[2] = "";
             // third column could be <Never> or the date
-            data[2] = this.ExpirationDate == DateTime.MaxValue ? "<Never>" : this.ExpirationDate.ToString("ddd MMM dd, yyyy");
+            data[3] = this.ExpirationDate == DateTime.MaxValue ? "<Never>" : this.ExpirationDate.ToString("ddd MMM dd, yyyy");
 
             return data;
         }

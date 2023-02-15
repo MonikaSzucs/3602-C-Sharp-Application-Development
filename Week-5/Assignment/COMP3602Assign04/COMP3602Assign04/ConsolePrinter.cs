@@ -21,9 +21,10 @@ namespace COMP3602Assign04
         }
 
         // Printing the dotted lines
-        public static void PrintDottedLines(string text)
+        public static void PrintDottedLines()
         {
-            Console.WriteLine(text);
+            string numberOfLines = new string('-', 67);
+            Console.WriteLine(numberOfLines);
         }
 
         // Printing the invoice number line
@@ -86,35 +87,54 @@ namespace COMP3602Assign04
 
         public static void PrintInvoiceData(List<Item> items)
         {
-            //Console.WriteLine(items);
 
-            Console.WriteLine("TEST");
+            Console.WriteLine("Natural Order:");
+
+            string formatInvoiceTitleRow = "{0, -40} {1, 6} {2, 2} {3, -13}";
+
+            // check if the item is a grocery or an appliance
+            // if (item.ExpirationDate OR item.Enum)
+            Console.WriteLine(
+                formatInvoiceTitleRow,
+                "Item",
+                "Price",
+                "",
+                "Expires"
+            );
+
+            ConsolePrinter.PrintDottedLines();
 
             foreach (Item item in items)
             {
 
-                string formatInvoiceItemTitles = "{0, -4} {1, -10} {2, -18}";
+                string formatInvoiceItemTitles = "{0, -40} {1, 6} {2, 2} {3, -13}";
 
                 // check if the item is a grocery or an appliance
                 // if (item.ExpirationDate OR item.Enum)
+
                 Console.WriteLine(
                     formatInvoiceItemTitles,
                     item.toString()
                 );
-
-                /*Console.WriteLine(formatInvoiceItemTitles,
-                            item.Description,
-                            item.Price,
-                            item.
-                            ) ;*/
             }
+
+            ConsolePrinter.PrintDottedLines();
 
             // how do we call the TotalPrice function from ItemList Class?
             ItemList itemList = new ItemList(items);            
             double totalPrice = itemList.TotalPrice;
 
-            Console.WriteLine(totalPrice);
+            string formatInvoiceTotalRow = "{0, -40} {1, 6}";
 
+            // check if the item is a grocery or an appliance
+            // if (item.ExpirationDate OR item.Enum)
+            Console.WriteLine(
+                formatInvoiceTotalRow,
+                "Total:",
+                totalPrice
+            );
+
+            //Console.WriteLine(totalPrice);
         }
    }
 }

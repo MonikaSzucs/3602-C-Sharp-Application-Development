@@ -18,15 +18,15 @@ namespace COMP3602Assign04
 
             ReadCSVFile invoiceItem = new ReadCSVFile();
 
-            Console.WriteLine(args);
+            //Console.WriteLine(args);
 
             StreamReader streamReader = null;
 
             string lineData;
             string numberOfLines = new string('-', 60);
 
-            ConsolePrinter.PrintInvoiceTitle();
-            ConsolePrinter.PrintDottedLines(numberOfLines);
+            //ConsolePrinter.PrintInvoiceTitle();
+            //ConsolePrinter.PrintDottedLines(numberOfLines);
 
             List<Item> itemList = new List<Item>();
 
@@ -138,9 +138,7 @@ namespace COMP3602Assign04
                             } else if (typeStr == "Refrigerator")
                             {
                                 type = ApplianceItem.ApplianceTypeEnum.Refrigerator;
-                            } else {
-                                Console.WriteLine("Unidentified appliance type was found");
-                            }
+                            } 
 
                             ApplianceItem appliance = new ApplianceItem(name, price, sku, type);
                             itemList.Add(appliance);
@@ -197,88 +195,6 @@ milk.expDate = 4L Milk
 
 */
 
-
-                        // here item is non-existent 
-
-                        // first check if we have a date, if not then its an appliance -> this is what we are doing
-                        // first check if we have an appliance, if not then its gonna a grocery item | if not contains - , / 
-
-                        //Console.WriteLine(invoiceDetails);
-                        //Console.WriteLine(invoiceDetails.Length);
-
-                       /* int number = 1;
-                        string firstItem = "";
-                        float secondItem = 0;
-                        string thirdItem = "";
-                        string fourthItem = "";*/
-
-                        /*string name = "";
-                        int sku = -1;
-                        float price = -1.00f;*/
-
-                        // if sku is valid
-                            // if sku == -1
-                                // invalid
-                            // else valid
-
-                        /*foreach (var detail in invoiceDetails)
-                        {
-                            Console.WriteLine(detail);
-                            //Console.WriteLine(detail.Length);
-                            //if(detail)
-
-                            // variable detail at itteration 1 look like? 
-                            // 4L milk 
-
-                            if(number == 1)
-                            {
-                                firstItem = detail;
-                            } 
-                            else if(number == 2)
-                            {
-                                secondItem = float.Parse(detail);
-                            } 
-                            else if(number == 3)
-                            {
-                                thirdItem = detail;
-                            } 
-                            else if(number == 4)
-                            {
-                                fourthItem = detail;
-
-                                if(detail.Length == 0 || detail.Contains('-'))
-                                {
-                                    Console.WriteLine("Has empty column or -");
-
-                                    GroceryItem gItem = new GroceryItem(
-                                        firstItem,
-                                        secondItem,
-                                        thirdItem,
-                                        fourthItem
-                                    );
-
-                                    itemList.Add(gItem);
-                                    
-                                } 
-                                else
-                                {
-                                    ApplianceItem aItem = new ApplianceItem(
-                                        firstItem,
-                                        secondItem,
-                                        thirdItem,
-                                        fourthItem  // example oven appliance item
-                                    );
-
-                                    itemList.Add(aItem);
-                                }
-                            }
-
-
-
-                            number++;
-                        }*/
-
-                        //Console.WriteLine();
                     }
                 }
             }

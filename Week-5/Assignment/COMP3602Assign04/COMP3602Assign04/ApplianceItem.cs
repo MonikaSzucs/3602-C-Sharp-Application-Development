@@ -30,11 +30,12 @@ namespace COMP3602Assign04
         public override string[] toString()
         {
             // output -> desc, price, expiry date
-            string[] data = new string[3];
+            string[] data = new string[4];
 
             data[0] = this.Description;
             data[1] = this.Price.ToString();
-            data[2] = "<N/A>";
+            data[2] = "";
+            data[3] = "<N/A>";
 
             return data;
         }
