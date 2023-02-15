@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Monika Szucs
+
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
@@ -11,22 +13,17 @@ namespace COMP3602Assign04
     {
         static void Main(string[] args)
         {
-            // get natural data
-            // print that
-            // sort that data
-            // print that
 
-            //Console.WriteLine(args[0]);
+            // Get then print natural data
             List<Item> items = ReadCSVFile.GetCSV(args); // you're getting unsorted data = natrual order
 
-            ConsolePrinter.PrintInvoiceData(items);
+            ConsolePrinter.PrintInvoiceData(items, "natural");
 
-            //print the dotted line
             // sort the array
             items.Sort();
             
             // call printinvoicedata on the sorted arr
-            ConsolePrinter.PrintInvoiceData(items);
+            ConsolePrinter.PrintInvoiceData(items, "sorted");
         }
     }
 }

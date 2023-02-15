@@ -1,4 +1,6 @@
-﻿using System;
+﻿// Monika Szucs
+
+using System;
 using System.Collections.Generic;
 using System.Globalization;
 using System.IO;
@@ -41,14 +43,14 @@ namespace COMP3602Assign04
             else
             {
                 ConsolePrinter.Usage();
-                //return ;
+                return itemList;
             }
 
             // Checks to see if not file exists
             if (!File.Exists(path))
             {
                 ConsolePrinter.FileNotFound();
-                //return;
+                return itemList;
             }
 
             // Try to run the code
@@ -63,6 +65,7 @@ namespace COMP3602Assign04
                     {
 
                         string[] invoiceDetails = Regex.Split(lineData, ",");
+                        //Grabs the position of the items
                         // 4L Milk,  345345,  3.87,  2019-10-14 
                         /* invoiceDetails:
                             4L Milk
@@ -88,14 +91,12 @@ namespace COMP3602Assign04
                         } else if (invoiceDetails[3].Contains('-')) {
                             // if the above are true, it is a grocery item
 
+                            // formating date to en-US
                             CultureInfo us = new CultureInfo("en-US");
                             string dateFormat = "yyyy-mm-dd";
-                            // Console.WriteLine("GOING TO CONERT DATE TIME " + invoiceDetails[3]);
                             DateTime expirationDate = DateTime.ParseExact(invoiceDetails[3], dateFormat, us);
 
-                            // Console.WriteLine("CONVERTED DATETIME");
-                            // DateTime expirationDate = DateTime.Parse(invoiceDetails[3]);
-
+                            // Storing the information of the one grocery product
                             GroceryItem groceryItem = new GroceryItem(
                                 name, 
                                 price,
@@ -103,23 +104,18 @@ namespace COMP3602Assign04
                                 expirationDate
                             );
 
+                            // adding the grocery items
                             itemList.Add(groceryItem);
                         } else {
                             // What appliance type it is
-                            // ApplianceTypeEnum applianceType = ApplianceItem.(invoiceDetails[3]);
 
                             // an empty variable that will hold the type of appliance
-                            // ApplianceItem.ApplianceTypeEnum type; 
                             ApplianceItem.ApplianceTypeEnum type = ApplianceItem.ApplianceTypeEnum.Washer;
 
-                            // it could be a dishwasher, could be an over, ...
+                            // it could be a dishwasher, could be an oven, ...
                             string typeStr = invoiceDetails[3]; // "Dishwasher" or "Oven" ...
 
-                            // we gotta figure out what type of appliance this is
-                            // Dishwasher,
-                                //Oven,
-                                            //Range,
-                                            //Refrigerator
+                            // Figuring out what type of appliance this is
                             if (typeStr == "Washer") 
                             {
                                 type = ApplianceItem.ApplianceTypeEnum.Washer;
@@ -142,58 +138,7 @@ namespace COMP3602Assign04
 
                             ApplianceItem appliance = new ApplianceItem(name, price, sku, type);
                             itemList.Add(appliance);
-
-
-                            // xyz() --> this means that xyz is a function or a method
-                            // xyz   --> this means that xyz is an OBJECT or a VARIABLE
                         }
-
-/**
-ApplianceItem.ApplianceTypeEnum
-
-                    C#
-                    |
-                   Item
-                  /    \
-        GroceryItem:Type
- | |
- M F
-
-Q ->  why not Item.GroceryItem? 
-GrocerItem is A TYPE of Item, it is NOT A Item
-Since item is abstract
-
- Student Monika = new Student (
-    F,
-    "Monika",
-    1234
- )
-
- Monika.Gender == F ==> should return True
-Gender.F = F
-
-Item item = {
-    Description,
-    Price,
-    SKU
-}
-
-Item aeroplane = { "Aeroplane", "5M", "0900" }
-aeroplane.desc = Aeroplane
-aeroplane.price = 5,000,000
-
-GroceryItem gItem = {
-    description,
-    price,
-    Sku,
-    expiration date
-}
-
-GroceryItem milk = { "4L Milk", 4, 5677, 02-17-2023 }
-milk.des = 4L Milk
-milk.expDate = 4L Milk
-
-*/
 
                     }
                 }
@@ -203,65 +148,6 @@ milk.expDate = 4L Milk
                 ConsolePrinter.TryError(ex.Message);
                 return itemList;
             }
-
-
-
-            /*
-                                    //build up a list of items containing grocereies and applicance
-                                    List<Item> itemList = new List<Item>();
-
-                        // get the data from the csv
-                        // parse the data
-                            // check if the item is a groceryItem or a applianceItem
-                            // set appliance type accordinly
-
-                        // for an example
-                        GroceryItem gItem = new GroceryItem(
-                            "bogus desc",
-                            999.99f,
-                            "123456",
-                            DateTime.Now
-                        );
-
-                        ApplianceItem aItem = new ApplianceItem(
-                            "bogus desc",
-                            9123.99f,
-                            "99585",
-                            ApplianceItem.ApplianceTypeEnum.Oven  // example oven appliance item
-                        );
-
-                        // while parsing, check if there's a match for any of the ApplianceTypeEnums
-                            // if yes - then use ApplianceItem.ApplianceTypeEnum.  <-- define the type that matched
-
-                        //String[] lines = gettingCSVDate();
-                        //foreach (String line in lines) {
-                            // parsing
-
-                            *//* look at the 4th column of input -> either format 2019-10-14 OR Washer
-                                to check if this is grocery item or a appliance
-                                check if 4th column contains '-'
-                                    if yes - its a datetime
-                                    if no - its an appliance
-                            *//*
-
-                            //if (line[4] is type string) { //cheching the datatype of column 4
-                                // then define a new appliance item
-                            //} else {
-                                // this is datetime
-                                // parse this to datetime
-                                // then define a new grocery item
-                            //}
-                        //}
-
-                        // adding grocery item to the list
-                        itemList.Add(gItem);
-                        itemList.Add(aItem);
-
-                        return itemList;*/
-
-            //Item[] itemArr = itemList.ToArray();
-
-            //ItemList itemL = new ItemList(itemList);
 
             return itemList;
         }    
