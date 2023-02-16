@@ -6,13 +6,13 @@ namespace SQLCrudExample
 {
     class ProductRepository
     {
-        private const string connString = @"Server=tcp:comp2614.database.windows.net,1433;
-                                            Initial Catalog=comp2614;
-                                            User ID=student;
-                                            Password=iLOVEpho!;
-                                            Encrypt=True;
-                                            TrustServerCertificate=False;
-                                            Connection Timeout=30;";
+        private const string connString = @"Server=tcp:BUNKER3.EDU.BCIT.CA,1433; 
+                                                      Initial Catalog=TigerDB;
+                                                      User ID=tiger;
+                                                      Password=T1gerM@ster;
+                                                      Encrypt=True;
+                                                      TrustServerCertificate=True;
+                                                      Connection Timeout=30;";
 
         private const string productTableName = "ProductDemo";
 

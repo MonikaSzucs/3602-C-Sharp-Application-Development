@@ -11,12 +11,12 @@ namespace ADOExample
     class SongRepository
     {
 
-        private static readonly string connString = @"Server=tcp:skeena.database.windows.net,1433; 
-                                                      Initial Catalog=comp2614;
-                                                      User ID=student;
-                                                      Password=p8SmM5/mKZk=;
+        private static readonly string connString = @"Server=tcp:BUNKER3.EDU.BCIT.CA,1433; 
+                                                      Initial Catalog=TigerDB;
+                                                      User ID=tiger;
+                                                      Password=T1gerM@ster;
                                                       Encrypt=True;
-                                                      TrustServerCertificate=False;
+                                                      TrustServerCertificate=True;
                                                       Connection Timeout=30;";
         public static SongList GetAllSongs()
         {
