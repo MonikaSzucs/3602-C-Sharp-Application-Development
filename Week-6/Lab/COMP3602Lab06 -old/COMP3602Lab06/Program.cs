@@ -10,6 +10,9 @@ namespace COMP3602Lab06
     {
         static void Main(string[] args)
         {
+            Console.Title = "COMP3602 Lab06 A00878763";
+
+            ProductList products = ProductRepository.GetProducts();
         }
     }
 }
