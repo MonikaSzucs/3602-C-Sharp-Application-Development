@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Monika Szucs
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Policy;
@@ -7,26 +8,34 @@ using System.Threading.Tasks;
 
 namespace COMP3602Lab06
 {
-    abstract class Item : IComparable<Item>
+    public abstract class Item : IComparable<Item>
     {
-        public int id { get; set; }
         public string Description { get; set; }
-        public float Price { get; set; }
-        public string Sku { get; }
+        public string Sku { get; private set; }
+        public decimal Price { get; set; }
+        
 
-        public Item(int id, string description, float price, string sku)
+
+        public Item(string description, string sku, decimal price)
         {
-            id = id;
             Description = description;
             Price = price;
             Sku = sku;
         }
 
-        public abstract string[] toString();
-
+        // Organizing items by price
         public int CompareTo(Item other)
         {
-            return -Price.CompareTo(other.Price);
+            if (other == null) { 
+                return 1; 
+            } else {
+                return this.Price.CompareTo(other.Price);
+            }
+        }
+
+        public override string ToString()
+        {
+            return string.Format($"{Description}: {Price:N2}");
         }
     }
 }

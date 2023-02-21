@@ -1,0 +1,8 @@
+C:\Users\Anca\Desktop\COMP3602 Sept 2022\Week06\LabW6\COMP3602Lab06\COMP3602Lab06\bin\Debug\COMP3602Lab06.exe.config
+C:\Users\Anca\Desktop\COMP3602 Sept 2022\Week06\LabW6\COMP3602Lab06\COMP3602Lab06\bin\Debug\COMP3602Lab06.exe
+C:\Users\Anca\Desktop\COMP3602 Sept 2022\Week06\LabW6\COMP3602Lab06\COMP3602Lab06\bin\Debug\COMP3602Lab06.pdb
+C:\Users\Anca\Desktop\COMP3602 Sept 2022\Week06\LabW6\COMP3602Lab06\COMP3602Lab06\obj\Debug\COMP3602Lab06.csproj.AssemblyReference.cache
+C:\Users\Anca\Desktop\COMP3602 Sept 2022\Week06\LabW6\COMP3602Lab06\COMP3602Lab06\obj\Debug\COMP3602Lab06.csproj.SuggestedBindingRedirects.cache
+C:\Users\Anca\Desktop\COMP3602 Sept 2022\Week06\LabW6\COMP3602Lab06\COMP3602Lab06\obj\Debug\COMP3602Lab06.csproj.CoreCompileInputs.cache
+C:\Users\Anca\Desktop\COMP3602 Sept 2022\Week06\LabW6\COMP3602Lab06\COMP3602Lab06\obj\Debug\COMP3602Lab06.exe
+C:\Users\Anca\Desktop\COMP3602 Sept 2022\Week06\LabW6\COMP3602Lab06\COMP3602Lab06\obj\Debug\COMP3602Lab06.pdb

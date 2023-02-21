@@ -11,7 +11,7 @@ namespace COMP3602Lab06
     class ProductRepository
     {
 
-        private const string connString = @"Server=tcp:BUNKER3.EDU.BCIT.CA,1433; 
+        private static readonly string connString = @"Server=tcp:BUNKER3.EDU.BCIT.CA,1433; 
                                                       Initial Catalog=TigerDB;
                                                       User ID=tiger;
                                                       Password=T1gerM@ster;
@@ -19,58 +19,64 @@ namespace COMP3602Lab06
                                                       TrustServerCertificate=True;
                                                       Connection Timeout=30;";
 
-        private const string productTableName = "ProductDemo";
-
-        public static ProductList GetProducts()
+        // Getting the Products from the database
+        public static ItemList GetProducts()
         {
-            ProductList products;
+            ItemList products = new ItemList();
 
-            using (SqlConnection conn = new SqlConnection(connString))
+            try 
             {
-                string query = $@"SELECT ProductId, Quantity, Sku, Description, Cost, Taxable, SellPrice
-                                  FROM {productTableName}
-                                  ORDER BY Sku";
-
-                using (SqlCommand cmd = new SqlCommand())
+                using (SqlConnection conn = new SqlConnection(connString))
                 {
-                    cmd.CommandType = CommandType.Text;
-                    cmd.CommandText = query;
-                    cmd.Connection = conn;
+                    string query = $@"SELECT Description, Sku, Price, ExpirationDate
+                                  FROM GroceryItem";
 
-                    conn.Open();
-
-                    products = new ProductList();
-
-                    using (SqlDataReader reader = cmd.ExecuteReader(CommandBehavior.CloseConnection))
+                    using (SqlCommand cmd = new SqlCommand())
                     {
-                        int productId;
-                        int quantity;
-                        string sku;
-                        string description;
-                        decimal? sellPrice;
+                        cmd.CommandType = CommandType.Text;
+                        cmd.CommandText = query;
+                        cmd.Connection = conn;
 
-                        while (reader.Read())
+                        conn.Open();
+
+                        using (SqlDataReader reader = cmd.ExecuteReader())
                         {
-                            productId = (int)reader["ProductId"];
-                            quantity = (int)reader["Quantity"];
-                            sku = reader["Sku"] as string;
-                            description = reader["Description"] as string;
 
-                            //if (!reader.IsDBNull(reader.GetOrdinal("SellPrice")))
-                            //{
-                            //    sellPrice = (decimal)reader["SellPrice"];
-                            //}
-                            //else
-                            //{
-                            //    sellPrice = 0.0m;
-                            //}
+                            // Reading the records in the database
+                            while (reader.Read())
+                            {
+                                string description = reader["Description"] as string;
+                                string sku = reader["Sku"] as string;
+                                decimal sellPrice = (decimal)reader["Price"];
+                                DateTime expirationDate = DateTime.MaxValue;
 
-                            sellPrice = reader["SellPrice"] as decimal?;
+                                if (reader.IsDBNull(reader.GetOrdinal("ExpirationDate")))
+                                {
+                                    products.Add(new GroceryItem(description, sku, sellPrice));
 
-                            products.Add(new Product(productId, quantity, sku, description, sellPrice ?? 0.0m));
+                                }
+                                else
+                                {
+                                    expirationDate = (DateTime)reader["ExpirationDate"];
+                                    products.Add(new GroceryItem(description, sku, sellPrice, expirationDate));
+
+                                }
+                            }
                         }
                     }
                 }
+
+                
+            } 
+            
+            catch(SqlException ex)
+            {
+                ConsolePrinter.PrintError($"Data Access Error\n\n{ex.Message}");
+            }
+
+            catch(Exception ex)
+            {
+                ConsolePrinter.PrintError($"Processing Error\n\n{ex.Message}");
             }
 
             return products;
