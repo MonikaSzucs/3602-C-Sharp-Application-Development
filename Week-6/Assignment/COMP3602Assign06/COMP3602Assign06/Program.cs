@@ -46,19 +46,15 @@ namespace COMP3602Assign05
                 {
                     option = "QUIT";
                 }
-                else
-                {
-                    
-                }
 
                 if(choice == "1" || choice == "2" || choice == "3" || choice == "4" || choice == "5") 
                 {
-                    CustomerLocationList customerLocation = CustomerRepository.GetCustomerList(choice);
+                    List<Location> customerLocation = CustomerRepository.GetCustomerList(choice);
+                    customerLocation.Sort();
                     ConsolePrinter.PrintCustomerListingChosen(option, customerLocation);
                 } 
                 else if(choice == "6")
                 {
-                    
                     proceed = false;
                 }
                 else

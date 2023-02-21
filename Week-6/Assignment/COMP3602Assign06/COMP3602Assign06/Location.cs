@@ -7,15 +7,16 @@ using System.Threading.Tasks;
 
 namespace COMP3602Assign05
 {
-    public abstract class Location: IComparable<Location>
+    public class Location: IComparable<Location>
     {
         public string CompanyName { get; set; }
         public string City { get; set; }
         public string Province { get; set; }
         public string PostalCode { get; set; }
-        public bool Hold { get; set; }
+        public char Hold { get; set; }
 
-        public Location(string companyName, string city, string province, string postalCode, bool hold)
+        // with postal code
+        public Location(string companyName, string city, string province, string postalCode, char hold)
         {
             CompanyName = companyName;
             City = city;
@@ -24,7 +25,8 @@ namespace COMP3602Assign05
             Hold = hold;
         }
 
-        protected Location(string companyName, string city, string province, bool hold)
+        // with hold
+        public Location(string companyName, string city, string province, char hold)
         {
             CompanyName = companyName;
             City = city;
@@ -32,17 +34,13 @@ namespace COMP3602Assign05
             Hold = hold;
         }
 
+        // Location1 and Location2
+        // Location1.compareTo(Location2)
+        // Location1.compareTo(new Location())
+        // 
         public int CompareTo(Location other)
         {
-            if (other == null)
-            {
-                return 1;
-            }
-            else
-            {
-                return this.Hold.CompareTo(other.Hold);
-            }
+            return this.CompanyName.CompareTo(other.CompanyName);
         }
-
     }
 }

@@ -20,7 +20,7 @@ namespace COMP3602Assign05
             Console.WriteLine("Select province filter:\n\t1) AB\n\t2) BC\n\t3) ON\n\t4) SK\n\t5) ALL\n\t6)QUIT");
         }
 
-        public static void PrintCustomerListingChosen(string option, CustomerLocationList customerLocationList)
+        public static void PrintCustomerListingChosen(string option, List<Location> customerLocationList)
         {
             Console.WriteLine($"Customer listing for {option}");
 
@@ -53,7 +53,19 @@ namespace COMP3602Assign05
 
             foreach (Location customerLocation in customerLocationList)
             {
-                if (customerLocation is LocationDetails)
+                // check if province of customerLocation matches what we're looking for
+                if (option == customerLocation.Province || option == "ALL") {
+                    Console.WriteLine(
+                        formatProvinceString,
+                        $"{customerLocation.CompanyName}",
+                        $"{customerLocation.City}",
+                        $"{customerLocation.Province}",
+                        $"{customerLocation.PostalCode}",
+                        $"{customerLocation.Hold}"
+                   );   
+                }
+
+                /*if (customerLocation is LocationDetails)
                 {
                     LocationDetails locationDetails = customerLocation as LocationDetails;
 
@@ -66,7 +78,7 @@ namespace COMP3602Assign05
                         $"{locationDetails.Hold}"
                     );
 
-                }
+                }*/
             }
         }
 
