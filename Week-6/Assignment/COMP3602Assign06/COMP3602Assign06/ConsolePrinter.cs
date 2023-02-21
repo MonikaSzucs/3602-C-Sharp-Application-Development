@@ -8,7 +8,13 @@ namespace COMP3602Assign05
 {
     class ConsolePrinter
     {
-        
+
+        const int CompanyName = 40, City = 15, Province = 6, PostalCode = 13, Hold = 13;
+        static readonly int totalWidth = CompanyName + City + Province + PostalCode + Hold;
+        static readonly string lineBreak = new string('-', totalWidth);
+        static readonly string formatTitleString = "{0,-" + CompanyName + "} {1,-" + City + "} {2,-" + Province + "} {3,-" + PostalCode + "} {4,-" + Hold + "}";
+        static readonly string formatProvinceString = "{0,-" + CompanyName + "} {1,-" + City + "} {2,-" + Province + "} {3,-" + PostalCode + "} {4,-" + Hold + "}";
+
         public static void PrintMenuOption()
         {
             Console.WriteLine("Select province filter:\n\t1) AB\n\t2) BC\n\t3) ON\n\t4) SK\n\t5) ALL\n\t6)QUIT");
@@ -30,16 +36,40 @@ namespace COMP3602Assign05
                 return;
             }
 
-            foreach(Location customerLocation in customerLocationList)
+            Console.WriteLine();
+
+            // check if the item is a grocery or an appliance
+            // if (item.ExpirationDate OR item.Enum)
+            Console.WriteLine(
+                formatTitleString,
+                "CompanyName",
+                "City",
+                "Prov",
+                "Postal",
+                "Hold"
+            );
+
+            Console.WriteLine(lineBreak);
+
+            foreach (Location customerLocation in customerLocationList)
             {
-                if(customerLocation is LocationDetails)
+                
+
+                
+
+                if (customerLocation is LocationDetails)
                 {
-                    LocationDetails groceryDetail = customerLocation as LocationDetails;
-                    Console.WriteLine($"{groceryDetail.CompanyName}");
-                    Console.WriteLine($"{groceryDetail.City}");
-                    Console.WriteLine($"{groceryDetail.Province}");
-                    Console.WriteLine($"{groceryDetail.PostalCost}");
-                    Console.WriteLine($"{groceryDetail.Hold}");
+                    LocationDetails locationDetails = customerLocation as LocationDetails;
+
+                    Console.WriteLine(
+                        formatProvinceString,
+                        $"{locationDetails.CompanyName}",
+                        $"{locationDetails.City}",
+                        $"{locationDetails.Province}",
+                        $"{locationDetails.PostalCode}",
+                        $"{locationDetails.Hold}"
+                    );
+
                 }
             }
         }
