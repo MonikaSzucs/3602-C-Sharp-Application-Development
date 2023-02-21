@@ -13,9 +13,9 @@ namespace COMP3602Assign05
         public string City { get; set; }
         public string Province { get; set; }
         public string PostalCode { get; set; }
-        public string Hold { get; set; }
+        public bool Hold { get; set; }
 
-        public Location(string companyName, string city, string province, string postalCode, string hold)
+        public Location(string companyName, string city, string province, string postalCode, bool hold)
         {
             CompanyName = companyName;
             City = city;
@@ -24,7 +24,7 @@ namespace COMP3602Assign05
             Hold = hold;
         }
 
-        protected Location(string companyName, string city, string province, string hold)
+        protected Location(string companyName, string city, string province, bool hold)
         {
             CompanyName = companyName;
             City = city;
@@ -34,13 +34,15 @@ namespace COMP3602Assign05
 
         public int CompareTo(Location other)
         {
-            if(other == null)
+            if (other == null)
             {
                 return 1;
-            } else 
+            }
+            else
             {
                 return this.Hold.CompareTo(other.Hold);
             }
         }
+
     }
 }

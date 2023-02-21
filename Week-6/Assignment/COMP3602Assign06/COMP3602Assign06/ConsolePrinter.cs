@@ -53,10 +53,6 @@ namespace COMP3602Assign05
 
             foreach (Location customerLocation in customerLocationList)
             {
-                
-
-                
-
                 if (customerLocation is LocationDetails)
                 {
                     LocationDetails locationDetails = customerLocation as LocationDetails;

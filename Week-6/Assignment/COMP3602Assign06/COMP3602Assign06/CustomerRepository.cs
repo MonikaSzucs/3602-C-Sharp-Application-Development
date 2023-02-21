@@ -22,6 +22,8 @@ namespace COMP3602Assign05
         {
             CustomerLocationList customerLocation = new CustomerLocationList();
 
+            //List<int> primeNumbers = new List<int>();
+
             try
             {
                 using (SqlConnection conn = new SqlConnection(connString))
@@ -45,47 +47,63 @@ namespace COMP3602Assign05
                                 string city = reader["City"] as string;
                                 string province = reader["Province"] as string;
                                 string postalCode = reader["PostalCode"] as string;
-                                string hold = reader["CreditHold"] as string;
+                                //string hold = reader["CreditHold"] as string;
 
-                                if(reader.IsDBNull(reader.GetOrdinal("PostalCode")))
+                                bool? isConfirmed = reader["CreditHold"] as bool?;
+                                Console.WriteLine(isConfirmed);
+
+                                // ' ' -> looking for char value
+                                // " " --> looking for a string value
+
+                                if (isConfirmed == null) {
+                                    Console.WriteLine("isConfirmed is null");
+                                }
+                                else if (isConfirmed == true) {
+                                    Console.WriteLine("isConfirmed is true");
+                                }
+                                else if (isConfirmed == false) {
+                                    Console.WriteLine("isConfirmed is false");
+                                }
+
+                                if (reader.IsDBNull(reader.GetOrdinal("PostalCode")))
                                 {
                                     if(choice == "1" && province == "AB")
                                     {
-                                        customerLocation.Add(new LocationDetails(companyName, city, province, hold));
+                                        customerLocation.Add(new LocationDetails(companyName, city, province, (bool)isConfirmed));
                                     }
                                     else if(choice == "2" && province == "BC")
                                     {
-                                        customerLocation.Add(new LocationDetails(companyName, city, province, hold));
+                                        customerLocation.Add(new LocationDetails(companyName, city, province, (bool)isConfirmed));
                                     } else if(choice == "3" && province == "ON")
                                     {
-                                        customerLocation.Add(new LocationDetails(companyName, city, province, hold));
+                                        customerLocation.Add(new LocationDetails(companyName, city, province, (bool)isConfirmed));
                                     } else if(choice == "4" && province == "SK")
                                     {
-                                        customerLocation.Add(new LocationDetails(companyName, city, province, hold));
+                                        customerLocation.Add(new LocationDetails(companyName, city, province, (bool)isConfirmed));
                                     } else if(choice == "5")
                                     {
-                                        customerLocation.Add(new LocationDetails(companyName, city, province, hold));
+                                        customerLocation.Add(new LocationDetails(companyName, city, province, (bool)isConfirmed));
                                     }
                                 } else
                                 {
                                     if (choice == "1" && province == "AB")
                                     {
-                                        customerLocation.Add(new LocationDetails(companyName, city, province, postalCode, hold));
+                                        customerLocation.Add(new LocationDetails(companyName, city, province, postalCode, (bool)isConfirmed));
                                     }
                                     else if (choice == "2" && province == "BC")
                                     {
-                                        customerLocation.Add(new LocationDetails(companyName, city, province, postalCode, hold));
+                                        customerLocation.Add(new LocationDetails(companyName, city, province, postalCode, (bool)isConfirmed));
                                     }
                                     else if (choice == "3" && province == "ON")
                                     {
-                                        customerLocation.Add(new LocationDetails(companyName, city, province, postalCode, hold));
+                                        customerLocation.Add(new LocationDetails(companyName, city, province, postalCode, (bool)isConfirmed));
                                     }
                                     else if (choice == "4" && province == "SK")
                                     {
-                                        customerLocation.Add(new LocationDetails(companyName, city, province, postalCode, hold));
+                                        customerLocation.Add(new LocationDetails(companyName, city, province, postalCode, (bool)isConfirmed));
                                     } else if(choice == "5")
                                     {
-                                        customerLocation.Add(new LocationDetails(companyName, city, province, postalCode, hold));
+                                        customerLocation.Add(new LocationDetails(companyName, city, province, postalCode, (bool)isConfirmed));
                                     }
                                 }
                             }
