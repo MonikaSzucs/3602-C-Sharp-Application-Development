@@ -1,0 +1,8 @@
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-6 - Done\Assignment\COMP3602Assign05\COMP3602Assign06\bin\Debug\COMP3602Assign05.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-6 - Done\Assignment\COMP3602Assign05\COMP3602Assign06\bin\Debug\COMP3602Assign05.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-6 - Done\Assignment\COMP3602Assign05\COMP3602Assign06\bin\Debug\COMP3602Assign05.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-6 - Done\Assignment\COMP3602Assign05\COMP3602Assign06\obj\Debug\COMP3602Assign05.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-6 - Done\Assignment\COMP3602Assign05\COMP3602Assign06\obj\Debug\COMP3602Assign05.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-6 - Done\Assignment\COMP3602Assign05\COMP3602Assign06\obj\Debug\COMP3602Assign05.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-6 - Done\Assignment\COMP3602Assign05\COMP3602Assign06\obj\Debug\COMP3602Assign05.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-6 - Done\Assignment\COMP3602Assign05\COMP3602Assign06\obj\Debug\COMP3602Assign05.pdb
