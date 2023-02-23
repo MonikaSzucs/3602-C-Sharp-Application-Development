@@ -16,7 +16,9 @@ namespace LabelDemo
         {
             InitializeComponent();
         }
-
+        // can have a method to initialize controls
+        // set values of controls or clear them
+        // everything that happens here happen before the form is rendered
         private void MainForm_Load(object sender, EventArgs e)
         {
             labelAutoSizeTrue.Text = "Labels with AutoSize set to true (default) will grow to the right off the edge of the screen.";
