@@ -1,0 +1,11 @@
+D:\OneDrive\repos\Week07Demo\Week07Demo\bin\Debug\Week07Demo.exe.config
+D:\OneDrive\repos\Week07Demo\Week07Demo\bin\Debug\Week07Demo.exe
+D:\OneDrive\repos\Week07Demo\Week07Demo\bin\Debug\Week07Demo.pdb
+D:\OneDrive\repos\Week07Demo\Week07Demo\obj\Debug\Week07Demo.csproj.AssemblyReference.cache
+D:\OneDrive\repos\Week07Demo\Week07Demo\obj\Debug\Week07Demo.csproj.SuggestedBindingRedirects.cache
+D:\OneDrive\repos\Week07Demo\Week07Demo\obj\Debug\Week07Demo.MainForm.resources
+D:\OneDrive\repos\Week07Demo\Week07Demo\obj\Debug\Week07Demo.Properties.Resources.resources
+D:\OneDrive\repos\Week07Demo\Week07Demo\obj\Debug\Week07Demo.csproj.GenerateResource.cache
+D:\OneDrive\repos\Week07Demo\Week07Demo\obj\Debug\Week07Demo.csproj.CoreCompileInputs.cache
+D:\OneDrive\repos\Week07Demo\Week07Demo\obj\Debug\Week07Demo.exe
+D:\OneDrive\repos\Week07Demo\Week07Demo\obj\Debug\Week07Demo.pdb

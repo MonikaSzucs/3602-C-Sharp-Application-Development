@@ -1,0 +1,9 @@
+D:\Work\COMP2614_Fall2019\Week07\Examples\TextBoxExample\TextBoxExample\bin\Debug\TextBoxExample.exe.config
+D:\Work\COMP2614_Fall2019\Week07\Examples\TextBoxExample\TextBoxExample\bin\Debug\TextBoxExample.exe
+D:\Work\COMP2614_Fall2019\Week07\Examples\TextBoxExample\TextBoxExample\bin\Debug\TextBoxExample.pdb
+D:\Work\COMP2614_Fall2019\Week07\Examples\TextBoxExample\TextBoxExample\obj\x86\Debug\TextBoxExample.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week07\Examples\TextBoxExample\TextBoxExample\obj\x86\Debug\TextBoxExample.MainForm.resources
+D:\Work\COMP2614_Fall2019\Week07\Examples\TextBoxExample\TextBoxExample\obj\x86\Debug\TextBoxExample.Properties.Resources.resources
+D:\Work\COMP2614_Fall2019\Week07\Examples\TextBoxExample\TextBoxExample\obj\x86\Debug\TextBoxExample.csproj.GenerateResource.cache
+D:\Work\COMP2614_Fall2019\Week07\Examples\TextBoxExample\TextBoxExample\obj\x86\Debug\TextBoxExample.exe
+D:\Work\COMP2614_Fall2019\Week07\Examples\TextBoxExample\TextBoxExample\obj\x86\Debug\TextBoxExample.pdb

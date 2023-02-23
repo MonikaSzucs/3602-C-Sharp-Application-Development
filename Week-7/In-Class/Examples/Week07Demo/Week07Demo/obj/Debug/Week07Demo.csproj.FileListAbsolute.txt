@@ -1,0 +1,9 @@
+D:\Work\COMP2614_Fall2019\Week07\Examples\Week07Demo\Week07Demo\bin\Debug\Week07Demo.exe.config
+D:\Work\COMP2614_Fall2019\Week07\Examples\Week07Demo\Week07Demo\bin\Debug\Week07Demo.exe
+D:\Work\COMP2614_Fall2019\Week07\Examples\Week07Demo\Week07Demo\bin\Debug\Week07Demo.pdb
+D:\Work\COMP2614_Fall2019\Week07\Examples\Week07Demo\Week07Demo\obj\Debug\Week07Demo.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week07\Examples\Week07Demo\Week07Demo\obj\Debug\Week07Demo.MainForm.resources
+D:\Work\COMP2614_Fall2019\Week07\Examples\Week07Demo\Week07Demo\obj\Debug\Week07Demo.Properties.Resources.resources
+D:\Work\COMP2614_Fall2019\Week07\Examples\Week07Demo\Week07Demo\obj\Debug\Week07Demo.csproj.GenerateResource.cache
+D:\Work\COMP2614_Fall2019\Week07\Examples\Week07Demo\Week07Demo\obj\Debug\Week07Demo.exe
+D:\Work\COMP2614_Fall2019\Week07\Examples\Week07Demo\Week07Demo\obj\Debug\Week07Demo.pdb

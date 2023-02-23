@@ -1,0 +1,9 @@
+D:\Work\COMP2614_Fall2019\Week07\Examples\LabelDemo\LabelDemo\bin\Debug\LabelDemo.exe.config
+D:\Work\COMP2614_Fall2019\Week07\Examples\LabelDemo\LabelDemo\bin\Debug\LabelDemo.exe
+D:\Work\COMP2614_Fall2019\Week07\Examples\LabelDemo\LabelDemo\bin\Debug\LabelDemo.pdb
+D:\Work\COMP2614_Fall2019\Week07\Examples\LabelDemo\LabelDemo\obj\Debug\LabelDemo.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week07\Examples\LabelDemo\LabelDemo\obj\Debug\LabelDemo.MainForm.resources
+D:\Work\COMP2614_Fall2019\Week07\Examples\LabelDemo\LabelDemo\obj\Debug\LabelDemo.Properties.Resources.resources
+D:\Work\COMP2614_Fall2019\Week07\Examples\LabelDemo\LabelDemo\obj\Debug\LabelDemo.csproj.GenerateResource.cache
+D:\Work\COMP2614_Fall2019\Week07\Examples\LabelDemo\LabelDemo\obj\Debug\LabelDemo.exe
+D:\Work\COMP2614_Fall2019\Week07\Examples\LabelDemo\LabelDemo\obj\Debug\LabelDemo.pdb

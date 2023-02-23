@@ -1,0 +1,9 @@
+D:\Work\COMP2614_Fall2019\Week07\Online\Examples\MenuExample\MenuExample\bin\Debug\MenuExample.exe.config
+D:\Work\COMP2614_Fall2019\Week07\Online\Examples\MenuExample\MenuExample\bin\Debug\MenuExample.exe
+D:\Work\COMP2614_Fall2019\Week07\Online\Examples\MenuExample\MenuExample\bin\Debug\MenuExample.pdb
+D:\Work\COMP2614_Fall2019\Week07\Online\Examples\MenuExample\MenuExample\obj\Debug\MenuExample.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week07\Online\Examples\MenuExample\MenuExample\obj\Debug\MenuExample.PictureViewerForm.resources
+D:\Work\COMP2614_Fall2019\Week07\Online\Examples\MenuExample\MenuExample\obj\Debug\MenuExample.Properties.Resources.resources
+D:\Work\COMP2614_Fall2019\Week07\Online\Examples\MenuExample\MenuExample\obj\Debug\MenuExample.csproj.GenerateResource.cache
+D:\Work\COMP2614_Fall2019\Week07\Online\Examples\MenuExample\MenuExample\obj\Debug\MenuExample.exe
+D:\Work\COMP2614_Fall2019\Week07\Online\Examples\MenuExample\MenuExample\obj\Debug\MenuExample.pdb
