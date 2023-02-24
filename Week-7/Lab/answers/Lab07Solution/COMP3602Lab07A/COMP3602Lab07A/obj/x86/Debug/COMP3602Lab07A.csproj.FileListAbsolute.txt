@@ -1,0 +1,14 @@
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\bin\Debug\COMP3602Lab07A.exe.config
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\bin\Debug\COMP3602Lab07A.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\bin\Debug\COMP3602Lab07A.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\obj\x86\Debug\COMP3602Lab07A.csproj.AssemblyReference.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\obj\x86\Debug\COMP3602Lab07A.MainForm.resources
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\obj\x86\Debug\COMP3602Lab07A.Properties.Resources.resources
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\obj\x86\Debug\COMP3602Lab07A.csproj.GenerateResource.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\obj\x86\Debug\COMP3602Lab07A.csproj.CoreCompileInputs.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\obj\x86\Debug\COMP3602Lab07A.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\obj\x86\Debug\COMP3602Lab07A.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-7\Lab\answers\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\obj\x86\Debug\COMP3602Lab07A.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-7\Lab\answers\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\obj\x86\Debug\COMP3602Lab07A.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-7\Lab\answers\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\obj\x86\Debug\COMP3602Lab07A.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-7\Lab\answers\Lab07Solution\COMP3602Lab07A\COMP3602Lab07A\obj\x86\Debug\COMP3602Lab07A.pdb

@@ -1,0 +1,9 @@
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07\COMP3602Lab07\bin\Debug\COMP3602Lab07.exe.config
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07\COMP3602Lab07\bin\Debug\COMP3602Lab07.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07\COMP3602Lab07\bin\Debug\COMP3602Lab07.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07\COMP3602Lab07\obj\x86\Debug\COMP3602Exercise07.MainForm.resources
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07\COMP3602Lab07\obj\x86\Debug\COMP3602Lab07.Properties.Resources.resources
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07\COMP3602Lab07\obj\x86\Debug\COMP3602Lab07.csproj.GenerateResource.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07\COMP3602Lab07\obj\x86\Debug\COMP3602Lab07.csproj.CoreCompileInputs.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07\COMP3602Lab07\obj\x86\Debug\COMP3602Lab07.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2022 Session 01\Week07\Lab07Solution\COMP3602Lab07\COMP3602Lab07\obj\x86\Debug\COMP3602Lab07.pdb

@@ -62,5 +62,10 @@ namespace TextBoxExample
             TextBox textBox = sender as TextBox;
             textBox.SelectAll();
         }
+
+        private void labelGreeting_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
