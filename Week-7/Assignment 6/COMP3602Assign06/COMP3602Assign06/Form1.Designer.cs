@@ -28,15 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form));
+            this.components = new System.ComponentModel.Container();
             this.labelYear = new System.Windows.Forms.Label();
             this.labelMonth = new System.Windows.Forms.Label();
             this.labelDay = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox3 = new System.Windows.Forms.TextBox();
+            this.textBoxYear = new System.Windows.Forms.TextBox();
+            this.textBoxMonth = new System.Windows.Forms.TextBox();
+            this.textBoxDay = new System.Windows.Forms.TextBox();
             this.buttonCheckDate = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.labelResult = new System.Windows.Forms.Label();
+            this.toolTipValid = new System.Windows.Forms.ToolTip(this.components);
             this.SuspendLayout();
             // 
             // labelYear
@@ -66,26 +67,26 @@
             this.labelDay.TabIndex = 2;
             this.labelDay.Text = "Day:";
             // 
-            // textBox1
+            // textBoxYear
             // 
-            this.textBox1.Location = new System.Drawing.Point(51, 91);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(164, 39);
-            this.textBox1.TabIndex = 3;
+            this.textBoxYear.Location = new System.Drawing.Point(51, 91);
+            this.textBoxYear.Name = "textBoxYear";
+            this.textBoxYear.Size = new System.Drawing.Size(164, 39);
+            this.textBoxYear.TabIndex = 3;
             // 
-            // textBox2
+            // textBoxMonth
             // 
-            this.textBox2.Location = new System.Drawing.Point(259, 91);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(164, 39);
-            this.textBox2.TabIndex = 4;
+            this.textBoxMonth.Location = new System.Drawing.Point(259, 91);
+            this.textBoxMonth.Name = "textBoxMonth";
+            this.textBoxMonth.Size = new System.Drawing.Size(164, 39);
+            this.textBoxMonth.TabIndex = 4;
             // 
-            // textBox3
+            // textBoxDay
             // 
-            this.textBox3.Location = new System.Drawing.Point(465, 91);
-            this.textBox3.Name = "textBox3";
-            this.textBox3.Size = new System.Drawing.Size(164, 39);
-            this.textBox3.TabIndex = 5;
+            this.textBoxDay.Location = new System.Drawing.Point(465, 91);
+            this.textBoxDay.Name = "textBoxDay";
+            this.textBoxDay.Size = new System.Drawing.Size(164, 39);
+            this.textBoxDay.TabIndex = 5;
             // 
             // buttonCheckDate
             // 
@@ -97,14 +98,15 @@
             this.buttonCheckDate.UseVisualStyleBackColor = true;
             this.buttonCheckDate.Click += new System.EventHandler(this.buttonCheckDate_Click);
             // 
-            // label1
+            // labelResult
             // 
-            this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(51, 233);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(101, 32);
-            this.label1.TabIndex = 7;
-            this.label1.Text = "<show>";
+            this.labelResult.AutoSize = true;
+            this.labelResult.Location = new System.Drawing.Point(51, 212);
+            this.labelResult.Name = "labelResult";
+            this.labelResult.Size = new System.Drawing.Size(0, 32);
+            this.labelResult.TabIndex = 7;
+            this.labelResult.MouseEnter += new System.EventHandler(this.labelResult_MouseEnter);
+            this.labelResult.MouseLeave += new System.EventHandler(this.labelResult_MouseLeave);
             // 
             // Form
             // 
@@ -112,16 +114,15 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(680, 325);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.labelResult);
             this.Controls.Add(this.buttonCheckDate);
-            this.Controls.Add(this.textBox3);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.textBoxDay);
+            this.Controls.Add(this.textBoxMonth);
+            this.Controls.Add(this.textBoxYear);
             this.Controls.Add(this.labelDay);
             this.Controls.Add(this.labelMonth);
             this.Controls.Add(this.labelYear);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximizeBox = false;
             this.Name = "Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -136,10 +137,11 @@
         private System.Windows.Forms.Label labelYear;
         private System.Windows.Forms.Label labelMonth;
         private System.Windows.Forms.Label labelDay;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox3;
+        private System.Windows.Forms.TextBox textBoxYear;
+        private System.Windows.Forms.TextBox textBoxMonth;
+        private System.Windows.Forms.TextBox textBoxDay;
         private System.Windows.Forms.Button buttonCheckDate;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label labelResult;
+        private System.Windows.Forms.ToolTip toolTipValid;
     }
 }
