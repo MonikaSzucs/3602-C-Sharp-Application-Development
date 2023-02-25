@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "COMP3602Assign06/1.0.0": {
+        "runtime": {
+          "COMP3602Assign06.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "COMP3602Assign06/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

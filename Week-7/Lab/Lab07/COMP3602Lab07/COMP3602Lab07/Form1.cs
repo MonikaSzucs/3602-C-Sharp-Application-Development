@@ -6,90 +6,85 @@ using System.Data;
 using System.Drawing;
 using System.Linq;
 using System.Text;
-using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace COMP3602Lab07
 {
-    public partial class Form1 : Form
+    public enum TemperatureConversion
     {
-        public Form1()
+        CelsiusToFahrenheit,
+        FahrenheitToCelsius
+    }
+    
+    public partial class MainForm : Form
+    {
+        public MainForm()
         {
             InitializeComponent();
         }
 
-        private void formButtonConvertFToC_Click(object sender, EventArgs e)
+        private void MainForm_Load(object sender, EventArgs e)
         {
-            int numberLength = textBox.Text.Length;
-            string text = textBox.Text;
-            double fahrenheit;
-            labelConvertedTemperature.Font = new Font(labelConvertedTemperature.Font, FontStyle.Bold);
-
-            // checking if something is entered in textBox
-            if (numberLength > 0)
-            {
-                // converting string to double and checking if a number
-                if (double.TryParse(text, out fahrenheit))
-                {
-                    double celcius = (fahrenheit - 32) / 1.8;
-                    labelConvertedTemperature.ForeColor = Color.Black;
-
-                    // check for decimal places if not a 0
-                    if (celcius % 1 == 0)
-                    {
-                        labelConvertedTemperature.Text = $"{celcius} degrees Celcius";
-                    }
-                    else
-                    {
-                        labelConvertedTemperature.Text = $"{celcius:N1} degrees Celcius";
-                    }
-                }
-                else // if not a number throw an error message
-                {
-                    labelConvertedTemperature.Text = "Invalid temperature";
-                    labelConvertedTemperature.ForeColor = Color.Red;
-                }
-            }
-            textBox.Focus();
-            textBox.Select(0, textBox.Text.Length);
+            labelResult.Text = string.Empty;
         }
 
-        private void formButtonConvertCToF_Click(object sender, EventArgs e)
+        private void buttonCtoF_Click(object sender, EventArgs e)
         {
-            int numberLength = textBox.Text.Length;
-            string text = textBox.Text;
-            double celsiusValue;
-            labelConvertedTemperature.Font = new Font(labelConvertedTemperature.Font, FontStyle.Bold);
+            convertTemperature(TemperatureConversion.CelsiusToFahrenheit);
+        }
 
-            // checking if something is entered in textBox
-            if (numberLength > 0)
+        private void buttonFtoC_Click(object sender, EventArgs e)
+        {
+            convertTemperature(TemperatureConversion.FahrenheitToCelsius);
+        }
+
+        // Converting the temperature to Fahrenheit or Celsius
+        private void convertTemperature(TemperatureConversion conversion)
+        {
+            double inputTemperature;
+            double outputTemeprature;
+            string temperatureUnit;
+            string plural;
+
+            if(double.TryParse(textBoxInputTemperature.Text, out inputTemperature))
             {
-                // converting string to double and checking if a number
-                if (double.TryParse(text, out celsiusValue))
-                {
-                    double fahrenheit = (celsiusValue * 1.8) + 32;
-                    labelConvertedTemperature.ForeColor = Color.Black;
+                // Set label to default of black colour
+                labelResult.ForeColor = Color.Black;
 
-                    // check for decimal places if not a 0
-                    if (fahrenheit % 1 == 0)
-                    {
-                        labelConvertedTemperature.Text = $"{fahrenheit} degrees Fahrenheit";
-                    }
-                    else 
-                    {
-                        labelConvertedTemperature.Text = $"{fahrenheit:N1} degrees Fahrenheit";
-                    }
-                }
-                else // if not a number throw an error message
+                if(conversion == TemperatureConversion.CelsiusToFahrenheit)
                 {
-                    labelConvertedTemperature.Text = "Invalid temperature";
-                    labelConvertedTemperature.ForeColor = Color.Red;
+                    outputTemeprature = inputTemperature * 1.8 + 32.0;
+                    temperatureUnit= "Fahrenheit";
                 }
+                else
+                {
+                    outputTemeprature = (inputTemperature - 32.0) / 1.8;
+                    temperatureUnit = "Celsius";
+                }
+
+                plural = Math.Abs(outputTemeprature - 1.0) < 0.05 ? "" : "s";
+                labelResult.Text = $"{outputTemeprature:0.#} degree{plural} {temperatureUnit}";
             }
-            textBox.Focus();
-            textBox.Select(0, textBox.Text.Length);
+            else
+            {
+                displayError("Invlid temperature");
+            }
+
+            // Send fous to the TextBox
+            textBoxInputTemperature.Select();
+
+            // Call the Select() before calling SelectAll()
+            // You want to have focus first on the TextBox
+            // Then select all the text in the TextBox
+            textBoxInputTemperature.SelectAll();
+        }
+
+        // Stylize and display error message
+        private void displayError(string errorMessage)
+        {
+            labelResult.ForeColor = Color.Red;
+            labelResult.Text = errorMessage;
         }
     }
 }
