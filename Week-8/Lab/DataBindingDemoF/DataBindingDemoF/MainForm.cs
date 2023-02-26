@@ -45,7 +45,11 @@ namespace DataBindingDemoF
                                           true, DataSourceUpdateMode.OnValidation, 
                                           "0.00", "#,##0.00;(#,##0.00);0.00");
 
-            
+
+            textBoxPrice.DataBindings.Add("Text", productVM, "DisplayProduct.SellPrice");
+
+            textBoxExtension.DataBindings.Add("Text", productVM, "DisplayProduct.ExtensionPrice");
+
             checkBoxTaxable.DataBindings.Add("Checked", productVM, "DisplayProduct.IsTaxable");
             
             labelCount.DataBindings.Add("Text", productVM, "Count");
@@ -133,8 +137,10 @@ namespace DataBindingDemoF
 
             //Need to unbox product
             Product product = (Product)productVM.ProductsSource[index];
-            productVM.DisplayProduct = product;
 
+            //Console.WriteLine("Product selected:", product.SellPrice);
+            productVM.DisplayProduct = product;
+            
         }
 
         private void buttonSave_Click(object sender, EventArgs e)
@@ -169,6 +175,56 @@ namespace DataBindingDemoF
         }
 
         private void textBoxSku_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+
+
+        private void textBoxExtensionCalculation_TextChanged()
+        {
+            /*int inputQuantity;
+            int inputPrice;
+            
+            if(int.TryParse(textBoxQuantity.Text, out inputQuantity) && int.TryParse(textBoxPrice.Text, out inputPrice))
+            {
+                int price = inputQuantity * inputPrice;
+                textBoxExtension.Text = price.ToString();
+            }*/
+            //if(textBoxQuantity)
+        }
+
+        private void textBoxQuantity_TextChanged(object sender, EventArgs e)
+        {
+            /*int inputQuantity;
+
+            if (int.TryParse(textBoxQuantity.Text, out inputQuantity))
+            {
+                if(inputQuantity > 0)
+                {
+                    textBoxExtensionCalculation_TextChanged();
+                }
+            }*/
+        }
+
+        private void textBoxPrice_TextChanged(object sender, EventArgs e)
+        {
+            /*int inputPrice;
+
+            Console.WriteLine(sender);
+            Console.WriteLine(e);
+
+            //textBoxPrice.Text = inputPrice.ToString();
+
+            //Price = value.Price;
+
+            if (int.TryParse(textBoxPrice.Text, out inputPrice))
+            {
+                Console.WriteLine(inputPrice);
+            }*/
+        }
+
+        private void labelGrid_Click(object sender, EventArgs e)
         {
 
         }

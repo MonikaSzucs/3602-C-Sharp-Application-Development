@@ -19,6 +19,7 @@ namespace DataBindingDemoF
 
         protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
+            Console.WriteLine("property name: " + propertyName);
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
@@ -46,7 +47,9 @@ namespace DataBindingDemoF
                     ProductId = value.ProductId,
                     Sku = value.Sku,
                     Description = value.Description,
+                    Quantity = value.Quantity,
                     Cost = value.Cost,
+                    SellPrice= value.SellPrice,
                     IsTaxable = value.IsTaxable
                 };
                 OnPropertyChanged();
@@ -69,7 +72,7 @@ namespace DataBindingDemoF
             {
                 return string.Format("{0,15:N2}\r\n{1,15:N2}\r\n{2,15:N2}\r\n{3,15:N2}\r\n{4,15:N2}\r\n",
                                                    products.TotalCost,
-                                                   "Sub total",
+                                                   products.SubTotal,
                                                    products.TotalPst,
                                                    products.TotalGst,
                                                    products.Total);

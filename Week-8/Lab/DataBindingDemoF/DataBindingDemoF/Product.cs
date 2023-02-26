@@ -16,16 +16,17 @@ namespace DataBindingDemoF
         public decimal Quantity { get; set; }
         public decimal Cost { get; set; }
         public decimal SellPrice { get; set; }
-        public decimal ExtensionPrice { get; set; }
         public bool IsTaxable { get; set; }
 
-        public decimal ExtensionCost
+        public decimal ExtensionPrice
         {
             get
             {
-                return Cost * 1;
+                return SellPrice * Quantity;
             }
         }
+
+
         public Product(decimal pstRate, decimal gstRate)
         {
             PstRate = pstRate;

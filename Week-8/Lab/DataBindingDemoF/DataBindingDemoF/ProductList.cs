@@ -17,7 +17,7 @@ namespace DataBindingDemoF
                 decimal totalCost = 0.0m;
                 foreach(Product product in this)
                 {
-                    totalCost += product.ExtensionCost;
+                    totalCost += product.Quantity * product.Cost;
                 }
                 return totalCost;
             }
@@ -30,7 +30,7 @@ namespace DataBindingDemoF
                 decimal totalPst = 0.0m;
                 foreach(Product product in this)
                 {
-                    totalPst += product.ExtensionCost * 0.07m;
+                    totalPst += product.ExtensionPrice * 0.07m;
                 }
                 return totalPst;
             }
@@ -43,9 +43,22 @@ namespace DataBindingDemoF
                 decimal totalGst = 0.0m;
                 foreach(Product product in this)
                 {
-                    totalGst += product.ExtensionCost * 0.05m;
+                    totalGst += product.ExtensionPrice * 0.05m;
                 }
                 return totalGst;
+            }
+        }
+
+        public decimal SubTotal
+        {
+            get
+            {
+                decimal subTotal = 0.0m;
+                foreach(Product product in this)
+                {
+                    subTotal += product.ExtensionPrice;
+                }
+                return subTotal;
             }
         }
 

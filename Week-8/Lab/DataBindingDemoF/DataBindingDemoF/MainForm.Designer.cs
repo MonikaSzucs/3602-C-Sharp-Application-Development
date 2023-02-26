@@ -48,8 +48,8 @@
             this.textBoxQuantity = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBoxPrice = new System.Windows.Forms.TextBox();
+            this.textBoxExtension = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProducts)).BeginInit();
             this.SuspendLayout();
             // 
@@ -60,7 +60,7 @@
             this.dataGridViewProducts.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.dataGridViewProducts.Name = "dataGridViewProducts";
             this.dataGridViewProducts.RowHeadersWidth = 62;
-            this.dataGridViewProducts.Size = new System.Drawing.Size(1206, 468);
+            this.dataGridViewProducts.Size = new System.Drawing.Size(1206, 307);
             this.dataGridViewProducts.TabIndex = 9;
             this.dataGridViewProducts.SelectionChanged += new System.EventHandler(this.dataGridViewProducts_SelectionChanged);
             // 
@@ -172,11 +172,12 @@
             this.labelGrid.Size = new System.Drawing.Size(97, 25);
             this.labelGrid.TabIndex = 0;
             this.labelGrid.Text = "Data&Grid";
+            this.labelGrid.Click += new System.EventHandler(this.labelGrid_Click);
             // 
             // labelCount
             // 
             this.labelCount.AutoSize = true;
-            this.labelCount.Location = new System.Drawing.Point(118, 1081);
+            this.labelCount.Location = new System.Drawing.Point(127, 912);
             this.labelCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCount.Name = "labelCount";
             this.labelCount.Size = new System.Drawing.Size(93, 25);
@@ -185,7 +186,7 @@
             // 
             // buttonNew
             // 
-            this.buttonNew.Location = new System.Drawing.Point(1080, 1071);
+            this.buttonNew.Location = new System.Drawing.Point(1089, 902);
             this.buttonNew.Margin = new System.Windows.Forms.Padding(5, 6, 5, 6);
             this.buttonNew.Name = "buttonNew";
             this.buttonNew.Size = new System.Drawing.Size(149, 44);
@@ -197,7 +198,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(37, 1081);
+            this.label1.Location = new System.Drawing.Point(46, 912);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(75, 25);
@@ -219,6 +220,8 @@
             this.textBoxQuantity.Name = "textBoxQuantity";
             this.textBoxQuantity.Size = new System.Drawing.Size(196, 31);
             this.textBoxQuantity.TabIndex = 17;
+            this.textBoxQuantity.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxQuantity.TextChanged += new System.EventHandler(this.textBoxQuantity_TextChanged);
             // 
             // label2
             // 
@@ -238,29 +241,32 @@
             this.label3.TabIndex = 19;
             this.label3.Text = "Extension:";
             // 
-            // textBox1
+            // textBoxPrice
             // 
-            this.textBox1.Location = new System.Drawing.Point(156, 323);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(196, 31);
-            this.textBox1.TabIndex = 20;
+            this.textBoxPrice.Location = new System.Drawing.Point(156, 323);
+            this.textBoxPrice.Name = "textBoxPrice";
+            this.textBoxPrice.Size = new System.Drawing.Size(196, 31);
+            this.textBoxPrice.TabIndex = 20;
+            this.textBoxPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.textBoxPrice.TextChanged += new System.EventHandler(this.textBoxPrice_TextChanged);
             // 
-            // textBox2
+            // textBoxExtension
             // 
-            this.textBox2.Enabled = false;
-            this.textBox2.Location = new System.Drawing.Point(156, 399);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(196, 31);
-            this.textBox2.TabIndex = 21;
+            this.textBoxExtension.Enabled = false;
+            this.textBoxExtension.Location = new System.Drawing.Point(156, 399);
+            this.textBoxExtension.Name = "textBoxExtension";
+            this.textBoxExtension.Size = new System.Drawing.Size(196, 31);
+            this.textBoxExtension.TabIndex = 21;
+            this.textBoxExtension.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // MainForm
             // 
             this.AcceptButton = this.buttonSave;
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1255, 1139);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.ClientSize = new System.Drawing.Size(1255, 986);
+            this.Controls.Add(this.textBoxExtension);
+            this.Controls.Add(this.textBoxPrice);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.textBoxQuantity);
@@ -315,8 +321,8 @@
         private System.Windows.Forms.TextBox textBoxQuantity;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox textBoxPrice;
+        private System.Windows.Forms.TextBox textBoxExtension;
     }
 }
 
