@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2050
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWithCollections", "LinqWithCollections\LinqWithCollections.csproj", "{73ABF850-887B-4370-8F0E-B37F141E759A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{73ABF850-887B-4370-8F0E-B37F141E759A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73ABF850-887B-4370-8F0E-B37F141E759A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73ABF850-887B-4370-8F0E-B37F141E759A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73ABF850-887B-4370-8F0E-B37F141E759A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F6AAF7E6-565D-4E7B-A7B4-8EC8C39305D0}
+	EndGlobalSection
+EndGlobal

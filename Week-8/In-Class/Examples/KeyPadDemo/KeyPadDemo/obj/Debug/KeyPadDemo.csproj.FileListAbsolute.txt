@@ -1,0 +1,9 @@
+D:\Work\COMP2614_Fall2019\Week09\Examples\KeyPadDemo\KeyPadDemo\bin\Debug\KeyPadDemo.exe.config
+D:\Work\COMP2614_Fall2019\Week09\Examples\KeyPadDemo\KeyPadDemo\bin\Debug\KeyPadDemo.exe
+D:\Work\COMP2614_Fall2019\Week09\Examples\KeyPadDemo\KeyPadDemo\bin\Debug\KeyPadDemo.pdb
+D:\Work\COMP2614_Fall2019\Week09\Examples\KeyPadDemo\KeyPadDemo\obj\Debug\KeyPadDemo.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week09\Examples\KeyPadDemo\KeyPadDemo\obj\Debug\KeyPadDemo.KeyPadForm.resources
+D:\Work\COMP2614_Fall2019\Week09\Examples\KeyPadDemo\KeyPadDemo\obj\Debug\KeyPadDemo.Properties.Resources.resources
+D:\Work\COMP2614_Fall2019\Week09\Examples\KeyPadDemo\KeyPadDemo\obj\Debug\KeyPadDemo.csproj.GenerateResource.cache
+D:\Work\COMP2614_Fall2019\Week09\Examples\KeyPadDemo\KeyPadDemo\obj\Debug\KeyPadDemo.exe
+D:\Work\COMP2614_Fall2019\Week09\Examples\KeyPadDemo\KeyPadDemo\obj\Debug\KeyPadDemo.pdb

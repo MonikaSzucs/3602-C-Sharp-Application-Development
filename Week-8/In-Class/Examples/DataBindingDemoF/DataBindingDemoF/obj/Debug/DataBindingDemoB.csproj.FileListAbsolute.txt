@@ -1,0 +1,27 @@
+D:\Work\COMP2614_Fall2019\Week08\Examples\DataBindingDemoB\DataBindingDemoB\bin\Debug\DataBindingDemoB.exe.config
+D:\Work\COMP2614_Fall2019\Week08\Examples\DataBindingDemoB\DataBindingDemoB\bin\Debug\DataBindingDemoB.exe
+D:\Work\COMP2614_Fall2019\Week08\Examples\DataBindingDemoB\DataBindingDemoB\bin\Debug\DataBindingDemoB.pdb
+D:\Work\COMP2614_Fall2019\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.MainForm.resources
+D:\Work\COMP2614_Fall2019\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.Properties.Resources.resources
+D:\Work\COMP2614_Fall2019\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.csproj.GenerateResource.cache
+D:\Work\COMP2614_Fall2019\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.exe
+D:\Work\COMP2614_Fall2019\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\bin\Debug\DataBindingDemoB.exe.config
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\bin\Debug\DataBindingDemoB.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\bin\Debug\DataBindingDemoB.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.csprojAssemblyReference.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.MainForm.resources
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.Properties.Resources.resources
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.csproj.GenerateResource.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.pdb
+E:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\bin\Debug\DataBindingDemoB.exe.config
+E:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\bin\Debug\DataBindingDemoB.exe
+E:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\bin\Debug\DataBindingDemoB.pdb
+E:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.csprojAssemblyReference.cache
+E:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.MainForm.resources
+E:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.Properties.Resources.resources
+E:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.csproj.GenerateResource.cache
+E:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.exe
+E:\OneDrive\Documents\BCIT\COMP2614\2020 Session 01\Week08\Examples\DataBindingDemoB\DataBindingDemoB\obj\Debug\DataBindingDemoB.pdb

@@ -1,0 +1,24 @@
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 03\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.csprojAssemblyReference.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 03\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.MainForm.resources
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 03\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.Properties.Resources.resources
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 03\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.csproj.GenerateResource.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 03\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.csproj.CoreCompileInputs.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 03\Week08\Examples\DataBindingDemo\DataBindingDemoE\bin\Debug\DataBindingDemoE.exe.config
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 03\Week08\Examples\DataBindingDemo\DataBindingDemoE\bin\Debug\DataBindingDemoE.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 03\Week08\Examples\DataBindingDemo\DataBindingDemoE\bin\Debug\DataBindingDemoE.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 03\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2020 Session 03\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingDemo\DataBindingDemoE\bin\Debug\DataBindingDemoE.exe.config
+D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingDemo\DataBindingDemoE\bin\Debug\DataBindingDemoE.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingDemo\DataBindingDemoE\bin\Debug\DataBindingDemoE.pdb
+D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.csprojAssemblyReference.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.MainForm.resources
+D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.Properties.Resources.resources
+D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.csproj.GenerateResource.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.csproj.CoreCompileInputs.cache
+D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.exe
+D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoE\obj\Debug\DataBindingDemoE.pdb

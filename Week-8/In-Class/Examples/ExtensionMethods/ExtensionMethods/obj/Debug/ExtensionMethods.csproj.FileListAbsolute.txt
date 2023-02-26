@@ -1,0 +1,14 @@
+D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe.config
+D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe
+D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.pdb
+D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.exe
+D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.pdb
