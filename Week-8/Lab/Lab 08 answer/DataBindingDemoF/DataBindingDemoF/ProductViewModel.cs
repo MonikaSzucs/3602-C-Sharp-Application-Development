@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Monika Szucs
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -37,6 +38,9 @@ namespace DataBindingDemoF
         public Product DisplayProduct
         {
             get { return displayProduct; }
+
+            // Create a copy of hte product as a temporary place holder
+            // so the original product doesn't get updated until we hit save
             set
             {
                 //Create a copy of the product as a temporary placeholder

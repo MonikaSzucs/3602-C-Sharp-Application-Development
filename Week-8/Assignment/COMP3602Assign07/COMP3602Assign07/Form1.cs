@@ -16,6 +16,5 @@ namespace COMP3602Assign07
         {
             InitializeComponent();
         }
-
     }
 }

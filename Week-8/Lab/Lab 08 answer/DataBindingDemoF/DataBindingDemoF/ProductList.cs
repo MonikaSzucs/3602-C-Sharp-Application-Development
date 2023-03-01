@@ -1,4 +1,5 @@
-﻿using System;
+﻿// Monika Szucs
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Linq;
@@ -42,6 +43,7 @@ namespace DataBindingDemoF
                 decimal totalPst = 0.0m;
                 foreach (Product product in this)
                 {
+                    // checking if PST is true or fase
                     totalPst += product.IsTaxable ? product.SellPrice * product.PstRate : 0.0m;
                 }
                 return totalPst;
