@@ -31,3 +31,10 @@ C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Exam
 C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoA\obj\Debug\DataBindingDemoA.csproj.SuggestedBindingRedirects.cache
 C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoA\obj\Debug\DataBindingDemoA.exe
 C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoA\obj\Debug\DataBindingDemoA.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoA\bin\Debug\DataBindingDemoA.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoA\bin\Debug\DataBindingDemoA.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoA\bin\Debug\DataBindingDemoA.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoA\obj\Debug\DataBindingDemoA.CalculatorForm.resources
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoA\obj\Debug\DataBindingDemoA.Properties.Resources.resources
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoA\obj\Debug\DataBindingDemoA.csproj.GenerateResource.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoA\obj\Debug\DataBindingDemoA.csproj.CoreCompileInputs.cache

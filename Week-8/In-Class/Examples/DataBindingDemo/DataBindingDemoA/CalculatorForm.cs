@@ -16,6 +16,9 @@ namespace DataBindingDemoA
 
         public CalculatorForm()
         {
+            // C# has partial classes which means it spleats in two which has a designer code tha tis already generated for us.
+            // Initialized component is given to us auotmatically in the CalculatorForm.Designer.cs
+
             InitializeComponent();
         }
 
@@ -44,6 +47,10 @@ namespace DataBindingDemoA
 
         private void setBindings()
         {
+            // true means it follows the format
+            // then it tells you when - onPropertyChanged
+            // null is 0
+            // not null is the hashtags that is formatted
             textBoxOpA.DataBindings.Add("Text", calculator, "OperandA", true, DataSourceUpdateMode.OnPropertyChanged, 0, "#,##0");
             textBoxOpB.DataBindings.Add("Text", calculator, "OperandB", true, DataSourceUpdateMode.OnPropertyChanged, 0, "#,##0");
             textBoxResult.DataBindings.Add("Text", calculator, "Result", true, DataSourceUpdateMode.Never, 0, "#,##0");

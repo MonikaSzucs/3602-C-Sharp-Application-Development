@@ -9,12 +9,15 @@ using System.Threading.Tasks;
 
 namespace DataBindingDemoD 
 {
+    // this interface is key to allow binding events
     class TotalCalculatorViewModel : INotifyPropertyChanged
     {
+        // even tmust be declared
         public event PropertyChangedEventHandler PropertyChanged;
         private void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
             Debug.WriteLine("Firing PropertyChanged event");
+            // the question marks i a null conditional. If it is not null then invoke this thing
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 

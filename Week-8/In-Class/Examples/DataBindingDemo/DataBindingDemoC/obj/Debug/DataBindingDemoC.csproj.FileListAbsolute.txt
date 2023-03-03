@@ -18,3 +18,14 @@ D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingD
 D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingDemo\DataBindingDemoC\obj\Debug\DataBindingDemoC.csproj.CoreCompileInputs.cache
 D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingDemo\DataBindingDemoC\obj\Debug\DataBindingDemoC.exe
 D:\OneDrive\Documents\BCIT\COMP2614\2021 Session 01\Week08\Examples\DataBindingDemo\DataBindingDemoC\obj\Debug\DataBindingDemoC.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoC\bin\Debug\DataBindingDemoC.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoC\bin\Debug\DataBindingDemoC.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoC\bin\Debug\DataBindingDemoC.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoC\obj\Debug\DataBindingDemoC.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoC\obj\Debug\DataBindingDemoC.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoC\obj\Debug\DataBindingDemoC.MainForm.resources
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoC\obj\Debug\DataBindingDemoC.Properties.Resources.resources
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoC\obj\Debug\DataBindingDemoC.csproj.GenerateResource.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoC\obj\Debug\DataBindingDemoC.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoC\obj\Debug\DataBindingDemoC.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\In-Class\Examples\DataBindingDemo\DataBindingDemoC\obj\Debug\DataBindingDemoC.pdb
