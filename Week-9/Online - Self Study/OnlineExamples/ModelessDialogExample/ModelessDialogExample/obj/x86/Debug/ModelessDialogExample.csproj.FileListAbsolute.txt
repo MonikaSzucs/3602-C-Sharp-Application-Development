@@ -1,0 +1,11 @@
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\ModelessDialogExample\ModelessDialogExample\bin\Debug\ModelessDialogExample.exe.config
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\ModelessDialogExample\ModelessDialogExample\bin\Debug\ModelessDialogExample.exe
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\ModelessDialogExample\ModelessDialogExample\bin\Debug\ModelessDialogExample.pdb
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\ModelessDialogExample\ModelessDialogExample\obj\x86\Debug\ModelessDialogExample.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\ModelessDialogExample\ModelessDialogExample\obj\x86\Debug\ModelessDialogExample.MainForm.resources
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\ModelessDialogExample\ModelessDialogExample\obj\x86\Debug\ModelessDialogExample.ModelessForm.resources
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\ModelessDialogExample\ModelessDialogExample\obj\x86\Debug\ModelessDialogExample.ModelessSingletonForm.resources
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\ModelessDialogExample\ModelessDialogExample\obj\x86\Debug\ModelessDialogExample.Properties.Resources.resources
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\ModelessDialogExample\ModelessDialogExample\obj\x86\Debug\ModelessDialogExample.csproj.GenerateResource.cache
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\ModelessDialogExample\ModelessDialogExample\obj\x86\Debug\ModelessDialogExample.exe
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\ModelessDialogExample\ModelessDialogExample\obj\x86\Debug\ModelessDialogExample.pdb

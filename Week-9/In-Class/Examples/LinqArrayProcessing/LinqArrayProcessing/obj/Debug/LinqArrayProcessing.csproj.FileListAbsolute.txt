@@ -1,0 +1,6 @@
+D:\Work\COMP2614_Fall2019\Week09\Examples\LinqArrayProcessing\LinqArrayProcessing\bin\Debug\LinqArrayProcessing.exe.config
+D:\Work\COMP2614_Fall2019\Week09\Examples\LinqArrayProcessing\LinqArrayProcessing\bin\Debug\LinqArrayProcessing.exe
+D:\Work\COMP2614_Fall2019\Week09\Examples\LinqArrayProcessing\LinqArrayProcessing\bin\Debug\LinqArrayProcessing.pdb
+D:\Work\COMP2614_Fall2019\Week09\Examples\LinqArrayProcessing\LinqArrayProcessing\obj\Debug\LinqArrayProcessing.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week09\Examples\LinqArrayProcessing\LinqArrayProcessing\obj\Debug\LinqArrayProcessing.exe
+D:\Work\COMP2614_Fall2019\Week09\Examples\LinqArrayProcessing\LinqArrayProcessing\obj\Debug\LinqArrayProcessing.pdb

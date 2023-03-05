@@ -1,0 +1,9 @@
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\CommonDialogExample\CommonDialogExample\bin\Debug\CommonDialogExample.exe.config
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\CommonDialogExample\CommonDialogExample\bin\Debug\CommonDialogExample.exe
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\CommonDialogExample\CommonDialogExample\bin\Debug\CommonDialogExample.pdb
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\CommonDialogExample\CommonDialogExample\obj\Debug\CommonDialogExample.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\CommonDialogExample\CommonDialogExample\obj\Debug\CommonDialogExample.MainForm.resources
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\CommonDialogExample\CommonDialogExample\obj\Debug\CommonDialogExample.Properties.Resources.resources
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\CommonDialogExample\CommonDialogExample\obj\Debug\CommonDialogExample.csproj.GenerateResource.cache
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\CommonDialogExample\CommonDialogExample\obj\Debug\CommonDialogExample.exe
+D:\Work\COMP2614_Fall2019\Week09\Online\Examples\CommonDialogExample\CommonDialogExample\obj\Debug\CommonDialogExample.pdb

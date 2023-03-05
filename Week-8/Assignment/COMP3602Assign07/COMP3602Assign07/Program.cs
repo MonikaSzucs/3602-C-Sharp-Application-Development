@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace COMP3602Assign07
 {
-    internal static class Program
+    internal class Program
     {
         /// <summary>
         ///  The main entry point for the application.
@@ -17,7 +17,9 @@ namespace COMP3602Assign07
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new MainForm());
+
+            List<Location> customerLocation = LocationRepository.GetCustomerLocations();
         }
     }
 }
