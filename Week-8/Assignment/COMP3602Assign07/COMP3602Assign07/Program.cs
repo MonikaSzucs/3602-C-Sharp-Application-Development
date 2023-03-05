@@ -17,9 +17,11 @@ namespace COMP3602Assign07
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            
             Application.Run(new MainForm());
 
-            List<Location> customerLocation = LocationRepository.GetCustomerLocations();
+/*            List<Client> clientsList = ClientRepository.GetCustomerLocations();
+*/            
         }
     }
 }

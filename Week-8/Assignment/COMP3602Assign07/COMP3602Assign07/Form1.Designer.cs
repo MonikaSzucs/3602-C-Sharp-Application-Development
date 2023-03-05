@@ -48,6 +48,7 @@
             this.labelNotes = new System.Windows.Forms.Label();
             this.labelIsTaxable = new System.Windows.Forms.Label();
             this.textBoxIsTaxable = new System.Windows.Forms.TextBox();
+            this.labelDisplay = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // textBoxCompanyName
@@ -210,11 +211,21 @@
             this.textBoxIsTaxable.Size = new System.Drawing.Size(200, 39);
             this.textBoxIsTaxable.TabIndex = 19;
             // 
+            // labelDisplay
+            // 
+            this.labelDisplay.AutoSize = true;
+            this.labelDisplay.Location = new System.Drawing.Point(567, 67);
+            this.labelDisplay.Name = "labelDisplay";
+            this.labelDisplay.Size = new System.Drawing.Size(65, 32);
+            this.labelDisplay.TabIndex = 20;
+            this.labelDisplay.Text = "label";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 849);
+            this.ClientSize = new System.Drawing.Size(1211, 849);
+            this.Controls.Add(this.labelDisplay);
             this.Controls.Add(this.textBoxIsTaxable);
             this.Controls.Add(this.labelIsTaxable);
             this.Controls.Add(this.labelNotes);
@@ -237,6 +248,7 @@
             this.Controls.Add(this.textBoxCompanyName);
             this.Name = "MainForm";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -264,5 +276,6 @@
         private System.Windows.Forms.Label labelNotes;
         private System.Windows.Forms.Label labelIsTaxable;
         private System.Windows.Forms.TextBox textBoxIsTaxable;
+        private System.Windows.Forms.Label labelDisplay;
     }
 }

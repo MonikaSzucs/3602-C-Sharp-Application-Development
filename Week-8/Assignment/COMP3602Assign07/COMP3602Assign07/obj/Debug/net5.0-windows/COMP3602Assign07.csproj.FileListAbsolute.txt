@@ -16,3 +16,10 @@ C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\Assignment\CO
 C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\Assignment\COMP3602Assign07\COMP3602Assign07\obj\Debug\net5.0-windows\COMP3602Assign07.pdb
 C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\Assignment\COMP3602Assign07\COMP3602Assign07\obj\Debug\net5.0-windows\COMP3602Assign07.genruntimeconfig.cache
 C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\Assignment\COMP3602Assign07\COMP3602Assign07\obj\Debug\net5.0-windows\ref\COMP3602Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\Assignment\COMP3602Assign07\COMP3602Assign07\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\Assignment\COMP3602Assign07\COMP3602Assign07\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\Assignment\COMP3602Assign07\COMP3602Assign07\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\Assignment\COMP3602Assign07\COMP3602Assign07\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\Assignment\COMP3602Assign07\COMP3602Assign07\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\Assignment\COMP3602Assign07\COMP3602Assign07\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8\Assignment\COMP3602Assign07\COMP3602Assign07\obj\Debug\net5.0-windows\COMP3602Assign07.csproj.CopyComplete

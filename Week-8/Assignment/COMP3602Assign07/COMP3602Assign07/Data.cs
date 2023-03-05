@@ -9,9 +9,9 @@ namespace COMP3602Assign07
 {
     class Data
     {
-        public static LocationList CreateLocations()
+        public static ClientList CreateLocations()
         {
-            LocationList location = new LocationList();
+            ClientList location = new ClientList();
 
             return location;
         }

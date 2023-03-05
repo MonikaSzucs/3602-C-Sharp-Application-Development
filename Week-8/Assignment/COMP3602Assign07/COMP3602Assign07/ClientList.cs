@@ -7,16 +7,16 @@ using System.Threading.Tasks;
 
 namespace COMP3602Assign07
 {
-    internal class LocationList : List<Location>
+    internal class ClientList : List<Client>
     {
         public decimal TotalYTDSales
         {
             get
             {
                 decimal totalYTDSales = 0.0m;
-                foreach(Location location in this)
+                foreach(Client client in this)
                 {
-                    totalYTDSales += 1;
+                    totalYTDSales += client.YTDSales;
                 }
                 return totalYTDSales;
             }
@@ -27,9 +27,12 @@ namespace COMP3602Assign07
             get
             {
                 int countTaxableClients = 0;
-                foreach(Location location in this)
+                foreach(Client client in this)
                 {
-                    countTaxableClients++;
+                    if(client.IsTaxable == 'Y')
+                    {
+                        countTaxableClients++;
+                    }
                 }
                 return countTaxableClients;
             }
@@ -40,9 +43,12 @@ namespace COMP3602Assign07
             get
             {
                 int countClientsWithCreditHold = 0;
-                foreach(Location location in this)
+                foreach(Client client in this)
                 {
-                    countClientsWithCreditHold++;
+                    if(client.CreditHold == 'Y')
+                    {
+                        countClientsWithCreditHold++;
+                    }
                 }
                 return countClientsWithCreditHold;
             }

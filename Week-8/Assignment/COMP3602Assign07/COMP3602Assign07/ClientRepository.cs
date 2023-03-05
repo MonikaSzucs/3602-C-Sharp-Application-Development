@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace COMP3602Assign07
 {
-    class LocationRepository
+    class ClientRepository
     {
         private static readonly string connString = @"Server=tcp:BUNKER3.EDU.BCIT.CA,1433;
                                                     Initial Catalog=TigerDB;
@@ -19,16 +19,16 @@ namespace COMP3602Assign07
                                                     TrustServerCertificate=True; 
                                                     Connection Timeout=30;";
 
-        public static List<Location> GetCustomerLocations()
+        public static List<Client> GetCustomerLocations()
         {
-            List<Location> customerLocation = new List<Location>();
+            List<Client> customerLocation = new List<Client>();
 
             try
             {
                 using (SqlConnection conn = new SqlConnection(connString))
                 {
-                    string query = @"SELECT CompanyName, City, Province, PostalCode, CreditHold
-                                    FROM Customer";
+                    string query = @"SELECT CompanyName, Address1, Address2, City, Province, PostalCode, YTDSales, CreditHold, Notes, IsTaxable
+                                    FROM Client01";
 
                     using (SqlCommand cmd = conn.CreateCommand()) 
                     {
@@ -46,7 +46,7 @@ namespace COMP3602Assign07
                                 string address1 = reader["Address1"] as string;
                                 string? address2 = reader["Address2"] as string;
                                 string? city = reader["City"] as string;
-                                char province = (char)reader["Province"];
+                                string province = reader["Province"] as string;
                                 string? postalCode = reader["PostalCode"] as string;
                                 decimal ytdSales = (decimal)reader["YTDSales"];
 
@@ -72,6 +72,18 @@ namespace COMP3602Assign07
                                 {
                                     isTaxable = 'N';
                                 }
+
+                                customerLocation.Add(new Client(0.07m, 0.05m) { CompanyName = companyName, Address1 = address1, Address2 = address2, City = city, Province = province, PostalCode = postalCode, YTDSales = ytdSales, CreditHold = isCreditHold, Notes = notes, IsTaxable = isTaxable });
+
+
+                                /*if (reader.IsDBNull(reader.GetOrdinal("PostalCode")))
+                                {
+                                    customerLocation.Add(new Client(companyName, address1, address2, city, province, hold));
+                                }
+                                else
+                                {
+                                    customerLocation.Add(new Client(companyName, city, province, postalCode, hold));
+                                }*/
                             }
                         }
                     }
