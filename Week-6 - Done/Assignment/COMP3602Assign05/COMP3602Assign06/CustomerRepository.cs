@@ -20,24 +20,43 @@ namespace COMP3602Assign05
                                                     TrustServerCertificate=True; 
                                                     Connection Timeout=30;";
 
-        public static List<Location> GetCustomerList(string choice)
+        public static CustomerList GetCustomerList(string choice, string provinceFilter = "**")
         {
 
-            List<Location> customerLocation = new List<Location>();
+            CustomerList customerLocation = new CustomerList();
 
             try
             {
                 using (SqlConnection conn = new SqlConnection(connString))
                 {
-                    // Will grab selected information from database
-                    string query = @"SELECT CompanyName, City, Province, PostalCode, CreditHold
-                                    FROM Customer";
+                    // embedded SQL
+                    string query;
+
+                    if (provinceFilter == "**")
+                    {
+                        // Will grab selected information from database
+                        query = @"SELECT CompanyName, City, Province, PostalCode, CreditHold
+                                    FROM Customer
+                                    ORDER BY CompanyName";
+                    }
+                    else
+                    {
+                        query = @"SELECT CompanyName, City, Province, PostalCode, CreditHold
+                              FROM Customer
+                              WHERE Province = @province
+                              ORDER BY CompanyName";
+                    }
 
                     using (SqlCommand cmd = conn.CreateCommand())
                     {
                         cmd.CommandType = CommandType.Text;
                         cmd.CommandText = query;
                         cmd.Connection = conn;
+
+                        if (provinceFilter != "**")
+                        {
+                            cmd.Parameters.AddWithValue("@province", provinceFilter);
+                        }
 
                         conn.Open();
 
@@ -63,9 +82,9 @@ namespace COMP3602Assign05
 
                                 // add to our list based on postal code
                                 if (reader.IsDBNull(reader.GetOrdinal("PostalCode"))) {
-                                    customerLocation.Add(new Location(companyName, city, province, hold));
+                                    customerLocation.Add(new Customer(companyName, city, province, hold));
                                 } else {
-                                    customerLocation.Add(new Location(companyName, city, province, postalCode, hold));
+                                    customerLocation.Add(new Customer(companyName, city, province, postalCode, hold));
                                 }
                             }
                         }
@@ -82,6 +101,43 @@ namespace COMP3602Assign05
             }
 
             return customerLocation;
+        }
+
+        public static List<string> GetProvinceCodes()
+        {
+            List<string> provinceCodes;
+            provinceCodes = new List<string>();
+
+            using(SqlConnection conn = new SqlConnection(connString))
+            {
+                string query = @"SELECT DISTINCT Province
+                                FROM Customer";
+
+                using (SqlCommand cmd = conn.CreateCommand())
+                {
+
+                    cmd.CommandType = CommandType.Text;
+                    cmd.CommandText = query;
+                    cmd.Connection = conn;
+
+                    conn.Open();
+
+                    using (SqlDataReader reader = cmd.ExecuteReader())
+                    {
+                        while (reader.Read())
+                        {
+                            string province = reader["Province"] as string;
+
+                            if(province != "MB" && province != "PE" && province != "QC")
+                            {
+                                provinceCodes.Add(province);
+                            }
+                        }
+                    }
+                }
+            }
+
+            return provinceCodes;
         }
     }
 }

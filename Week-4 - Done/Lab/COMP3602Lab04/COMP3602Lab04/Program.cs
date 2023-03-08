@@ -15,28 +15,18 @@ namespace COMP3602Lab04
         {
             Console.Title = "COMP3602 Lab04 A00878763";
 
-            // Creating all the peoples first name, last name, and age
-            PersonList person = new PersonList();
+            PersonList people = DataGenerator.GetPeople();
 
-            person.Add(new Person { FirstName = "Elaine", LastName = "Benes", Age = 52 });
-            person.Add(new Person { FirstName = "George", LastName = "Costanza", Age = 53 });
-            person.Add(new Person { FirstName = "Larry", LastName = "Fine", Age = 61 });
-            person.Add(new Person { FirstName = "Curley", LastName = "Howard", Age = 58 });
-            person.Add(new Person { FirstName = "Moe", LastName = "Howard", Age = 63 });
+            people.Sort();
 
-            person.Add(new Person { FirstName = "Hank", LastName = "Kingsley", Age = 61 });
-            person.Add(new Person { FirstName = "Cosmo", LastName = "Kramer", Age = 55 });
-            person.Add(new Person { FirstName = "Larry", LastName = "Sanders", Age = 57 });
-            person.Add(new Person { FirstName = "Jerry", LastName = "Seinfeld", Age = 55 });
-            person.Add(new Person { FirstName = "Art", LastName = "Vandelay", Age = 48 });
-
-            ConsolePrinter.PrintChartTitles();
-            ConsolePrinter.PrintDottedLines();
-            ConsolePrinter.PrintPersonList(person);
-            ConsolePrinter.PrintDottedLines();
-            ConsolePrinter.PrintTotalPersons(person.Count);
-            ConsolePrinter.PrintTotalAge(person.TotalAge);
-            ConsolePrinter.PrintAverageAge(person.AverageAge);
+            try
+            {
+                ConsolePrinter.PrintPersonList(people);
+            }
+            catch (ArgumentNullException anex)
+            {
+                ConsolePrinter.PrintException(anex);
+            }
         }
     }
 }

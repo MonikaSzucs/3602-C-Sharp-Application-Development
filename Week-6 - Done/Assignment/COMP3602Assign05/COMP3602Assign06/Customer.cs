@@ -1,15 +1,14 @@
-﻿// Monika Szucs
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Runtime.Remoting.Messaging;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace COMP3602Assign05
 {
-    public class Location: IComparable<Location>
+    class Customer : IComparable<Customer>
     {
+
         public string CompanyName { get; set; }
         public string City { get; set; }
         public string Province { get; set; }
@@ -17,7 +16,7 @@ namespace COMP3602Assign05
         public char Hold { get; set; }
 
         // with postal code
-        public Location(string companyName, string city, string province, string postalCode, char hold)
+        public Customer(string companyName, string city, string province, string postalCode, char hold)
         {
             CompanyName = companyName;
             City = city;
@@ -27,7 +26,7 @@ namespace COMP3602Assign05
         }
 
         // with hold
-        public Location(string companyName, string city, string province, char hold)
+        public Customer(string companyName, string city, string province, char hold)
         {
             CompanyName = companyName;
             City = city;
@@ -35,8 +34,14 @@ namespace COMP3602Assign05
             Hold = hold;
         }
 
+        public Customer(string province)
+        {
+            Province = province;
+        }
+
+
         // Order by company name
-        public int CompareTo(Location other)
+        public int CompareTo(Customer other)
         {
             return this.CompanyName.CompareTo(other.CompanyName);
         }

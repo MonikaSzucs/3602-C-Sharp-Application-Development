@@ -60,8 +60,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsolePrinter.cs" />
+    <Compile Include="Customer.cs" />
+    <Compile Include="CustomerList.cs" />
     <Compile Include="CustomerRepository.cs" />
-    <Compile Include="Location.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

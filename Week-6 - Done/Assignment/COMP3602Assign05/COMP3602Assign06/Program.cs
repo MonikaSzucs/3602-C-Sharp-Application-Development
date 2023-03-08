@@ -23,45 +23,25 @@ namespace COMP3602Assign05
 
                 string choice = Console.ReadLine();
 
-                if(choice == "1")
-                {
-                    option = "AB";
-                } 
-                else if(choice == "2")
-                {
-                    option = "BC";
-                }
-                else if(choice == "3")
-                {
-                    option = "ON";
-                }
-                else if(choice=="4")
-                {
-                    option = "SK";
-                } 
-                else if(choice == "5")
-                {
-                    option = "ALL";
-                } 
-                else if(choice == "6")
-                {
-                    option = "QUIT";
-                }
+                // will grab the list of provinces available in database
+                List<string> provencesStored = CustomerRepository.GetProvinceCodes();
 
-                // Will filter out and display only the province chosen
-                if(choice == "1" || choice == "2" || choice == "3" || choice == "4" || choice == "5") 
+
+                foreach (var province in provencesStored)
                 {
-                    List<Location> customerLocation = CustomerRepository.GetCustomerList(choice);
-                    customerLocation.Sort();
-                    ConsolePrinter.PrintCustomerListingChosen(option, customerLocation);
-                } 
-                else if(choice == "6") // will exit the program
-                {
-                    proceed = false;
-                }
-                else
-                {
-                    ConsolePrinter.PrintOptionError();
+                    // Will filter out and display only the province chosen
+                    if (choice == "1" || choice == "2" || choice == "3" || choice == "4" || choice == "5")
+                    {
+                        CustomerList customerLocation = CustomerRepository.GetCustomerList(choice);
+                        customerLocation.Sort();
+
+                        ConsolePrinter.PrintCustomerListingChosen(choice, customerLocation);
+                        break;
+                    } else if(choice == "6")
+                    {
+                        proceed = false;
+                        break;
+                    } 
                 }
 
                 ConsolePrinter.PrintLineSpace();

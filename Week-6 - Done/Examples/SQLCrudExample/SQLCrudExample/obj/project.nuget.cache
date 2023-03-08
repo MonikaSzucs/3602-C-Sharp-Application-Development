@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "svWYGToxw9Kja9Vmg1jLZKQEblOiNZNFEviyU0nWNPzKTgm8FClA8+MYIYFpd7/JqTB4YLFsTaklws6xJKUNeQ==",
+  "dgSpecHash": "jAi5NhM04tvZmKWfgpCYTDZmBTf5D/eOuN3RlRj1hFgMq6cxL+ugYSsw9njMVGu/uHPqfnqxbBFqy2+wk1zTTQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mszuc\\Desktop\\3602-C-Sharp-Application-Development\\Week-6\\Examples\\SQLCrudExample\\SQLCrudExample\\SQLCrudExample.csproj",
+  "projectFilePath": "C:\\Users\\mszuc\\Desktop\\3602-C-Sharp-Application-Development\\Week-6 - Done\\Examples\\SQLCrudExample\\SQLCrudExample\\SQLCrudExample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mszuc\\.nuget\\packages\\azure.core\\1.6.0\\azure.core.1.6.0.nupkg.sha512",
     "C:\\Users\\mszuc\\.nuget\\packages\\azure.identity\\1.3.0\\azure.identity.1.3.0.nupkg.sha512",

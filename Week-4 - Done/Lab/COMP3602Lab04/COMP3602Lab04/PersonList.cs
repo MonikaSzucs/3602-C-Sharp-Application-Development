@@ -11,48 +11,40 @@ namespace COMP3602Lab04
 {
     class PersonList: List<Person>
     {
-        // Calculating the total number of people
-        public int TotalPersons
+        public PersonList()
         {
-            get
-            {
-                int total = 0;
-
-                total += this.Count;
-
-                return total;
-            }
         }
 
-        // Calculating the total age
+        public PersonList(int capacity)
+            : base(capacity)
+        {
+        }
+
         public int TotalAge
         {
             get
             {
-                int total = 0;
+                int ageSum = 0;
 
                 foreach (Person person in this)
                 {
-                    total += person.Age;
+                    ageSum += person.Age;
                 }
 
-                return total;
+                return ageSum;
             }
         }
 
-        // Calculating the average age
-        public decimal AverageAge
+        public double AverageAge
         {
             get
             {
-                decimal average = 0;
-
-                if(this.Count > 0)
+                if (this.Count == 0)
                 {
-                    average = (decimal)(Decimal.ToDouble(TotalAge) / Decimal.ToDouble(this.Count));
+                    return 0;
                 }
 
-                return average;
+                return (double)this.TotalAge / this.Count;
             }
         }
     }
