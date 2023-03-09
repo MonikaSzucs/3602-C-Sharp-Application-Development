@@ -22,8 +22,9 @@ namespace DataBindingDemoF
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            labelCount.Text = "";
+            labelCount.Text = string.Empty;
             productVM = new ProductViewModel(0.05m, 0.07m);
+            this.description = "";
             setBindings();
             setupDataGridView();
             
@@ -183,6 +184,7 @@ namespace DataBindingDemoF
                 description = dlg.Description;
                 labelDescriptionPrompt.Text = description;
             }
+            dlg.Dispose();
         }
     }
 }

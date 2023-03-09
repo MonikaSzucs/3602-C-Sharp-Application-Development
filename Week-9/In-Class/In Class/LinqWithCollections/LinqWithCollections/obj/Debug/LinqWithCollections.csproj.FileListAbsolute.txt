@@ -1,0 +1,14 @@
+D:\Work\COMP2614_Fall2019\Week09\Examples\LinqWithCollections\LinqWithCollections\bin\Debug\LinqWithCollections.exe.config
+D:\Work\COMP2614_Fall2019\Week09\Examples\LinqWithCollections\LinqWithCollections\bin\Debug\LinqWithCollections.exe
+D:\Work\COMP2614_Fall2019\Week09\Examples\LinqWithCollections\LinqWithCollections\bin\Debug\LinqWithCollections.pdb
+D:\Work\COMP2614_Fall2019\Week09\Examples\LinqWithCollections\LinqWithCollections\obj\Debug\LinqWithCollections.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week09\Examples\LinqWithCollections\LinqWithCollections\obj\Debug\LinqWithCollections.exe
+D:\Work\COMP2614_Fall2019\Week09\Examples\LinqWithCollections\LinqWithCollections\obj\Debug\LinqWithCollections.pdb
+C:\Users\Anca\Desktop\Week09\Examples\Examples\LinqWithCollections\LinqWithCollections\bin\Debug\LinqWithCollections.exe.config
+C:\Users\Anca\Desktop\Week09\Examples\Examples\LinqWithCollections\LinqWithCollections\bin\Debug\LinqWithCollections.exe
+C:\Users\Anca\Desktop\Week09\Examples\Examples\LinqWithCollections\LinqWithCollections\bin\Debug\LinqWithCollections.pdb
+C:\Users\Anca\Desktop\Week09\Examples\Examples\LinqWithCollections\LinqWithCollections\obj\Debug\LinqWithCollections.csproj.AssemblyReference.cache
+C:\Users\Anca\Desktop\Week09\Examples\Examples\LinqWithCollections\LinqWithCollections\obj\Debug\LinqWithCollections.csproj.CoreCompileInputs.cache
+C:\Users\Anca\Desktop\Week09\Examples\Examples\LinqWithCollections\LinqWithCollections\obj\Debug\LinqWithCollections.exe
+C:\Users\Anca\Desktop\Week09\Examples\Examples\LinqWithCollections\LinqWithCollections\obj\Debug\LinqWithCollections.pdb
+C:\Users\Anca\Desktop\Week09\Examples\Examples\LinqWithCollections\LinqWithCollections\obj\Debug\LinqWithCollections.csproj.SuggestedBindingRedirects.cache

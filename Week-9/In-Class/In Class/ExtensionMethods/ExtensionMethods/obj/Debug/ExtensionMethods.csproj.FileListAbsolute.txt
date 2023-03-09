@@ -1,0 +1,14 @@
+D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe.config
+D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe
+D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.pdb
+D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.exe
+D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.pdb
+C:\Users\Anca\Desktop\Week09\Examples\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe.config
+C:\Users\Anca\Desktop\Week09\Examples\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe
+C:\Users\Anca\Desktop\Week09\Examples\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.pdb
+C:\Users\Anca\Desktop\Week09\Examples\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csproj.AssemblyReference.cache
+C:\Users\Anca\Desktop\Week09\Examples\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csproj.CoreCompileInputs.cache
+C:\Users\Anca\Desktop\Week09\Examples\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.exe
+C:\Users\Anca\Desktop\Week09\Examples\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.pdb
+C:\Users\Anca\Desktop\Week09\Examples\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csproj.SuggestedBindingRedirects.cache

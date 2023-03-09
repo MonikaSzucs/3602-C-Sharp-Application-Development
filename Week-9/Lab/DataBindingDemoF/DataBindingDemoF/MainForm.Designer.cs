@@ -247,7 +247,6 @@
             this.buttonShowEditDialog.TabIndex = 20;
             this.buttonShowEditDialog.Text = "Edit";
             this.buttonShowEditDialog.UseVisualStyleBackColor = true;
-            this.buttonShowEditDialog.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // MainForm
             // 

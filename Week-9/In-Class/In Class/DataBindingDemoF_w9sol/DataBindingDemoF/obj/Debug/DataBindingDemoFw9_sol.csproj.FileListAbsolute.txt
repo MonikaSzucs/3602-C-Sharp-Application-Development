@@ -1,0 +1,4 @@
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\DataBindingDemoF_w9sol\DataBindingDemoF\obj\Debug\DataBindingDemoFw9_sol.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\DataBindingDemoF_w9sol\DataBindingDemoF\obj\Debug\DataBindingDemoFw9_sol.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\DataBindingDemoF_w9sol\DataBindingDemoF\obj\Debug\DataBindingDemoF.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\DataBindingDemoF_w9sol\DataBindingDemoF\obj\Debug\DataBindingDemoF.pdb

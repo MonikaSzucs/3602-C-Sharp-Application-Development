@@ -1,6 +1,0 @@
-D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe.config
-D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.exe
-D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\bin\Debug\ExtensionMethods.pdb
-D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.csprojAssemblyReference.cache
-D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.exe
-D:\Work\COMP2614_Fall2019\Week09\Examples\ExtensionMethods\ExtensionMethods\obj\Debug\ExtensionMethods.pdb
