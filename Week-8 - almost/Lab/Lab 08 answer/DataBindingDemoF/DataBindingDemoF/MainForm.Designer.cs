@@ -58,10 +58,11 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewProducts.Location = new System.Drawing.Point(6, 250);
+            this.dataGridViewProducts.Location = new System.Drawing.Point(12, 481);
+            this.dataGridViewProducts.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.dataGridViewProducts.Name = "dataGridViewProducts";
             this.dataGridViewProducts.RowHeadersWidth = 62;
-            this.dataGridViewProducts.Size = new System.Drawing.Size(583, 263);
+            this.dataGridViewProducts.Size = new System.Drawing.Size(1166, 506);
             this.dataGridViewProducts.TabIndex = 14;
             this.dataGridViewProducts.SelectionChanged += new System.EventHandler(this.dataGridViewProducts_SelectionChanged);
             // 
@@ -69,9 +70,10 @@
             // 
             this.labelTotals.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelTotals.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelTotals.Location = new System.Drawing.Point(428, 18);
+            this.labelTotals.Location = new System.Drawing.Point(856, 35);
+            this.labelTotals.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelTotals.Name = "labelTotals";
-            this.labelTotals.Size = new System.Drawing.Size(155, 109);
+            this.labelTotals.Size = new System.Drawing.Size(310, 210);
             this.labelTotals.TabIndex = 18;
             this.labelTotals.Text = "One\r\nTwo\r\nThree\r\nFour\r\nFive\r\nSix";
             this.labelTotals.TextAlign = System.Drawing.ContentAlignment.TopRight;
@@ -80,44 +82,49 @@
             // 
             this.labelProductLegend.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.labelProductLegend.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labelProductLegend.Location = new System.Drawing.Point(353, 18);
+            this.labelProductLegend.Location = new System.Drawing.Point(706, 35);
+            this.labelProductLegend.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelProductLegend.Name = "labelProductLegend";
-            this.labelProductLegend.Size = new System.Drawing.Size(98, 109);
+            this.labelProductLegend.Size = new System.Drawing.Size(196, 210);
             this.labelProductLegend.TabIndex = 17;
             this.labelProductLegend.Text = "1\r\n2\r\n3\r\n4\r\n5\r\n6";
             // 
             // labelCostPrompt
             // 
             this.labelCostPrompt.AutoSize = true;
-            this.labelCostPrompt.Location = new System.Drawing.Point(9, 119);
+            this.labelCostPrompt.Location = new System.Drawing.Point(18, 229);
+            this.labelCostPrompt.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelCostPrompt.Name = "labelCostPrompt";
-            this.labelCostPrompt.Size = new System.Drawing.Size(31, 13);
+            this.labelCostPrompt.Size = new System.Drawing.Size(62, 25);
             this.labelCostPrompt.TabIndex = 6;
             this.labelCostPrompt.Text = "&Cost:";
             // 
             // labelDescriptionPrompt
             // 
             this.labelDescriptionPrompt.AutoSize = true;
-            this.labelDescriptionPrompt.Location = new System.Drawing.Point(9, 52);
+            this.labelDescriptionPrompt.Location = new System.Drawing.Point(18, 100);
+            this.labelDescriptionPrompt.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelDescriptionPrompt.Name = "labelDescriptionPrompt";
-            this.labelDescriptionPrompt.Size = new System.Drawing.Size(63, 13);
+            this.labelDescriptionPrompt.Size = new System.Drawing.Size(126, 25);
             this.labelDescriptionPrompt.TabIndex = 2;
             this.labelDescriptionPrompt.Text = "&Description:";
             // 
             // labelSkuPrompt
             // 
             this.labelSkuPrompt.AutoSize = true;
-            this.labelSkuPrompt.Location = new System.Drawing.Point(9, 21);
+            this.labelSkuPrompt.Location = new System.Drawing.Point(18, 40);
+            this.labelSkuPrompt.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelSkuPrompt.Name = "labelSkuPrompt";
-            this.labelSkuPrompt.Size = new System.Drawing.Size(32, 13);
+            this.labelSkuPrompt.Size = new System.Drawing.Size(61, 25);
             this.labelSkuPrompt.TabIndex = 0;
             this.labelSkuPrompt.Text = "&SKU:";
             // 
             // buttonSave
             // 
-            this.buttonSave.Location = new System.Drawing.Point(174, 221);
+            this.buttonSave.Location = new System.Drawing.Point(348, 425);
+            this.buttonSave.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.buttonSave.Name = "buttonSave";
-            this.buttonSave.Size = new System.Drawing.Size(75, 23);
+            this.buttonSave.Size = new System.Drawing.Size(150, 44);
             this.buttonSave.TabIndex = 13;
             this.buttonSave.Text = "Sa&ve";
             this.buttonSave.UseVisualStyleBackColor = true;
@@ -126,33 +133,37 @@
             // textBoxSku
             // 
             this.textBoxSku.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBoxSku.Location = new System.Drawing.Point(78, 18);
+            this.textBoxSku.Location = new System.Drawing.Point(156, 35);
+            this.textBoxSku.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBoxSku.Name = "textBoxSku";
-            this.textBoxSku.Size = new System.Drawing.Size(100, 20);
+            this.textBoxSku.Size = new System.Drawing.Size(196, 31);
             this.textBoxSku.TabIndex = 1;
             // 
             // textBoxDescription
             // 
-            this.textBoxDescription.Location = new System.Drawing.Point(78, 49);
+            this.textBoxDescription.Location = new System.Drawing.Point(156, 94);
+            this.textBoxDescription.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBoxDescription.Name = "textBoxDescription";
-            this.textBoxDescription.Size = new System.Drawing.Size(174, 20);
+            this.textBoxDescription.Size = new System.Drawing.Size(344, 31);
             this.textBoxDescription.TabIndex = 3;
             // 
             // checkBoxTaxable
             // 
             this.checkBoxTaxable.AutoSize = true;
-            this.checkBoxTaxable.Location = new System.Drawing.Point(76, 224);
+            this.checkBoxTaxable.Location = new System.Drawing.Point(152, 431);
+            this.checkBoxTaxable.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.checkBoxTaxable.Name = "checkBoxTaxable";
-            this.checkBoxTaxable.Size = new System.Drawing.Size(64, 17);
+            this.checkBoxTaxable.Size = new System.Drawing.Size(121, 29);
             this.checkBoxTaxable.TabIndex = 12;
             this.checkBoxTaxable.Text = "&Taxable";
             this.checkBoxTaxable.UseVisualStyleBackColor = true;
             // 
             // textBoxCost
             // 
-            this.textBoxCost.Location = new System.Drawing.Point(78, 116);
+            this.textBoxCost.Location = new System.Drawing.Point(156, 223);
+            this.textBoxCost.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBoxCost.Name = "textBoxCost";
-            this.textBoxCost.Size = new System.Drawing.Size(100, 20);
+            this.textBoxCost.Size = new System.Drawing.Size(196, 31);
             this.textBoxCost.TabIndex = 7;
             this.textBoxCost.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
@@ -160,19 +171,20 @@
             // 
             this.labelCount.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.labelCount.AutoSize = true;
-            this.labelCount.Location = new System.Drawing.Point(58, 529);
-            this.labelCount.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.labelCount.Location = new System.Drawing.Point(116, 1017);
+            this.labelCount.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.labelCount.Name = "labelCount";
-            this.labelCount.Size = new System.Drawing.Size(47, 13);
+            this.labelCount.Size = new System.Drawing.Size(93, 25);
             this.labelCount.TabIndex = 16;
             this.labelCount.Text = "<Count>";
             // 
             // buttonNew
             // 
             this.buttonNew.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonNew.Location = new System.Drawing.Point(514, 524);
+            this.buttonNew.Location = new System.Drawing.Point(1028, 1008);
+            this.buttonNew.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.buttonNew.Name = "buttonNew";
-            this.buttonNew.Size = new System.Drawing.Size(75, 23);
+            this.buttonNew.Size = new System.Drawing.Size(150, 44);
             this.buttonNew.TabIndex = 19;
             this.buttonNew.Text = "&New";
             this.buttonNew.UseVisualStyleBackColor = true;
@@ -182,19 +194,20 @@
             // 
             this.label1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left)));
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(17, 529);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Location = new System.Drawing.Point(34, 1017);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(38, 13);
+            this.label1.Size = new System.Drawing.Size(75, 25);
             this.label1.TabIndex = 15;
             this.label1.Text = "Count:";
             // 
             // labelExtPrompt
             // 
             this.labelExtPrompt.AutoSize = true;
-            this.labelExtPrompt.Location = new System.Drawing.Point(9, 187);
+            this.labelExtPrompt.Location = new System.Drawing.Point(18, 360);
+            this.labelExtPrompt.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelExtPrompt.Name = "labelExtPrompt";
-            this.labelExtPrompt.Size = new System.Drawing.Size(56, 13);
+            this.labelExtPrompt.Size = new System.Drawing.Size(113, 25);
             this.labelExtPrompt.TabIndex = 10;
             this.labelExtPrompt.Text = "E&xtension:";
             // 
@@ -202,10 +215,11 @@
             // 
             this.textBoxExtension.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxExtension.Enabled = false;
-            this.textBoxExtension.Location = new System.Drawing.Point(78, 185);
+            this.textBoxExtension.Location = new System.Drawing.Point(156, 356);
+            this.textBoxExtension.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBoxExtension.Name = "textBoxExtension";
             this.textBoxExtension.ReadOnly = true;
-            this.textBoxExtension.Size = new System.Drawing.Size(100, 20);
+            this.textBoxExtension.Size = new System.Drawing.Size(196, 31);
             this.textBoxExtension.TabIndex = 11;
             this.textBoxExtension.TabStop = false;
             this.textBoxExtension.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
@@ -213,44 +227,48 @@
             // labelPricePrompt
             // 
             this.labelPricePrompt.AutoSize = true;
-            this.labelPricePrompt.Location = new System.Drawing.Point(9, 153);
+            this.labelPricePrompt.Location = new System.Drawing.Point(18, 294);
+            this.labelPricePrompt.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelPricePrompt.Name = "labelPricePrompt";
-            this.labelPricePrompt.Size = new System.Drawing.Size(31, 13);
+            this.labelPricePrompt.Size = new System.Drawing.Size(61, 25);
             this.labelPricePrompt.TabIndex = 8;
             this.labelPricePrompt.Text = "&Price";
             // 
             // textBoxPrice
             // 
-            this.textBoxPrice.Location = new System.Drawing.Point(78, 149);
+            this.textBoxPrice.Location = new System.Drawing.Point(156, 287);
+            this.textBoxPrice.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBoxPrice.Name = "textBoxPrice";
-            this.textBoxPrice.Size = new System.Drawing.Size(100, 20);
+            this.textBoxPrice.Size = new System.Drawing.Size(196, 31);
             this.textBoxPrice.TabIndex = 9;
             this.textBoxPrice.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // labelQuantityPrompt
             // 
             this.labelQuantityPrompt.AutoSize = true;
-            this.labelQuantityPrompt.Location = new System.Drawing.Point(9, 84);
+            this.labelQuantityPrompt.Location = new System.Drawing.Point(18, 162);
+            this.labelQuantityPrompt.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
             this.labelQuantityPrompt.Name = "labelQuantityPrompt";
-            this.labelQuantityPrompt.Size = new System.Drawing.Size(49, 13);
+            this.labelQuantityPrompt.Size = new System.Drawing.Size(98, 25);
             this.labelQuantityPrompt.TabIndex = 4;
             this.labelQuantityPrompt.Text = "&Quantity:";
             // 
             // textBoxQuantity
             // 
             this.textBoxQuantity.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
-            this.textBoxQuantity.Location = new System.Drawing.Point(78, 81);
+            this.textBoxQuantity.Location = new System.Drawing.Point(156, 156);
+            this.textBoxQuantity.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
             this.textBoxQuantity.Name = "textBoxQuantity";
-            this.textBoxQuantity.Size = new System.Drawing.Size(100, 20);
+            this.textBoxQuantity.Size = new System.Drawing.Size(196, 31);
             this.textBoxQuantity.TabIndex = 5;
             this.textBoxQuantity.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
             // MainForm
             // 
             this.AcceptButton = this.buttonSave;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(606, 554);
+            this.ClientSize = new System.Drawing.Size(1212, 1065);
             this.Controls.Add(this.labelQuantityPrompt);
             this.Controls.Add(this.textBoxQuantity);
             this.Controls.Add(this.labelExtPrompt);
@@ -272,7 +290,8 @@
             this.Controls.Add(this.checkBoxTaxable);
             this.Controls.Add(this.textBoxCost);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.MinimumSize = new System.Drawing.Size(622, 593);
+            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.MinimumSize = new System.Drawing.Size(1218, 1075);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Data Binding Example";

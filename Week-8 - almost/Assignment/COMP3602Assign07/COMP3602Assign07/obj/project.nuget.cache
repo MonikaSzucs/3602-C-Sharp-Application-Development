@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YYlFBe/gsvibpNzhW/+ahM8qdvJSwILTfW/8zVjg1Jq1AoFq2DAZhO2tWWk3y2+bIYwqy2Hn4KPnk43bJo0trw==",
+  "dgSpecHash": "+GhT97P5gjwhUTSNGIkaI2vb+M5oRsOhIaeAs0Y0dZKnT+ZqvMSJywDUqyGR11sRHAvGzfiu1QMAifEiCTnuFQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\mszuc\\Desktop\\3602-C-Sharp-Application-Development\\Week-8\\Assignment\\COMP3602Assign07\\COMP3602Assign07\\COMP3602Assign07.csproj",
+  "projectFilePath": "C:\\Users\\mszuc\\Desktop\\3602-C-Sharp-Application-Development\\Week-8 - almost\\Assignment\\COMP3602Assign07\\COMP3602Assign07\\COMP3602Assign07.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\mszuc\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\mszuc\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

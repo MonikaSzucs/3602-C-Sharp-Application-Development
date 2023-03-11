@@ -14,7 +14,7 @@ namespace COMP3602Assign07
             get
             {
                 decimal totalYTDSales = 0.0m;
-                foreach(Client client in this)
+                foreach (Client client in this)
                 {
                     totalYTDSales += client.YTDSales;
                 }
@@ -27,9 +27,9 @@ namespace COMP3602Assign07
             get
             {
                 int countTaxableClients = 0;
-                foreach(Client client in this)
+                foreach (Client client in this)
                 {
-                    if(client.IsTaxable == 'Y')
+                    if (client.IsTaxable == 'Y')
                     {
                         countTaxableClients++;
                     }
@@ -43,9 +43,9 @@ namespace COMP3602Assign07
             get
             {
                 int countClientsWithCreditHold = 0;
-                foreach(Client client in this)
+                foreach (Client client in this)
                 {
-                    if(client.CreditHold == 'Y')
+                    if (client.CreditHold == 'Y')
                     {
                         countClientsWithCreditHold++;
                     }
@@ -55,3 +55,5 @@ namespace COMP3602Assign07
         }
     }
 }
+
+

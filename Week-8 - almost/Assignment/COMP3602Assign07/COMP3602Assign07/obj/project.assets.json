@@ -475,11 +475,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mszuc\\Desktop\\3602-C-Sharp-Application-Development\\Week-8\\Assignment\\COMP3602Assign07\\COMP3602Assign07\\COMP3602Assign07.csproj",
+      "projectUniqueName": "C:\\Users\\mszuc\\Desktop\\3602-C-Sharp-Application-Development\\Week-8 - almost\\Assignment\\COMP3602Assign07\\COMP3602Assign07\\COMP3602Assign07.csproj",
       "projectName": "COMP3602Assign07",
-      "projectPath": "C:\\Users\\mszuc\\Desktop\\3602-C-Sharp-Application-Development\\Week-8\\Assignment\\COMP3602Assign07\\COMP3602Assign07\\COMP3602Assign07.csproj",
+      "projectPath": "C:\\Users\\mszuc\\Desktop\\3602-C-Sharp-Application-Development\\Week-8 - almost\\Assignment\\COMP3602Assign07\\COMP3602Assign07\\COMP3602Assign07.csproj",
       "packagesPath": "C:\\Users\\mszuc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mszuc\\Desktop\\3602-C-Sharp-Application-Development\\Week-8\\Assignment\\COMP3602Assign07\\COMP3602Assign07\\obj\\",
+      "outputPath": "C:\\Users\\mszuc\\Desktop\\3602-C-Sharp-Application-Development\\Week-8 - almost\\Assignment\\COMP3602Assign07\\COMP3602Assign07\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mszuc\\AppData\\Roaming\\NuGet\\NuGet.Config",

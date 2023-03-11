@@ -15,6 +15,7 @@ namespace COMP3602Assign07
         public event PropertyChangedEventHandler PropertyChanged;
         public readonly decimal GstRate;
         public readonly decimal PstRate;
+        private readonly ClientList clientList;
 
         protected void OnPropertyChanged([CallerMemberName] string propertyName = "")
         {
@@ -25,10 +26,10 @@ namespace COMP3602Assign07
         {
             GstRate = gstRate;
             PstRate = pstRate;
-            List<Client> clientsList = ClientRepository.GetCustomerLocations();
-            //clients = clientsList.CreateClients();
+            clients = ClientRepository.GetCustomerLocations();
+
             ClientsSource = new BindingSource();
-            ClientsSource.DataSource = clientsList;
+            //ClientsSource.DataSource = clientsList;
             ClientsSource.ListChanged += ProductSource__ListChanged;
         }
 
@@ -70,17 +71,16 @@ namespace COMP3602Assign07
             }
         }
 
-        /*public string Totals
+        public string Totals
         {
             get
             {
-                return string.Format("{0,15:N2}\r\n{1,15:N2}\r\n{2,15:N2}\r\n{3,15:N2}\r\n",
-                                                   clients.TotalCost,
-                                                   clients.TotalPst,
-                                                   clients.TotalGst,
-                                                   clients.Total);
+                return string.Format("{0,15:N2}\r\n{1,15:N2}\r\n{2,15:N2}\r\n",
+                                            clients.TotalYTDSales,
+                                            clients.CountTaxableClients,
+                                            clients.CountClientsWithCreditHold);
             }
-        }*/
+        }
 
         private void ProductSource__ListChanged(object sender, ListChangedEventArgs e)
         {

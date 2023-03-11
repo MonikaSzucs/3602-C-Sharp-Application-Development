@@ -19,9 +19,9 @@ namespace COMP3602Assign07
                                                     TrustServerCertificate=True; 
                                                     Connection Timeout=30;";
 
-        public static List<Client> GetCustomerLocations()
+        public static ClientList GetCustomerLocations()
         {
-            List<Client> customerLocation = new List<Client>();
+            //ClientList customerLocation = new List<Client>();
 
             try
             {
