@@ -165,5 +165,6 @@ namespace Assign07
             Client client = (Client)clientVM.ClientSource[index];
             clientVM.DisplayClient = client;
         }
+
     }
 }

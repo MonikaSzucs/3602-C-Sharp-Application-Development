@@ -72,12 +72,11 @@ namespace Assign07
         {
             get
             {
-                return string.Format("{0,15:N2}\r\n{1,15:N2}\r\n{2,15:N2}\r\n{3,15:N2}\r\n",
+                return string.Format("{0,15:N2}\r\n{1,15:N2}\r\n{2,15:N2}\r\n{3,-15:N2}\r\n",
                                         clients.TotalYTDSales,
                                         clients.TotalPst,
                                         clients.TotalGst,
-                                        clients.Total
-                                        );
+                                        clients.Total);
 
             }
         }
