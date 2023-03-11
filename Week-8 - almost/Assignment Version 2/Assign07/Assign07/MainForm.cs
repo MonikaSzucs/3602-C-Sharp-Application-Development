@@ -22,6 +22,12 @@ namespace Assign07
         private void MainForm_Load(object sender, EventArgs e)
         {
             labelCountTotal.Text = "";
+            labelClientLegend.Text = string.Format("{0}\r\n{1}\r\n{2}\r\n{3}\r\n",
+                                        "Total YTDSales:",
+                                        "PST:",
+                                        "GST:",
+                                        "Total:");
+
             clientVM = new ClientViewModel(0.07m, 0.05m);
             setBindings();
             setupDataGridView();
@@ -44,6 +50,7 @@ namespace Assign07
             checkBoxIsTaxable.DataBindings.Add("Text", clientVM, "DisplayClient.IsTaxable");
 
             labelCountTotal.DataBindings.Add("Text", clientVM, "Count");
+            labelTotals.DataBindings.Add("Text", clientVM, "Totals");
 
             dataGridViewClients.AutoGenerateColumns = false;
             dataGridViewClients.DataSource = clientVM.ClientSource;

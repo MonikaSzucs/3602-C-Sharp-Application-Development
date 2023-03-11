@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Assign07
 {
-    class ClientViewModel
+    class ClientViewModel : INotifyPropertyChanged
     {
         public event PropertyChangedEventHandler PropertyChanged;
 
@@ -28,7 +28,7 @@ namespace Assign07
             PstRate = pstRate;
 
             clients = ClientRepository.GetClients(GstRate, PstRate);
-            Console.WriteLine(clients.ToString());
+            //Console.WriteLine(clients.ToString());
             ClientSource = new BindingSource();
             ClientSource.DataSource = clients;
             ClientSource.ListChanged += ClientSource_ListChanged;
@@ -65,6 +65,20 @@ namespace Assign07
                     IsTaxable = value.IsTaxable
                 };
                 OnPropertyChanged();
+            }
+        }
+
+        public string Totals
+        {
+            get
+            {
+                return string.Format("{0,15:N2}\r\n{1,15:N2}\r\n{2,15:N2}\r\n{3,15:N2}\r\n",
+                                        clients.TotalYTDSales,
+                                        clients.TotalPst,
+                                        clients.TotalGst,
+                                        clients.Total
+                                        );
+
             }
         }
 

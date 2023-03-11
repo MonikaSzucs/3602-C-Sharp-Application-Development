@@ -52,6 +52,8 @@
             this.labelCountTotal = new System.Windows.Forms.Label();
             this.labelCreditHold = new System.Windows.Forms.Label();
             this.labelTaxable = new System.Windows.Forms.Label();
+            this.labelTotals = new System.Windows.Forms.Label();
+            this.labelClientLegend = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewClients)).BeginInit();
             this.SuspendLayout();
             // 
@@ -62,17 +64,17 @@
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewClients.BackgroundColor = System.Drawing.SystemColors.AppWorkspace;
             this.dataGridViewClients.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewClients.Location = new System.Drawing.Point(12, 713);
+            this.dataGridViewClients.Location = new System.Drawing.Point(12, 762);
             this.dataGridViewClients.Name = "dataGridViewClients";
             this.dataGridViewClients.RowHeadersWidth = 62;
             this.dataGridViewClients.RowTemplate.Height = 41;
-            this.dataGridViewClients.Size = new System.Drawing.Size(1150, 346);
+            this.dataGridViewClients.Size = new System.Drawing.Size(1188, 363);
             this.dataGridViewClients.TabIndex = 0;
             // 
             // labelCompanyName
             // 
             this.labelCompanyName.AutoSize = true;
-            this.labelCompanyName.Location = new System.Drawing.Point(37, 46);
+            this.labelCompanyName.Location = new System.Drawing.Point(40, 99);
             this.labelCompanyName.Name = "labelCompanyName";
             this.labelCompanyName.Size = new System.Drawing.Size(185, 32);
             this.labelCompanyName.TabIndex = 1;
@@ -81,7 +83,7 @@
             // labelAddress1
             // 
             this.labelAddress1.AutoSize = true;
-            this.labelAddress1.Location = new System.Drawing.Point(37, 108);
+            this.labelAddress1.Location = new System.Drawing.Point(40, 161);
             this.labelAddress1.Name = "labelAddress1";
             this.labelAddress1.Size = new System.Drawing.Size(116, 32);
             this.labelAddress1.TabIndex = 2;
@@ -90,7 +92,7 @@
             // labelAddress2
             // 
             this.labelAddress2.AutoSize = true;
-            this.labelAddress2.Location = new System.Drawing.Point(37, 170);
+            this.labelAddress2.Location = new System.Drawing.Point(40, 223);
             this.labelAddress2.Name = "labelAddress2";
             this.labelAddress2.Size = new System.Drawing.Size(116, 32);
             this.labelAddress2.TabIndex = 3;
@@ -99,7 +101,7 @@
             // labelCity
             // 
             this.labelCity.AutoSize = true;
-            this.labelCity.Location = new System.Drawing.Point(37, 236);
+            this.labelCity.Location = new System.Drawing.Point(40, 289);
             this.labelCity.Name = "labelCity";
             this.labelCity.Size = new System.Drawing.Size(60, 32);
             this.labelCity.TabIndex = 4;
@@ -108,7 +110,7 @@
             // labelProvince
             // 
             this.labelProvince.AutoSize = true;
-            this.labelProvince.Location = new System.Drawing.Point(37, 302);
+            this.labelProvince.Location = new System.Drawing.Point(40, 355);
             this.labelProvince.Name = "labelProvince";
             this.labelProvince.Size = new System.Drawing.Size(110, 32);
             this.labelProvince.TabIndex = 5;
@@ -117,7 +119,7 @@
             // labelPostalCode
             // 
             this.labelPostalCode.AutoSize = true;
-            this.labelPostalCode.Location = new System.Drawing.Point(37, 373);
+            this.labelPostalCode.Location = new System.Drawing.Point(40, 426);
             this.labelPostalCode.Name = "labelPostalCode";
             this.labelPostalCode.Size = new System.Drawing.Size(144, 32);
             this.labelPostalCode.TabIndex = 6;
@@ -126,7 +128,7 @@
             // labelYTDSales
             // 
             this.labelYTDSales.AutoSize = true;
-            this.labelYTDSales.Location = new System.Drawing.Point(37, 445);
+            this.labelYTDSales.Location = new System.Drawing.Point(40, 498);
             this.labelYTDSales.Name = "labelYTDSales";
             this.labelYTDSales.Size = new System.Drawing.Size(116, 32);
             this.labelYTDSales.TabIndex = 7;
@@ -135,7 +137,7 @@
             // labelNotes
             // 
             this.labelNotes.AutoSize = true;
-            this.labelNotes.Location = new System.Drawing.Point(37, 512);
+            this.labelNotes.Location = new System.Drawing.Point(40, 565);
             this.labelNotes.Name = "labelNotes";
             this.labelNotes.Size = new System.Drawing.Size(82, 32);
             this.labelNotes.TabIndex = 9;
@@ -144,7 +146,7 @@
             // checkBoxIsTaxable
             // 
             this.checkBoxIsTaxable.AutoSize = true;
-            this.checkBoxIsTaxable.Location = new System.Drawing.Point(264, 645);
+            this.checkBoxIsTaxable.Location = new System.Drawing.Point(267, 698);
             this.checkBoxIsTaxable.Name = "checkBoxIsTaxable";
             this.checkBoxIsTaxable.Size = new System.Drawing.Size(28, 27);
             this.checkBoxIsTaxable.TabIndex = 10;
@@ -152,56 +154,56 @@
             // 
             // textBoxCompanyName
             // 
-            this.textBoxCompanyName.Location = new System.Drawing.Point(264, 39);
+            this.textBoxCompanyName.Location = new System.Drawing.Point(267, 92);
             this.textBoxCompanyName.Name = "textBoxCompanyName";
             this.textBoxCompanyName.Size = new System.Drawing.Size(486, 39);
             this.textBoxCompanyName.TabIndex = 11;
             // 
             // textBoxAddress1
             // 
-            this.textBoxAddress1.Location = new System.Drawing.Point(264, 101);
+            this.textBoxAddress1.Location = new System.Drawing.Point(267, 154);
             this.textBoxAddress1.Name = "textBoxAddress1";
             this.textBoxAddress1.Size = new System.Drawing.Size(486, 39);
             this.textBoxAddress1.TabIndex = 12;
             // 
             // textBoxAddress2
             // 
-            this.textBoxAddress2.Location = new System.Drawing.Point(264, 163);
+            this.textBoxAddress2.Location = new System.Drawing.Point(267, 216);
             this.textBoxAddress2.Name = "textBoxAddress2";
             this.textBoxAddress2.Size = new System.Drawing.Size(486, 39);
             this.textBoxAddress2.TabIndex = 13;
             // 
             // textBoxCity
             // 
-            this.textBoxCity.Location = new System.Drawing.Point(264, 229);
+            this.textBoxCity.Location = new System.Drawing.Point(267, 282);
             this.textBoxCity.Name = "textBoxCity";
             this.textBoxCity.Size = new System.Drawing.Size(200, 39);
             this.textBoxCity.TabIndex = 14;
             // 
             // textBoxProvince
             // 
-            this.textBoxProvince.Location = new System.Drawing.Point(264, 295);
+            this.textBoxProvince.Location = new System.Drawing.Point(267, 348);
             this.textBoxProvince.Name = "textBoxProvince";
             this.textBoxProvince.Size = new System.Drawing.Size(200, 39);
             this.textBoxProvince.TabIndex = 15;
             // 
             // textBoxPostalCode
             // 
-            this.textBoxPostalCode.Location = new System.Drawing.Point(264, 366);
+            this.textBoxPostalCode.Location = new System.Drawing.Point(267, 419);
             this.textBoxPostalCode.Name = "textBoxPostalCode";
             this.textBoxPostalCode.Size = new System.Drawing.Size(200, 39);
             this.textBoxPostalCode.TabIndex = 16;
             // 
             // textBoxYTDSales
             // 
-            this.textBoxYTDSales.Location = new System.Drawing.Point(264, 438);
+            this.textBoxYTDSales.Location = new System.Drawing.Point(267, 491);
             this.textBoxYTDSales.Name = "textBoxYTDSales";
             this.textBoxYTDSales.Size = new System.Drawing.Size(200, 39);
             this.textBoxYTDSales.TabIndex = 17;
             // 
             // textBoxNotes
             // 
-            this.textBoxNotes.Location = new System.Drawing.Point(264, 512);
+            this.textBoxNotes.Location = new System.Drawing.Point(267, 565);
             this.textBoxNotes.Name = "textBoxNotes";
             this.textBoxNotes.Size = new System.Drawing.Size(486, 39);
             this.textBoxNotes.TabIndex = 19;
@@ -209,7 +211,7 @@
             // checkBoxCreditHold
             // 
             this.checkBoxCreditHold.AutoSize = true;
-            this.checkBoxCreditHold.Location = new System.Drawing.Point(264, 591);
+            this.checkBoxCreditHold.Location = new System.Drawing.Point(267, 644);
             this.checkBoxCreditHold.Name = "checkBoxCreditHold";
             this.checkBoxCreditHold.Size = new System.Drawing.Size(28, 27);
             this.checkBoxCreditHold.TabIndex = 20;
@@ -217,7 +219,7 @@
             // 
             // buttonSave
             // 
-            this.buttonSave.Location = new System.Drawing.Point(600, 635);
+            this.buttonSave.Location = new System.Drawing.Point(603, 688);
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(150, 46);
             this.buttonSave.TabIndex = 21;
@@ -227,7 +229,7 @@
             // labelCount
             // 
             this.labelCount.AutoSize = true;
-            this.labelCount.Location = new System.Drawing.Point(13, 1076);
+            this.labelCount.Location = new System.Drawing.Point(13, 1141);
             this.labelCount.Name = "labelCount";
             this.labelCount.Size = new System.Drawing.Size(84, 32);
             this.labelCount.TabIndex = 22;
@@ -236,7 +238,7 @@
             // labelCountTotal
             // 
             this.labelCountTotal.AutoSize = true;
-            this.labelCountTotal.Location = new System.Drawing.Point(113, 1076);
+            this.labelCountTotal.Location = new System.Drawing.Point(111, 1141);
             this.labelCountTotal.Name = "labelCountTotal";
             this.labelCountTotal.Size = new System.Drawing.Size(111, 32);
             this.labelCountTotal.TabIndex = 23;
@@ -245,7 +247,7 @@
             // labelCreditHold
             // 
             this.labelCreditHold.AutoSize = true;
-            this.labelCreditHold.Location = new System.Drawing.Point(298, 586);
+            this.labelCreditHold.Location = new System.Drawing.Point(301, 639);
             this.labelCreditHold.Name = "labelCreditHold";
             this.labelCreditHold.Size = new System.Drawing.Size(136, 32);
             this.labelCreditHold.TabIndex = 24;
@@ -254,17 +256,37 @@
             // labelTaxable
             // 
             this.labelTaxable.AutoSize = true;
-            this.labelTaxable.Location = new System.Drawing.Point(298, 640);
+            this.labelTaxable.Location = new System.Drawing.Point(301, 693);
             this.labelTaxable.Name = "labelTaxable";
             this.labelTaxable.Size = new System.Drawing.Size(92, 32);
             this.labelTaxable.TabIndex = 25;
             this.labelTaxable.Text = "Taxable";
             // 
+            // labelTotals
+            // 
+            this.labelTotals.AutoSize = true;
+            this.labelTotals.Location = new System.Drawing.Point(1007, 92);
+            this.labelTotals.Name = "labelTotals";
+            this.labelTotals.Size = new System.Drawing.Size(107, 32);
+            this.labelTotals.TabIndex = 26;
+            this.labelTotals.Text = "<Totals>";
+            // 
+            // labelClientLegend
+            // 
+            this.labelClientLegend.AutoSize = true;
+            this.labelClientLegend.Location = new System.Drawing.Point(820, 92);
+            this.labelClientLegend.Name = "labelClientLegend";
+            this.labelClientLegend.Size = new System.Drawing.Size(194, 32);
+            this.labelClientLegend.TabIndex = 27;
+            this.labelClientLegend.Text = "<Client Legend>";
+            // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 32F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1174, 1125);
+            this.ClientSize = new System.Drawing.Size(1212, 1191);
+            this.Controls.Add(this.labelClientLegend);
+            this.Controls.Add(this.labelTotals);
             this.Controls.Add(this.labelTaxable);
             this.Controls.Add(this.labelCreditHold);
             this.Controls.Add(this.labelCountTotal);
@@ -324,5 +346,7 @@
         private System.Windows.Forms.Label labelCountTotal;
         private System.Windows.Forms.Label labelCreditHold;
         private System.Windows.Forms.Label labelTaxable;
+        private System.Windows.Forms.Label labelTotals;
+        private System.Windows.Forms.Label labelClientLegend;
     }
 }
