@@ -31,3 +31,7 @@ C:\Users\Anca\Desktop\Week09\Examples\Examples\ModalDialogDemo\ModalDialogDemo\o
 C:\Users\Anca\Desktop\Week09\Examples\Examples\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.exe
 C:\Users\Anca\Desktop\Week09\Examples\Examples\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.pdb
 C:\Users\Anca\Desktop\Week09\Examples\Examples\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.pdb

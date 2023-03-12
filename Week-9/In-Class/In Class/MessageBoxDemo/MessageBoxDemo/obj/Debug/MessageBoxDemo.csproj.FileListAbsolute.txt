@@ -28,3 +28,7 @@ C:\Users\Anca\Desktop\Week09\Examples\Examples\MessageBoxDemo\MessageBoxDemo\obj
 C:\Users\Anca\Desktop\Week09\Examples\Examples\MessageBoxDemo\MessageBoxDemo\obj\Debug\MessageBoxDemo.csproj.CoreCompileInputs.cache
 C:\Users\Anca\Desktop\Week09\Examples\Examples\MessageBoxDemo\MessageBoxDemo\obj\Debug\MessageBoxDemo.exe
 C:\Users\Anca\Desktop\Week09\Examples\Examples\MessageBoxDemo\MessageBoxDemo\obj\Debug\MessageBoxDemo.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\MessageBoxDemo\MessageBoxDemo\obj\Debug\MessageBoxDemo.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\MessageBoxDemo\MessageBoxDemo\obj\Debug\MessageBoxDemo.csproj.SuggestedBindingRedirects.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\MessageBoxDemo\MessageBoxDemo\obj\Debug\MessageBoxDemo.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\MessageBoxDemo\MessageBoxDemo\obj\Debug\MessageBoxDemo.pdb
