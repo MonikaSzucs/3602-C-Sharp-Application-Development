@@ -2,6 +2,7 @@
 
 using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -51,6 +52,8 @@ namespace COMP3602Assign01
                     number,
                     square * square,
                     cube * cube * cube);
+
+                Debug.WriteLine("Debug output generated");
             }
 
             Console.WriteLine(line);
