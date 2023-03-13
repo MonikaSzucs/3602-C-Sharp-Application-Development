@@ -35,3 +35,11 @@ C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In C
 C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.csproj.SuggestedBindingRedirects.cache
 C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.exe
 C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\bin\Debug\ModalDialogDemo.exe.config
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\bin\Debug\ModalDialogDemo.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\bin\Debug\ModalDialogDemo.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.EditDialog.resources
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.MainForm.resources
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.Properties.Resources.resources
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.csproj.GenerateResource.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\In-Class\In Class\ModalDialogDemo\ModalDialogDemo\obj\Debug\ModalDialogDemo.csproj.CoreCompileInputs.cache
