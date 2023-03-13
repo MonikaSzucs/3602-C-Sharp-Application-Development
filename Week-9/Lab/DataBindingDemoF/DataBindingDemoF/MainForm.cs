@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -14,7 +15,7 @@ namespace DataBindingDemoF
     public partial class MainForm : Form
     {
         private ProductViewModel productVM;
-        private string description;
+        private string sku;
         public MainForm()
         {
             InitializeComponent();
@@ -22,9 +23,18 @@ namespace DataBindingDemoF
 
         private void MainForm_Load(object sender, EventArgs e)
         {
-            labelCount.Text = string.Empty;
+            labelCount.Text = "";
+            labelProductLegend.Text = string.Format("{0}\r\n{1}\r\n{2}\r\n{3}\r\n{4}\r\n",
+                                        "Total Cost:",
+                                        "SubTotal:",
+                                        "PST:",
+                                        "GST:",
+                                        "Total:");
             productVM = new ProductViewModel(0.05m, 0.07m);
-            this.description = "";
+
+            Product product = new Product(productVM.GstRate, productVM.PstRate);
+
+            this.sku = product.Sku;
             setBindings();
             setupDataGridView();
             
@@ -52,6 +62,8 @@ namespace DataBindingDemoF
             checkBoxTaxable.DataBindings.Add("Checked", productVM, "DisplayProduct.IsTaxable");
             
             labelCount.DataBindings.Add("Text", productVM, "Count");
+
+            labelTotals.DataBindings.Add("Text", productVM, "Totals");
 
             dataGridViewProducts.AutoGenerateColumns = false;
             dataGridViewProducts.DataSource = productVM.ProductsSource;
@@ -173,17 +185,18 @@ namespace DataBindingDemoF
 
         private void buttonShowEditDialog_Click(object sender, EventArgs e)
         {
-            labelDescriptionPrompt.Text = string.Empty;
+            labelTotals.Text = string.Empty;
 
             EditDialog dlg = new EditDialog();
-            dlg.Description = description;
+            dlg.SKU = sku;
             dlg.ShowDialog();
 
-            if(dlg.DialogResult== DialogResult.OK)
+            if(dlg.DialogResult == DialogResult.OK)
             {
-                description = dlg.Description;
-                labelDescriptionPrompt.Text = description;
+                sku = dlg.SKU;
+                labelTotals.Text = sku;
             }
+            
             dlg.Dispose();
         }
     }

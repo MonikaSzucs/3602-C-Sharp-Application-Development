@@ -12,12 +12,13 @@ namespace Assign07
 {
     public partial class EditDialog : Form
     {
+        
         public EditDialog()
         {
             InitializeComponent();
         }
 
-        private void EditForm_Load(object sender, EventArgs e)
+        private void EditDialog_Load(object sender, EventArgs e)
         {
 
         }

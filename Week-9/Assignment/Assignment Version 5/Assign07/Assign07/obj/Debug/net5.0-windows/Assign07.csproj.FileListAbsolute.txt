@@ -1,0 +1,102 @@
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.deps.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.runtimeconfig.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.runtimeconfig.dev.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.MainForm.resources
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.GenerateResource.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.AssemblyInfoInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.AssemblyInfo.cs
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\obj\Debug\net5.0-windows\refint\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.genruntimeconfig.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\obj\Debug\net5.0-windows\ref\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 2\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.CopyComplete
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.MainForm.resources
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.GenerateResource.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.AssemblyInfoInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.AssemblyInfo.cs
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\obj\Debug\net5.0-windows\refint\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.deps.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.runtimeconfig.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.runtimeconfig.dev.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.CopyComplete
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.genruntimeconfig.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-8 - almost\Assignment Version 3 -  working on update\Assign07\Assign07\obj\Debug\net5.0-windows\ref\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.deps.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.runtimeconfig.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.runtimeconfig.dev.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.ClientEditDialog.resources
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.MainForm.resources
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.GenerateResource.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.AssemblyInfoInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.AssemblyInfo.cs
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.CopyComplete
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\refint\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.genruntimeconfig.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 4\Assign07\Assign07\obj\Debug\net5.0-windows\ref\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.exe
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.deps.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.runtimeconfig.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.runtimeconfig.dev.json
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\bin\Debug\net5.0-windows\Assign07.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.AssemblyReference.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.ClientEditDialog.resources
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.MainForm.resources
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.GenerateResource.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.AssemblyInfoInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.AssemblyInfo.cs
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.CoreCompileInputs.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.csproj.CopyComplete
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\refint\Assign07.dll
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.pdb
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\Assign07.genruntimeconfig.cache
+C:\Users\mszuc\Desktop\3602-C-Sharp-Application-Development\Week-9\Assignment\Assignment Version 5\Assign07\Assign07\obj\Debug\net5.0-windows\ref\Assign07.dll

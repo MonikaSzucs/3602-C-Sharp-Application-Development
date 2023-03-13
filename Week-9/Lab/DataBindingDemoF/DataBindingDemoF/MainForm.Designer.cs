@@ -30,6 +30,8 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
             this.dataGridViewProducts = new System.Windows.Forms.DataGridView();
+            this.labelTotals = new System.Windows.Forms.Label();
+            this.labelProductLegend = new System.Windows.Forms.Label();
             this.labelCostPrompt = new System.Windows.Forms.Label();
             this.labelDescriptionPrompt = new System.Windows.Forms.Label();
             this.labelSkuPrompt = new System.Windows.Forms.Label();
@@ -47,7 +49,7 @@
             this.textBoxPrice = new System.Windows.Forms.TextBox();
             this.labelQuantityPrompt = new System.Windows.Forms.Label();
             this.textBoxQuantity = new System.Windows.Forms.TextBox();
-            this.buttonShowEditDialog = new System.Windows.Forms.Button();
+            this.buttonEdit = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridViewProducts)).BeginInit();
             this.SuspendLayout();
             // 
@@ -57,13 +59,36 @@
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.dataGridViewProducts.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridViewProducts.Location = new System.Drawing.Point(12, 481);
-            this.dataGridViewProducts.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.dataGridViewProducts.Location = new System.Drawing.Point(23, 481);
+            this.dataGridViewProducts.Margin = new System.Windows.Forms.Padding(6);
             this.dataGridViewProducts.Name = "dataGridViewProducts";
             this.dataGridViewProducts.RowHeadersWidth = 62;
-            this.dataGridViewProducts.Size = new System.Drawing.Size(1166, 506);
+            this.dataGridViewProducts.Size = new System.Drawing.Size(1155, 506);
             this.dataGridViewProducts.TabIndex = 14;
             this.dataGridViewProducts.SelectionChanged += new System.EventHandler(this.dataGridViewProducts_SelectionChanged);
+            // 
+            // labelTotals
+            // 
+            this.labelTotals.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelTotals.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelTotals.Location = new System.Drawing.Point(856, 35);
+            this.labelTotals.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.labelTotals.Name = "labelTotals";
+            this.labelTotals.Size = new System.Drawing.Size(310, 210);
+            this.labelTotals.TabIndex = 18;
+            this.labelTotals.Text = "One\r\nTwo\r\nThree\r\nFour\r\nFive\r\nSix";
+            this.labelTotals.TextAlign = System.Drawing.ContentAlignment.TopRight;
+            // 
+            // labelProductLegend
+            // 
+            this.labelProductLegend.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
+            this.labelProductLegend.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelProductLegend.Location = new System.Drawing.Point(706, 35);
+            this.labelProductLegend.Margin = new System.Windows.Forms.Padding(6, 0, 6, 0);
+            this.labelProductLegend.Name = "labelProductLegend";
+            this.labelProductLegend.Size = new System.Drawing.Size(196, 210);
+            this.labelProductLegend.TabIndex = 17;
+            this.labelProductLegend.Text = "1\r\n2\r\n3\r\n4\r\n5\r\n6";
             // 
             // labelCostPrompt
             // 
@@ -98,7 +123,7 @@
             // buttonSave
             // 
             this.buttonSave.Location = new System.Drawing.Point(348, 425);
-            this.buttonSave.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.buttonSave.Margin = new System.Windows.Forms.Padding(6);
             this.buttonSave.Name = "buttonSave";
             this.buttonSave.Size = new System.Drawing.Size(150, 44);
             this.buttonSave.TabIndex = 13;
@@ -110,7 +135,7 @@
             // 
             this.textBoxSku.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBoxSku.Location = new System.Drawing.Point(156, 35);
-            this.textBoxSku.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBoxSku.Margin = new System.Windows.Forms.Padding(6);
             this.textBoxSku.Name = "textBoxSku";
             this.textBoxSku.Size = new System.Drawing.Size(196, 31);
             this.textBoxSku.TabIndex = 1;
@@ -118,7 +143,7 @@
             // textBoxDescription
             // 
             this.textBoxDescription.Location = new System.Drawing.Point(156, 94);
-            this.textBoxDescription.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBoxDescription.Margin = new System.Windows.Forms.Padding(6);
             this.textBoxDescription.Name = "textBoxDescription";
             this.textBoxDescription.Size = new System.Drawing.Size(344, 31);
             this.textBoxDescription.TabIndex = 3;
@@ -127,7 +152,7 @@
             // 
             this.checkBoxTaxable.AutoSize = true;
             this.checkBoxTaxable.Location = new System.Drawing.Point(152, 431);
-            this.checkBoxTaxable.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.checkBoxTaxable.Margin = new System.Windows.Forms.Padding(6);
             this.checkBoxTaxable.Name = "checkBoxTaxable";
             this.checkBoxTaxable.Size = new System.Drawing.Size(121, 29);
             this.checkBoxTaxable.TabIndex = 12;
@@ -137,7 +162,7 @@
             // textBoxCost
             // 
             this.textBoxCost.Location = new System.Drawing.Point(156, 223);
-            this.textBoxCost.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBoxCost.Margin = new System.Windows.Forms.Padding(6);
             this.textBoxCost.Name = "textBoxCost";
             this.textBoxCost.Size = new System.Drawing.Size(196, 31);
             this.textBoxCost.TabIndex = 7;
@@ -158,7 +183,7 @@
             // 
             this.buttonNew.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.buttonNew.Location = new System.Drawing.Point(1028, 1008);
-            this.buttonNew.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.buttonNew.Margin = new System.Windows.Forms.Padding(6);
             this.buttonNew.Name = "buttonNew";
             this.buttonNew.Size = new System.Drawing.Size(150, 44);
             this.buttonNew.TabIndex = 19;
@@ -192,7 +217,7 @@
             this.textBoxExtension.BackColor = System.Drawing.SystemColors.Window;
             this.textBoxExtension.Enabled = false;
             this.textBoxExtension.Location = new System.Drawing.Point(156, 356);
-            this.textBoxExtension.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBoxExtension.Margin = new System.Windows.Forms.Padding(6);
             this.textBoxExtension.Name = "textBoxExtension";
             this.textBoxExtension.ReadOnly = true;
             this.textBoxExtension.Size = new System.Drawing.Size(196, 31);
@@ -213,7 +238,7 @@
             // textBoxPrice
             // 
             this.textBoxPrice.Location = new System.Drawing.Point(156, 287);
-            this.textBoxPrice.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBoxPrice.Margin = new System.Windows.Forms.Padding(6);
             this.textBoxPrice.Name = "textBoxPrice";
             this.textBoxPrice.Size = new System.Drawing.Size(196, 31);
             this.textBoxPrice.TabIndex = 9;
@@ -233,20 +258,21 @@
             // 
             this.textBoxQuantity.CharacterCasing = System.Windows.Forms.CharacterCasing.Upper;
             this.textBoxQuantity.Location = new System.Drawing.Point(156, 156);
-            this.textBoxQuantity.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.textBoxQuantity.Margin = new System.Windows.Forms.Padding(6);
             this.textBoxQuantity.Name = "textBoxQuantity";
             this.textBoxQuantity.Size = new System.Drawing.Size(196, 31);
             this.textBoxQuantity.TabIndex = 5;
             this.textBoxQuantity.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
             // 
-            // buttonShowEditDialog
+            // buttonEdit
             // 
-            this.buttonShowEditDialog.Location = new System.Drawing.Point(847, 1008);
-            this.buttonShowEditDialog.Name = "buttonShowEditDialog";
-            this.buttonShowEditDialog.Size = new System.Drawing.Size(152, 45);
-            this.buttonShowEditDialog.TabIndex = 20;
-            this.buttonShowEditDialog.Text = "Edit";
-            this.buttonShowEditDialog.UseVisualStyleBackColor = true;
+            this.buttonEdit.Location = new System.Drawing.Point(848, 1008);
+            this.buttonEdit.Name = "buttonEdit";
+            this.buttonEdit.Size = new System.Drawing.Size(150, 45);
+            this.buttonEdit.TabIndex = 20;
+            this.buttonEdit.Text = "Edit";
+            this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.Click += new System.EventHandler(this.buttonShowEditDialog_Click);
             // 
             // MainForm
             // 
@@ -254,7 +280,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1212, 1065);
-            this.Controls.Add(this.buttonShowEditDialog);
+            this.Controls.Add(this.buttonEdit);
             this.Controls.Add(this.labelQuantityPrompt);
             this.Controls.Add(this.textBoxQuantity);
             this.Controls.Add(this.labelExtPrompt);
@@ -265,6 +291,8 @@
             this.Controls.Add(this.buttonNew);
             this.Controls.Add(this.labelCount);
             this.Controls.Add(this.dataGridViewProducts);
+            this.Controls.Add(this.labelTotals);
+            this.Controls.Add(this.labelProductLegend);
             this.Controls.Add(this.labelCostPrompt);
             this.Controls.Add(this.labelDescriptionPrompt);
             this.Controls.Add(this.labelSkuPrompt);
@@ -274,7 +302,7 @@
             this.Controls.Add(this.checkBoxTaxable);
             this.Controls.Add(this.textBoxCost);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(6, 6, 6, 6);
+            this.Margin = new System.Windows.Forms.Padding(6);
             this.MinimumSize = new System.Drawing.Size(1218, 1075);
             this.Name = "MainForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
@@ -289,6 +317,8 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridViewProducts;
+        private System.Windows.Forms.Label labelTotals;
+        private System.Windows.Forms.Label labelProductLegend;
         private System.Windows.Forms.Label labelCostPrompt;
         private System.Windows.Forms.Label labelDescriptionPrompt;
         private System.Windows.Forms.Label labelSkuPrompt;
@@ -306,7 +336,7 @@
         private System.Windows.Forms.TextBox textBoxPrice;
         private System.Windows.Forms.Label labelQuantityPrompt;
         private System.Windows.Forms.TextBox textBoxQuantity;
-        private System.Windows.Forms.Button buttonShowEditDialog;
+        private System.Windows.Forms.Button buttonEdit;
     }
 }
 
