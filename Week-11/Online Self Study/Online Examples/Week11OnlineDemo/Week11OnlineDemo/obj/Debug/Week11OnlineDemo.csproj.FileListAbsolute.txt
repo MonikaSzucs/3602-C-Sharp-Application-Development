@@ -1,0 +1,10 @@
+D:\Work\COMP2614_Fall2018\Week11\Online\Examples\Week10OnlineDemo\Week10OnlineDemo\bin\Debug\Week10OnlineDemo.exe.config
+D:\Work\COMP2614_Fall2018\Week11\Online\Examples\Week10OnlineDemo\Week10OnlineDemo\bin\Debug\Week10OnlineDemo.exe
+D:\Work\COMP2614_Fall2018\Week11\Online\Examples\Week10OnlineDemo\Week10OnlineDemo\bin\Debug\Week10OnlineDemo.pdb
+D:\Work\COMP2614_Fall2018\Week11\Online\Examples\Week10OnlineDemo\Week10OnlineDemo\obj\Debug\Week11OnlineDemo.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2018\Week11\Online\Examples\Week10OnlineDemo\Week10OnlineDemo\obj\Debug\Week11OnlineDemo.MainForm.resources
+D:\Work\COMP2614_Fall2018\Week11\Online\Examples\Week10OnlineDemo\Week10OnlineDemo\obj\Debug\Week10OnlineDemo.Properties.Resources.resources
+D:\Work\COMP2614_Fall2018\Week11\Online\Examples\Week10OnlineDemo\Week10OnlineDemo\obj\Debug\Week11OnlineDemo.csproj.GenerateResource.cache
+D:\Work\COMP2614_Fall2018\Week11\Online\Examples\Week10OnlineDemo\Week10OnlineDemo\obj\Debug\Week11OnlineDemo.csproj.CoreCompileInputs.cache
+D:\Work\COMP2614_Fall2018\Week11\Online\Examples\Week10OnlineDemo\Week10OnlineDemo\obj\Debug\Week10OnlineDemo.exe
+D:\Work\COMP2614_Fall2018\Week11\Online\Examples\Week10OnlineDemo\Week10OnlineDemo\obj\Debug\Week10OnlineDemo.pdb

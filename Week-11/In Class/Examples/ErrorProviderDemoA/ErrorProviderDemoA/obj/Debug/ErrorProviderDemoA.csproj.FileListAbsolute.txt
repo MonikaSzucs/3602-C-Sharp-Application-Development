@@ -1,0 +1,9 @@
+D:\Work\COMP2614_Fall2019\Week11\Examples\ErrorProviderDemoA\ErrorProviderDemoA\bin\Debug\ErrorProviderDemoA.exe.config
+D:\Work\COMP2614_Fall2019\Week11\Examples\ErrorProviderDemoA\ErrorProviderDemoA\bin\Debug\ErrorProviderDemoA.exe
+D:\Work\COMP2614_Fall2019\Week11\Examples\ErrorProviderDemoA\ErrorProviderDemoA\bin\Debug\ErrorProviderDemoA.pdb
+D:\Work\COMP2614_Fall2019\Week11\Examples\ErrorProviderDemoA\ErrorProviderDemoA\obj\Debug\ErrorProviderDemoA.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week11\Examples\ErrorProviderDemoA\ErrorProviderDemoA\obj\Debug\ErrorProviderDemoA.MainForm.resources
+D:\Work\COMP2614_Fall2019\Week11\Examples\ErrorProviderDemoA\ErrorProviderDemoA\obj\Debug\ErrorProviderDemoA.Properties.Resources.resources
+D:\Work\COMP2614_Fall2019\Week11\Examples\ErrorProviderDemoA\ErrorProviderDemoA\obj\Debug\ErrorProviderDemoA.csproj.GenerateResource.cache
+D:\Work\COMP2614_Fall2019\Week11\Examples\ErrorProviderDemoA\ErrorProviderDemoA\obj\Debug\ErrorProviderDemoA.exe
+D:\Work\COMP2614_Fall2019\Week11\Examples\ErrorProviderDemoA\ErrorProviderDemoA\obj\Debug\ErrorProviderDemoA.pdb

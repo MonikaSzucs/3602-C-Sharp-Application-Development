@@ -1,0 +1,9 @@
+D:\Work\COMP2614_Fall2019\Week11\Examples\ClassLibraryDemoStarter\ClassLibraryDemoStarter\bin\Debug\ClassLibraryDemoStarter.exe.config
+D:\Work\COMP2614_Fall2019\Week11\Examples\ClassLibraryDemoStarter\ClassLibraryDemoStarter\bin\Debug\ClassLibraryDemoStarter.exe
+D:\Work\COMP2614_Fall2019\Week11\Examples\ClassLibraryDemoStarter\ClassLibraryDemoStarter\bin\Debug\ClassLibraryDemoStarter.pdb
+D:\Work\COMP2614_Fall2019\Week11\Examples\ClassLibraryDemoStarter\ClassLibraryDemoStarter\obj\Debug\ClassLibraryDemoStarter.csprojAssemblyReference.cache
+D:\Work\COMP2614_Fall2019\Week11\Examples\ClassLibraryDemoStarter\ClassLibraryDemoStarter\obj\Debug\ClassLibraryDemoStarter.MainForm.resources
+D:\Work\COMP2614_Fall2019\Week11\Examples\ClassLibraryDemoStarter\ClassLibraryDemoStarter\obj\Debug\ClassLibraryDemoStarter.Properties.Resources.resources
+D:\Work\COMP2614_Fall2019\Week11\Examples\ClassLibraryDemoStarter\ClassLibraryDemoStarter\obj\Debug\ClassLibraryDemoStarter.csproj.GenerateResource.cache
+D:\Work\COMP2614_Fall2019\Week11\Examples\ClassLibraryDemoStarter\ClassLibraryDemoStarter\obj\Debug\ClassLibraryDemoStarter.exe
+D:\Work\COMP2614_Fall2019\Week11\Examples\ClassLibraryDemoStarter\ClassLibraryDemoStarter\obj\Debug\ClassLibraryDemoStarter.pdb
